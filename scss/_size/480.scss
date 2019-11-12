@@ -3,30 +3,81 @@
 #wrap {width: 100%; min-width:320px; height: 100%; background-color: #ccc;
   > #headBox {position: relative; width: 100%; height: 65px; padding: 20px 10px; box-sizing: border-box; background-color:$dg;
     > h1 {width: 120px; height: 100%; margin:auto; 
-      > a {display:block; width: 100%; height: 100%; background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-size: contain;
-        background-image:url("../../img/dell_logo.png");
+      > a {display:block; width: 100%; height: 100%; 
+           background-repeat: no-repeat;
+           background-position: 50% 50%;
+           background-size: contain;
+           background-image:url("../../img/dell_logo.png");
         > span {@include hidden;}
       }};
         
-    > .categori {position: absolute; left:5%; bottom:-7%; width: 50px; height: 50px;}
+    > .categori {position: absolute; left:10%; bottom:-7%; width: 50px; height: 50px;}
     > .categori > i {width: 50px; height: 50px; font-size:1.5rem; color:#fff;}
     .search {position:absolute; right:5%; bottom:-7%; width: 50px; height: 50px;}
     .search > i {width: 50px; height: 50px; font-size:1.5rem; color:#fff;}
     } // headBox
 // ===============================================================================================
 // viewBox
-     > #contentsBox {width: 480px; height: 828px; background-color:rgb(153, 153, 153);
-      > #viewBox_01 {width: 100%; height: 190px; background-color: $main;}
-      } // contentsBox
+     > #contentsBox {width: 100%; height:828px; background-color:$white;
+      > #viewBox_01 {width: 100%; height: 190px; background-color: $main;
+           background-repeat: no-repeat;
+           background-position: 50% 50%;
+           background-size: contain;
+           background-image:url("../../img/viewBox_main.PNG");
+        > .main_picture {width: 100%; height: 100%;
+        } // .main_picture
+       } // viewBox_01
+       
+      > #Box_02 {width: 100%; height: 116px;
+        > .text_img {margin:auto; right:0; left:0; top:50%; transform: translateY(15%); width: 400px; height: 90px; background-color: #fff;
+        > .box_02_text {float:left; width: 255px; height:100%; font-size:0.4rem; background-color: rgb(216, 202, 211);
+          & :nth-child(3) {width: 80px; height: 20px; font-size:0.3rem; background-color: rgb(229, 226, 228); transform: translateY(150%);}
+      } // 2box_text
+        > .img_01 {float:right; width: 145px; height:100%; background-color: rgb(253, 232, 253);
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          background-size: contain;
+          background-image:url("../../img/dd.jpeg");}
+    } // #Box_02
+  } // text_img
+      
+    > #viewBox_02 {margin:auto; width: 83.5%; height: 196px; background-color:$sub1; overflow: hidden;
+      $count:3;
+        > ul {margin:auto; top:50%; transform: translateY(11.5%); width: 100% * $count;  height: 160px; background-color: rgb(155, 34, 34);
+          > li {float:left; width:100% / $count; height: 100%; background-color:$main;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: contain;
+            background-image:url("../../img/alienware-notebook.png");}
+        } // ul
+      } // #viewBox_02
+      
+      > #Box_04 {width: 100%; height: 116px; background-color: rgb(99, 98, 98);
+        > .text_img_04 {margin:auto; right:0; left:0; top:50%; transform: translateY(15%); width: 400px; height: 90px; background-color: #fff;
+        > .box_04_text {float:right; width: 255px; height:100%; font-size:0.4rem; background-color: rgb(216, 202, 211);
+          & :nth-child(3) {width: 80px; height: 20px; font-size:0.3rem; background-color: rgb(229, 226, 228); transform: translateY(150%);}
+          } // .box_04_text
+          > .img_02 {float:left; width: 145px; height:100%; background-color: rgb(253, 232, 253);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: contain;
+            background-image:url("../../img/4box.png");}
+        } // .text_img_04
+      } // #Box_04
+      
+      > #viewBox_03 {width: 100%; height: 200px; background-color: rgb(37, 31, 31);
+        > .last_adv {margin:auto; right:0; left:0; transform: translateY(40%); 
+                     width: 400px; height: 120px; background-color: #fff;}
+        } // #viewBox_03
+      } // #contentsBox
+    
      
      
      
      
      
      
-     > #footBox {width: 480px; height: 84px; background-color: $main;
-    } // footBox
-  } //wrap
+     > #footBox {width: 100%; height: 84px; background-color: $main;
+      } // footBox
+  } // #wrap
 } // media screen
