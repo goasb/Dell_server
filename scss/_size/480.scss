@@ -3,11 +3,8 @@
 #wrap {width: 100%; min-width:320px; height: 100%; background-color: #ccc;
   > #headBox {position: relative; width: 100%; height: 65px; padding: 20px 10px; box-sizing: border-box; background-color:$dg;
     > h1 {width: 120px; height: 100%; margin:auto; 
-      > a {display:block; width: 100%; height: 100%; 
-           background-repeat: no-repeat;
-           background-position: 50% 50%;
-           background-size: contain;
-           background-image:url("../../img/dell_logo.png");
+      > a {display:block; width: 100%; height: 100%; @include url;
+           background-image:url("../../img/dell_image_09.png");
         > span {@include hidden;}
       }};
         
@@ -17,67 +14,125 @@
     .search > i {width: 50px; height: 50px; font-size:1.5rem; color:#fff;}
     } // headBox
 // ===============================================================================================
-// viewBox
+// contentsBox
      > #contentsBox {width: 100%; height:828px; background-color:$white;
-      > #viewBox_01 {width: 100%; height: 190px; background-color: $main;
-           background-repeat: no-repeat;
-           background-position: 50% 50%;
-           background-size: contain;
-           background-image:url("../../img/viewBox_main.PNG");
-        > .main_picture {width: 100%; height: 100%;
-        } // .main_picture
+      > #viewBox_01 {position:relative; z-index:0; width: 100%; height: 190px; background-color: $main;
+           @include url;
+           background-size:cover;
+           background-image:url("../../img/480/view.png");
+           
+           > .view_alien {position:absolute; left:75%; top:68%; width: 70px; height: 70px; 
+             @include url; background-image: url("../../img/480/view_logo.png");}
+
+        > .main_title {position:absolute; z-index:0; left:10%; top:10%; width: 30%; height: 50%; 
+          > .view_logo {width: 60px; height: 30px; @include url; background-image: url("../../img/dell_image_09.png");}
+          > ul {width: 100%; height: 40%; 
+            > li {width: 100%; height: 100%;
+            &:nth-child(1){font-size:1.1875rem; font-weight: bold; color:$white;}
+            &:nth-child(2){font-size:0.625rem; color:$white;
+              span{border-bottom:1px solid #fff;padding-bottom:3px;}
+            } //  &:nth-child(2)
+           } // li
+          } // ul
+        } // .main_picture 
+        &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 100%; height: 100%; background-color:rgba($main, 0.7); transform:skew(-45deg) translateX(-65%)}
+        &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width: 40%; height: 100%; background-color:rgba($main, 0.7); transform:skew(-50deg) translateX(75%);}
        } // viewBox_01
+      
        
       > #Box_02 {width: 100%; height: 116px;
-        > .text_img {margin:auto; right:0; left:0; top:50%; transform: translateY(15%); width: 400px; height: 90px; background-color: #fff;
-        > .box_02_text {float:left; width: 255px; height:100%; font-size:0.4rem; background-color: rgb(216, 202, 211);
-          & :nth-child(3) {width: 80px; height: 20px; font-size:0.3rem; background-color: rgb(229, 226, 228); transform: translateY(150%);}
+        > .text_img {position: relative; margin:auto; right:0; left:0; top:4%; transform: translateY(15%); width: 400px; height: 90px; background-color: #fff;
+        > .box_02_text {position: absolute; left:0; z-index:100 ; width: 100%; height:100%; 
+          & :nth-child(1) {@include St;}
+          & :nth-child(2) {@include St_s;}
+          & :nth-child(3) {width: 90px; height: 20px; font-size:9px; transform: translateY(150%);}
       } // 2box_text
-        > .img_01 {float:right; width: 145px; height:100%; background-color: rgb(253, 232, 253);
-          background-repeat: no-repeat;
-          background-position: 50% 50%;
-          background-size: contain;
-          background-image:url("../../img/dd.jpeg");}
+        > .img_01 {position: absolute; z-index:50 ; right:0; width: 145px; height:100%;
+          @include url;
+          background-image:url("../../img/480/2Box.png");}
     } // #Box_02
   } // text_img
       
-    > #viewBox_02 {margin:auto; width: 83.5%; height: 196px; background-color:$sub1; overflow: hidden;
-      $count:3;
-        > ul {margin:auto; top:50%; transform: translateY(11.5%); width: 100% * $count;  height: 160px; background-color: rgb(155, 34, 34);
-          > li {float:left; width:100% / $count; height: 100%; background-color:$main;
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-            background-size: contain;
-            background-image:url("../../img/alienware-notebook.png");}
-        } // ul
+
+    > #viewBox_02 {margin:auto; width: 100%; height: 196px; background-color:$sub1; overflow: hidden;
+      $count:5;
+      .noteBox{position: relative; width: 100%; height: 100%; 
+        > ul {position:absolute; left:50%; margin:auto; top:0; transform: translate(-50%, 11.5%); /* width: 50% * $count; */ width: 100%;  height: 160px; 
+          perspective:500px; transition:all 1000ms linear;transform-origin:50% 0;
+          &:hover{transform: translate(-50%, 11.5%) rotateY(45deg);}
+          > li {float:left; width:100% / $count; height: 100%;
+                
+              &:nth-child(1){@include url; background-image:url("../../img/480/viewBox_02.png"); transform:rotateY(-80deg); transform-origin:100% 0;}
+              &:nth-child(2){@include url; background-image:url("../../img/480/left_note.png"); transform:rotateY(-40deg); transform-origin:100% 0 ;}
+              &:nth-child(3){@include url; background-image:url("../../img/480/viewBox_02.png"); transform:rotateY(0); transform-origin:50% 0;}
+              &:nth-child(4){@include url; background-image:url("../../img/480/right_note.png"); transform:rotateY(40deg); transform-origin:0 0;}
+              &:nth-child(5){@include url; background-image:url("../../img/480/viewBox_02.png"); transform:rotateY(80deg); transform-origin:0 0;}
+            } // li
+          } // ul
+        } // noteBox
       } // #viewBox_02
       
-      > #Box_04 {width: 100%; height: 116px; background-color: rgb(99, 98, 98);
-        > .text_img_04 {margin:auto; right:0; left:0; top:50%; transform: translateY(15%); width: 400px; height: 90px; background-color: #fff;
-        > .box_04_text {float:right; width: 255px; height:100%; font-size:0.4rem; background-color: rgb(216, 202, 211);
-          & :nth-child(3) {width: 80px; height: 20px; font-size:0.3rem; background-color: rgb(229, 226, 228); transform: translateY(150%);}
+
+      > #Box_04 {width: 100%; height: 116px;
+        > .text_img_04 {position: relative; margin:auto; right:0%; left:5%; top:4%; transform: translateY(10%); width: 400px; height: 90px; background-color: #fff;
+        > .box_04_text {position: absolute; left:145px; margin:auto; z-index:50 ; width: 50%; height:100%;
+          & :nth-child(1) {@include St;}
+          & :nth-child(2) {@include St_s;}
+          & :nth-child(3) {width: 90px; height: 20px; font-size:9px; transform: translateY(90%);}
           } // .box_04_text
-          > .img_02 {float:left; width: 145px; height:100%; background-color: rgb(253, 232, 253);
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-            background-size: contain;
-            background-image:url("../../img/4box.png");}
+          > .img_02 {position: absolute; z-index:100 ; right:100; width: 145px; height:100%;
+            @include url;
+            background-image:url("../../img/480/4Box.png");}
         } // .text_img_04
       } // #Box_04
       
-      > #viewBox_03 {width: 100%; height: 200px; background-color: rgb(37, 31, 31);
+
+      > #viewBox_03 {width: 100%; height: 217px; @include url;
+                     background-image:url("../../img/480/acticleBox.png");
         > .last_adv {margin:auto; right:0; left:0; transform: translateY(40%); 
-                     width: 400px; height: 120px; background-color: #fff;}
+                     width: 100%; height: 120px; 
+          > ul {width: 100%; height: 100%; margin:auto; transform: translateY(-10%); 
+             li {width: auto; height:auto;text-align:center;margin:auto;
+              &:nth-child(1) {@include St_L;}
+              &:nth-child(2) {@include St_L_s;}
+              &:nth-child(3) {@include St_L_s;}
+              &:nth-child(4) a {@include St_L_s1;}
+              } // li
+            } // ul
+          }//.last_adv
         } // #viewBox_03
       } // #contentsBox
-    
-     
-     
-     
-     
-     
-     
-     > #footBox {width: 100%; height: 84px; background-color: $main;
+// ===============================================================================================
+// footBox
+
+     > #footBox {width: 100%; height: 120px; background-color: $main; border:1px solid #fff;
+      
+        > .foot_text {margin:auto; transform: translateY(28%);  width: 83.5%; height: 75px;
+          > .logo_sns {width: 100%; height: 50px;
+          > .foot_logo {float:left; margin-left:7px; width: 80px; height: 35px; @include url;
+                        background-image:url("../../img/dell_image_09.png");}
+          > .sns_box {float:right; width: 145px; height: 30px; margin:auto; transform: translateY(20%);
+            li {float:left; width: 23px; height: 23px; text-align: center;  margin-right:15px;
+              > a {display: block; width: 100%; height: 100%;}
+              &:nth-child(1) {@include url;
+                              background-image:url("../../img/480/facebook.png");}
+              &:nth-child(2) {@include url;
+                              background-image:url("../../img/480/instar.png");}
+              &:nth-child(3) {@include url;
+                              background-image:url("../../img/480/twiter.png");}
+              &:nth-child(4) {@include url; margin-right:0;
+                              background-image:url("../../img/480/youtube.png");}
+                            
+            }// li
+          } // ul
+        } // logo_sns
+          
+          > .foot_info {width: 100%; height: 15px; margin:auto; text-transform: capitalize;
+            >li {float:left; margin-left:10px;
+              > a {@include St_f;}
+            } // li
+          } // .foot_info
+        } // .foot_text
       } // footBox
   } // #wrap
 } // media screen

@@ -97,3 +97,17 @@ $url:'../img/slide_01/'; // @mixin 사용전 경로 설정할것
 }// @mixin horizon_banner_img
 
 // ===================================================================
+// 480 mixin
+@mixin St ($c:#222){font-size:13px; font-size:0.8125rem; 
+           font-weight: bold; color:$c; padding:2px 0;}
+@mixin St_s ($c:#222){font-size:9px; font-size:0.5625rem; color:$c}
+@mixin St_f ($c:#fff){font-size:9px; font-size:0.5625rem; color:$c}
+
+@mixin St_L ($c:#fff){font-size:15px; font-size:0.9375rem; color:$c;
+             font-weight:bold; padding:15px 0;}
+@mixin St_L_s ($c:#fff){font-size:13px; font-size:0.8125rem; color:$c; }
+@mixin St_L_s1 ($c:#fff){font-size:12px; font-size:0.75rem; color:$c; }
+
+@mixin url {background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: contain;}
