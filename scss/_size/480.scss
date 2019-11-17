@@ -16,7 +16,7 @@
 // ===============================================================================================
 // contentsBox
      > #contentsBox {width: 100%; height:828px; background-color:$white;
-      > #viewBox_01 {position:relative; z-index:0; width: 100%; height: 190px; background-color: $main;
+      > #viewBox_01 {position:relative; z-index:0; width: 100%; height: 190px; background-color: $main; overflow: hidden;
            @include url;
            background-size:cover;
            background-image:url("../../img/480/view.png");
@@ -35,8 +35,10 @@
            } // li
           } // ul
         } // .main_picture 
-        &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 100%; height: 100%; background-color:rgba($main, 0.7); transform:skew(-45deg) translateX(-65%)}
-        &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width: 40%; height: 100%; background-color:rgba($main, 0.7); transform:skew(-50deg) translateX(75%);}
+        &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 100%; height: 100%; 
+          background-color:rgba($main, 0.7); transform:skew(-45deg) translateX(-65%); }
+        &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width: 40%; height: 100%; 
+          background-color:rgba($main, 0.7); transform:skew(-50deg) translateX(75%); }
        } // viewBox_01
       
        
@@ -80,7 +82,7 @@
           & :nth-child(2) {@include St_s;}
           & :nth-child(3) {width: 90px; height: 20px; font-size:9px; transform: translateY(90%);}
           } // .box_04_text
-          > .img_02 {position: absolute; z-index:100 ; right:100; width: 145px; height:100%;
+          > .img_02 {position: absolute; z-index:100 ; right:70%; top:10%; width: 145px; height:100%;
             @include url;
             background-image:url("../../img/480/4Box.png");}
         } // .text_img_04

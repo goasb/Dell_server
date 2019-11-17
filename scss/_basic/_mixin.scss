@@ -111,3 +111,8 @@ $url:'../img/slide_01/'; // @mixin 사용전 경로 설정할것
 @mixin url {background-repeat: no-repeat;
             background-position: 50% 50%;
             background-size: contain;}
+
+// ======================================================================
+// 768 mixin
+@mixin T_23 ($c:#222){font-size:23px; font-size:1.4375rem; color:$c; font-weight: bold;}
+@mixin T_13 ($c:#222){font-size:13px; font-size:0.8125rem; color:$c; font-weight: 600;}
