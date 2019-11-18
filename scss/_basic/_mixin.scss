@@ -114,5 +114,5 @@ $url:'../img/slide_01/'; // @mixin 사용전 경로 설정할것
 
 // ======================================================================
 // 768 mixin
-@mixin T_23 ($c:#222){font-size:23px; font-size:1.4375rem; color:$c; font-weight: bold;}
-@mixin T_13 ($c:#222){font-size:13px; font-size:0.8125rem; color:$c; font-weight: 600;}
+@mixin h1 ($c:#222,$f:23){font-size:$f+px; font-size:($f/16)rem; color:$c; font-weight: bold;}
+@mixin h2 ($c:#222,$f:18){font-size:$f+px; font-size:($f/16)rem; color:$c; font-weight: 600;}
