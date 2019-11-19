@@ -61,14 +61,25 @@
          
           
          > #Box_02 {@include hidden;}
-         .top3 {width: 100%; height: 360px; 
+         .top3 { width: 100%; height: 360px; 
             border-top:5px solid #fff; border-bottom:5px solid #fff;
             ul {width: 100%; height: 100%;
-            li {float:left; width: 33.3%; height: 100%; background-color: rgb(242, 243, 242); border:5px solid #fff;
-                box-sizing: border-box;
-                &:nth-child(1){@include url; background-image: url("../../img/768/notebook_01.png");}
-                &:nth-child(2){@include url; background-image: url("../../img/768/notebook_02.png");}
-                &:nth-child(3){@include url; background-image: url("../../img/768/Inspiron_13.png");}
+            li {float:left; width: 33.3%; height: 100%; font-size:2rem; background-color: rgb(242, 243, 242); 
+                border:5px solid #fff; box-sizing: border-box; @include h1($f:30); 
+              
+                
+                &:nth-child(1){@include url;
+                  background-position-y:90%;
+                  background-size: 90%; 
+                  background-image: url("../../img/768/notebook_01.png");}
+                &:nth-child(2){@include url; 
+                  background-position-y:90%;
+                  background-size: 90%; 
+                  background-image: url("../../img/768/notebook_02.png");}
+                &:nth-child(3){@include url; 
+                  background-position-y:120%;
+                  background-size: 70%; 
+                  background-image: url("../../img/768/Inspiron_13.png");}
            } // li
          } // ul
       } // top3
@@ -108,20 +119,22 @@
        > #viewBox_02 {margin:auto; width: 100%; height:560px; background-color:$sub1; overflow: hidden;
          $count:5;
          .noteBox{position: relative; width: 100%; height: 100%; overflow: hidden;
-           > ul {position:absolute; margin:auto; left:5%; right:0; top:0; bottom:0;
+           > ul {position:absolute; margin:auto; left:5%; right:5%; top:0; bottom:0;
              /* width: 50% * $count; */ width:100%;  height: 100%; 
              perspective:500px; transition:all 1000ms linear;transform-origin:50% 0;
              &:hover{transform: translate(-50%, 11.5%) rotateY(45deg);}
-             > li {float:left; width:100% / ($count - 2); height: 100%; margin-left:3%; margin-right:3%;
+             > li {float:left; width:100% / ($count - 2); height: 100%; margin-left:3%; margin-right:3%; @include h1_w($f:40);
+              
+              
                  
-               &:nth-child(1){@include url; background-image:url("../../img/480/left_note.png"); 
-                   margin-top:-3%; width:20%; transform:rotateY(-20deg); transform-origin:50% 0 ;}
+               &:nth-child(1){@include url; margin-top:-3%; width:20%;
+                   background-image:url("../../img/768/notebook_01.png");}
                  
-               &:nth-child(2){@include url; background-image:url("../../img/480/viewBox_02.png"); 
-                   transform:rotateY(0); transform-origin:50% 0;}
+               &:nth-child(2){@include url; 
+                  background-image:url("../../img/480/viewBox_02.png");}
                  
-               &:nth-child(3){@include url; background-image:url("../../img/480/right_note.png"); 
-                   margin-top:-3%; width:20%; transform:rotateY(20deg); transform-origin:0 0;}
+               &:nth-child(3){@include url; margin-top:-3%; width:20%; 
+                   background-image:url("../../img/768/noteBox.png");} 
                  
                  &:nth-child(4){@include hidden;}
                  &:nth-child(5){@include hidden;}
@@ -133,16 +146,16 @@
          
    
          > #Box_04 {width: 100%; height: 400px;
-           > .text_img_04 {position: relative; margin:auto; right:0%; left:0; top:15%; width: 688px; height: 200px; 
+           > .text_img_04 {position: relative; margin:auto; right:0%; left:0; top:15%; width:1100px; height: 300px; 
              background-color: #fff; overflow: hidden;
            > .box_04_text {position: absolute; margin:auto; top:0; left:40%; margin:auto; z-index:50 ; width: 100%; height:100%; overflow: hidden;
-             &>li:nth-child(1) {@include h1; margin-top:10px;}
-             &>li:nth-child(2) {@include h2($f:16); margin-top:7px;}
+             &>li:nth-child(1) {@include h1($f:40); margin-top:10px;}
+             &>li:nth-child(2) {@include h2($f:25); font-weight: 500; margin-top:7px;}
              &>li:nth-child(3) {margin-top: 80px;}
-             &>li:nth-child(3) > a {width: 150px; height: 20px; font-size:1.25rem; transform: translateY(150%); 
+             &>li:nth-child(3) > a {width: 300px; height: 50px; font-size:1.5rem; transform: translateY(150%); 
                  font-weight: bold; text-decoration:underline;}
              } // .box_04_text
-             > .img_02 {position: absolute; z-index:100 ; right:60%; top:15%; width: 300px; height:160px;
+             > .img_02 {position: absolute; z-index:100 ; left:0; top:15%; width: 400px; height:250px;
                @include url;
                background-image:url("../../img/480/4Box.png");}
            } // .text_img_04
@@ -155,14 +168,14 @@
                         width: 100%; height: 200px; 
              > ul {position: absolute; width: 100%; height: 100%; margin:auto;
                 li {width: auto; height:auto;text-align:center;margin:auto;
-                 &:nth-child(1) {@include h1_w; padding:20px 20px 30px; }
-                 &:nth-child(2) {@include h2_w;}
-                 &:nth-child(3) {@include h2_w; margin-bottom:60px;}
+                 &:nth-child(1) {@include h1_w($f:40); padding:20px 20px 30px; }
+                 &:nth-child(2) {@include h2_w($f:28);}
+                 &:nth-child(3) {@include h2_w($f:28); margin-bottom:60px;}
                  } // li
                } // ul
-               .more_03 {position: absolute; bottom:-10%; left:0; right:0; margin:auto; width: 200px; height: 50px; 
+               .more_03 {position: absolute; bottom:-50%; left:0; right:0; margin:auto; width: 200px; height: 50px; 
                       background-color: $main; border-radius:50px;
-                 > a {@include h2_w; display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
+                 > a {@include h2_w($f:20); display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
                } // more
              }//.last_adv
            } // #viewBox_03
