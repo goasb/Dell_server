@@ -15,8 +15,8 @@
     } // headBox
 // ===============================================================================================
 // contentsBox
-     > #contentsBox {width: 100%; height:828px; background-color:$white;
-      > #viewBox_01 {position:relative; z-index:0; width: 100%; height: 190px; background-color: $main; overflow: hidden;
+     > #contentsBox {width: 100%; height:auto; background-color:$white;
+      > #viewBox_01 {position:relative; z-index:0; width: 100%; height: 210px; background-color: $main; overflow: hidden;
            @include url;
            background-size:cover;
            background-image:url("../../img/480/view.png");
@@ -42,14 +42,14 @@
        } // viewBox_01
       
        
-      > #Box_02 {width: 100%; height: 116px;
-        > .text_img {position: relative; margin:auto; right:0; left:0; top:4%; transform: translateY(15%); width: 400px; height: 90px; background-color: #fff;
-        > .box_02_text {position: absolute; left:0; z-index:100 ; width: 100%; height:100%; 
+      > #Box_02 {width: 100%; height: 180px;
+        > .text_img {position: relative; margin:auto; right:0; left:0; top:20%; transform: translateY(15%); width: 400px; height: 90px; background-color: #fff;
+        > .box_02_text {position: absolute; left:5%; z-index:100 ; width: 100%; height:100%; 
           & :nth-child(1) {@include St;}
           & :nth-child(2) {@include St_s;}
           & :nth-child(3) {width: 90px; height: 20px; font-size:9px; transform: translateY(150%);}
       } // 2box_text
-        > .img_01 {position: absolute; z-index:50 ; right:0; width: 145px; height:100%;
+        > .img_01 {position: absolute; z-index:50 ; right:-1%; width: 150px; height:100%;
           @include url;
           background-image:url("../../img/480/2Box.png");}
     } // #Box_02
@@ -58,7 +58,7 @@
       #view_tap {display: none;} 
       
 
-    > #viewBox_02 {margin:auto; width: 100%; height: 196px; background-color:$sub1; overflow: hidden;
+    > #viewBox_02 {margin:auto; width: 100%; height: 210px; background-color:$sub1; overflow: hidden;
       $count:5;
       .noteBox{position: relative; width: 100%; height: 100%; 
         > ul {position:absolute; left:50%; margin:auto; top:0; transform: translate(-50%, 11.5%); /* width: 50% * $count; */ width: 100%;  height: 160px; 
@@ -77,21 +77,21 @@
       } // #viewBox_02
       
 
-      > #Box_04 {width: 100%; height: 116px;
-        > .text_img_04 {position: relative; margin:auto; right:0%; left:5%; top:4%; transform: translateY(10%); width: 400px; height: 90px; background-color: #fff;
+      > #Box_04 {width: 100%; height: 180px;
+        > .text_img_04 {position: relative; margin:auto; right:0%; left:5%; top:20%; transform: translateY(10%); width: 400px; height: 90px; background-color: #fff;
         > .box_04_text {position: absolute; left:145px; margin:auto; z-index:50 ; width: 50%; height:100%;
           & :nth-child(1) {@include St;}
           & :nth-child(2) {@include St_s;}
           & :nth-child(3) {width: 90px; height: 20px; font-size:9px; transform: translateY(90%);}
           } // .box_04_text
-          > .img_02 {position: absolute; z-index:100 ; right:70%; top:10%; width: 145px; height:100%;
+          > .img_02 {position: absolute; z-index:100 ; right:68%; top:10%; width: 150px; height:100%;
             @include url;
             background-image:url("../../img/480/4Box.png");}
         } // .text_img_04
       } // #Box_04
       
 
-      > #viewBox_03 {width: 100%; height: 217px;  @include url;
+      > #viewBox_03 {width: 100%; height: 218px;  @include url; background-size: contain;
                      background-image:url("../../img/480/acticleBox.png");
         > .last_adv {margin:auto; right:0; left:0; transform: translateY(40%); 
                      width: 100%; height: 120px; 
