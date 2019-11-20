@@ -65,7 +65,8 @@
             border-top:5px solid #fff; border-bottom:5px solid #fff;
             ul {width: 100%; height: 100%;
             li {float:left; width: 33.3%; height: 100%; font-size:2rem; background-color: rgb(242, 243, 242); 
-                border:5px solid #fff; box-sizing: border-box; @include h1($f:30); 
+                border:5px solid #fff; box-sizing: border-box; @include h1($f:30); text-align: center;
+                span {font-size:1.5rem; font-weight: 500;}
               
                 
                 &:nth-child(1){@include url;
@@ -119,22 +120,25 @@
        > #viewBox_02 {margin:auto; width: 100%; height:560px; background-color:$sub1; overflow: hidden;
          $count:5;
          .noteBox{position: relative; width: 100%; height: 100%; overflow: hidden;
+          h3 {position: absolute; @include h1_w($f:40); margin:auto; top:25px; right:0; left:0; width: 530px; height: 80px;}
            > ul {position:absolute; margin:auto; left:5%; right:5%; top:0; bottom:0;
              /* width: 50% * $count; */ width:100%;  height: 100%; 
              perspective:500px; transition:all 1000ms linear;transform-origin:50% 0;
              &:hover{transform: translate(-50%, 11.5%) rotateY(45deg);}
              > li {float:left; width:100% / ($count - 2); height: 100%; margin-left:3%; margin-right:3%; @include h1_w($f:40);
-              
-              
+              >span {display: block; text-align: center; margin-top:450px;}
+
                  
-               &:nth-child(1){@include url; margin-top:-3%; width:20%;
-                   background-image:url("../../img/768/notebook_01.png");}
+               &:nth-child(1){@include url; margin-top:-3%; width:20%; font-size:2rem; 
+                   background-image:url("../../img/768/notebook_01.png");
+                   span { margin-top:380px;}}
                  
                &:nth-child(2){@include url; 
                   background-image:url("../../img/480/viewBox_02.png");}
                  
-               &:nth-child(3){@include url; margin-top:-3%; width:20%; 
-                   background-image:url("../../img/768/noteBox.png");} 
+               &:nth-child(3){@include url; margin-top:-3%; width:20%; font-size:2rem;
+                   background-image:url("../../img/768/noteBox.png");
+                  & span{margin-top: 380px;}} 
                  
                  &:nth-child(4){@include hidden;}
                  &:nth-child(5){@include hidden;}
@@ -153,7 +157,7 @@
              &>li:nth-child(2) {@include h2($f:25); font-weight: 500; margin-top:7px;}
              &>li:nth-child(3) {margin-top: 80px;}
              &>li:nth-child(3) > a {width: 300px; height: 50px; font-size:1.5rem; transform: translateY(150%); 
-                 font-weight: bold; text-decoration:underline;}
+                 font-weight: bold; border-bottom:3px solid #ccc;padding-bottom:4px;}
              } // .box_04_text
              > .img_02 {position: absolute; z-index:100 ; left:0; top:15%; width: 400px; height:250px;
                @include url;
@@ -183,38 +187,21 @@
    // ===============================================================================================
    // footBox
    
-        > #footBox {width: 100%; height: 450px; background-color: $main; border:1px solid #fff;
-         
-           > .foot_text {margin:auto; transform: translateY(28%);  width: 83.5%; height: 100px;
-             > .logo_sns {width: 100%; height: 50px;
-             > .foot_logo {float:left; margin-left:7px; width: 80px; height: 35px; @include url;
-                           background-image:url("../../img/dell_image_09.png");}
-             > .sns_box {float:right; width: 145px; height: 30px; margin:auto; transform: translateY(20%);
-               li {float:left; width: 23px; height: 23px; text-align: center;  margin-right:15px;
-                 > a {display: block; width: 100%; height: 100%;}
-                 &:nth-child(1) {@include url;
-                                 background-image:url("../../img/480/facebook.png");}
-                 &:nth-child(2) {@include url;
-                                 background-image:url("../../img/480/instar.png");}
-                 &:nth-child(3) {@include url;
-                                 background-image:url("../../img/480/twiter.png");}
-                 &:nth-child(4) {@include url; margin-right:0;
-                                 background-image:url("../../img/480/youtube.png");}
-                               
-               }// li
-             } // ul
-           } // logo_sns
-             
-             > .foot_info {width: 100%; height: 20px; margin:auto; text-transform: capitalize;
-               >li {float:left; margin-left:10px; width: auto; height:100%;
-                 > a {@include h4_w;} 
-               }}
-             
-             > .foot_info_02 {width: 100%; height: 20px; margin:auto; text-transform: capitalize;
-               >li {float:left; margin-left:10px; width: auto; height:100%;
-                 > a {@include h4_w;}
-               }}
-                     
+        > #footBox {position: relative; width: 100%; height: 450px; background-color: $main; border:1px solid #fff;
+          > .foot_text {position: absolute; @include margin; width:1140px; height: 400px;
+            .logo_sns {@include hidden;}
+            .foot_logo {@include hidden;}
+            .sns_box {@include hidden;}
+            .foot_info {@include hidden;}
+            .foot_info_02 {@include hidden;}
+            > .foot_info_03 {width: 100%; height: 100%;
+             > .top_logo {width: 100%; height: 40px; background-color: #ccc;
+              .left {float:left; position: relative; top:50%; transform:translateY(-50%); width: 445px; height: 5px; background-color: #fff;}
+              .center_logo {float:left; width: 50px; height: 5px; background-color: #faf;}
+              .center_text {float:left; width: 50px; height: 5px; background-color: #faf;}
+              .right {float:right; position: relative; top:50%; transform:translateY(-50%); width: 445px; height: 5px; background-color: #fff;}
+                    } // .top_logo
+                  } // .foot_info_03
                 } // .foot_text
              } // footBox
            } // #wrap
