@@ -1,7 +1,7 @@
 @media screen and (min-width:1280px) and (max-width:1919px) {
  
    #wrap {width: 100%; min-width:320px; height: auto; background-color: #ccc;
-     > #headBox {position: relative; width: 100%; height: 80px; background-color:$dg;
+     > #headBox {position: relative; width: 100%; height: 80px; background-color:$dg; max-width: 1440px; margin:auto;
        > h1 {position: absolute; margin:auto; top:0; bottom:0; width: 140px; height: 40px; margin-left:5%;
          > a {display:block; width: 100%; height: 100%; @include url;
               background-image:url("../../img/dell_image_09.png");
@@ -23,19 +23,22 @@
        } // headBox
    // ===============================================================================================
    // contentsBox
-        > #contentsBox {width: 100%; height:auto; background-color:$white;
+        > #contentsBox {width: 100%; height:auto; background-color:$white; max-width: 1440px; margin:auto;
          > #viewBox_01 {position:relative; z-index:0; width: 100%; height: 560px; background-color: $main; overflow: hidden;
               @include url;
               background-size:cover;
               background-image:url("../../img/480/view.png");
               
-              > .view_alien {position:absolute; left:77%; top:75%; width: 180px; height: 130px; 
+              > .view_alien {position:absolute; left:80%; top:75%; width: 180px; height: 130px; 
                 @include url; background-image: url("../../img/480/view_logo.png");}
  
                .indicator_01 {position: absolute; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 15px;
                  li:nth-child(1) {float:left; width: 60px; height: 15px; background-color: $main; border-radius: 50px;}
                  li:nth-child(2) {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
                  li:nth-child(3) {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
+                 a {display: block; width: 15px; height: 15px;
+                  &:nth-child(1) {width: 60px; height: 15px;}
+                } // a
                } // indicator
    
            > .main_title {position:absolute; z-index:0; left:5%; top:15%; width: 400px; height: 300px; 
@@ -64,9 +67,11 @@
          .top3 { width: 100%; height: 360px; 
             border-top:5px solid #fff; border-bottom:5px solid #fff;
             ul {width: 100%; height: 100%;
-            li {float:left; width: 33.3%; height: 100%; font-size:2rem; background-color: rgb(242, 243, 242); 
-                border:5px solid #fff; box-sizing: border-box; @include h1($f:30); text-align: center;
+            li {float:left; width: 33.3%; height: 100%; font-size:2rem; background-color:rgb(240, 240, 240); 
+                border:5px solid #fff; box-sizing: border-box; text-align: center; 
+                a {display: block; width: 100%; height: 100%; @include h1($f:30);
                 span {font-size:1.5rem; font-weight: 500;}
+              } // a
               
                 
                 &:nth-child(1){@include url;
@@ -77,10 +82,11 @@
                   background-position-y:90%;
                   background-size: 90%; 
                   background-image: url("../../img/768/notebook_02.png");}
-                &:nth-child(3){@include url; 
+                &:nth-child(3){@include url;  
                   background-position-y:120%;
-                  background-size: 70%; 
+                  background-size: 65%; 
                   background-image: url("../../img/768/Inspiron_13.png");}
+                
            } // li
          } // ul
       } // top3
@@ -97,7 +103,10 @@
            li:nth-child(1) {float:left; width: 60px; height: 15px; background-color: $main; border-radius: 50px;}
            li:nth-child(2) {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
            li:nth-child(3) {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
-         } // indicator
+           a {display: block; width: 15px; height: 15px;
+            &:nth-child(1) {width: 60px; height: 15px;}
+         } // a
+        } // indicator
          
          .tapBox {position: absolute; z-index:0; top:8%; left:52%; width: 500px; height: 300px; background-color:rgba(#4c4c4c,0.7);
            li:nth-child(1) {margin-left:5%; margin-top:3%; @include h1_w($f:40); padding:15px 10px;}
@@ -166,7 +175,7 @@
          } // #Box_04
          
    
-         > #viewBox_03 {position: relative; width: 100%; height: 560px; @include url;
+         > #viewBox_03 {position: relative; width: 100%; height: 620px; @include url;
                         background-image:url("../../img/480/acticleBox.png");
            > .last_adv {position: absolute; margin:auto; right:0; left:0; top:0; bottom:0;
                         width: 100%; height: 200px; 
@@ -188,14 +197,15 @@
    // footBox
    
         > #footBox {position: relative; width: 100%; height: 450px; background-color: $main; border:1px solid #fff;
-          > .foot_text {position: absolute; @include margin; width:1140px; height: 400px;
+          max-width: 1440px; margin:auto;
+          > .foot_text {position: absolute; @include margin; width:1140px; height: 400px; 
             .logo_sns {@include hidden;}
             .foot_logo {@include hidden;}
             .sns_box {@include hidden;}
             .foot_info {@include hidden;}
             .foot_info_02 {@include hidden;}
-            > .foot_info_03 {width: 100%; height: 100%;
-             > .top_logo {width: 100%; height: 40px; 
+            > .foot_info_03 {width: 100%; height: 100%; 
+             > .top_logo {width: 100%; height: 40px; margin-bottom:50px;
               .left {float:left; position: relative; top:50%; transform:translateY(-50%); width: 430px; height: 5px; background-color: #fff;}
               .center_logo {float:left; width: 100px; height:50px; margin-left:25px; margin-top:-5px;
                 @include url; background-image: url("../../img/dell_image_09.png");
@@ -204,6 +214,24 @@
                             @include h4_w($f:20); margin-left:10px; margin-top:6px;}
               .right {float:right; position: relative; top:50%; transform:translateY(-50%); width: 430px; height: 5px; background-color: #fff;}
                     } // .top_logo
+              .foot_logoBox {float:left; width: 340px; height: 300px; 
+                .logo_img {position: relative; @include margin; transform:translateY(150%); 
+                           width: 180px; height: 70px; margin:auto;
+                          @include url; background-image: url("../../img/dell_image_09.png");
+                            } // .logo_img
+                            .korea {position: absolute; bottom:0; left:80px; @include h3_w;
+                              width: 300px; height: 50px; }
+                          } // .foot_logoBox
+              .info_text {float:right; width: 800px; height: 300px; 
+                dl {float: left; width: 266px; height: 30px; text-align: center;
+                  dt {@include h3_w($f:25); width: 100%; height: 60px; } 
+                    dd {width: 100%; height: 40px; text-align:center; 
+                      a {@include h3_w($f:18);}
+                        } // dd
+                      } // dl
+                      h6 {position: absolute; @include margin; text-align: center; @include h3_w; 
+                          width: 300px; height: 25px; bottom:-320px; right:-730px;}
+                    } // info_text
                   } // .foot_info_03
                 } // .foot_text
              } // footBox

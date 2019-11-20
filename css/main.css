@@ -165,7 +165,7 @@
   #wrap > #footBox > .foot_text > .foot_info_02 > li > a { font-size: 14px; font-size: 0.875 rem; color: #fff; font-weight: 500; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1919px) { #wrap { width: 100%; min-width: 320px; height: auto; background-color: #ccc; }
-  #wrap > #headBox { position: relative; width: 100%; height: 80px; background-color: #4c4c4c; }
+  #wrap > #headBox { position: relative; width: 100%; height: 80px; background-color: #4c4c4c; max-width: 1440px; margin: auto; }
   #wrap > #headBox > h1 { position: absolute; margin: auto; top: 0; bottom: 0; width: 140px; height: 40px; margin-left: 5%; }
   #wrap > #headBox > h1 > a { display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
   #wrap > #headBox > h1 > a > span { display: block; width: 0; height: 0; overflow: hidden; }
@@ -177,13 +177,15 @@
   #wrap > #headBox .my_id { position: absolute; right: 5%; width: 150px; height: 100%; }
   #wrap > #headBox .my_id a { float: left; display: block; width: 100px; height: 100%; text-align: left; line-height: 75px; font-size: 18px; font-size: 1.125 rem; color: #fff; font-weight: 500; font-weight: bold; }
   #wrap > #headBox .my_id i { float: left; display: block; width: 40px; height: 80px; font-size: 30px; text-align: center; line-height: 75px; color: #fff; }
-  #wrap > #contentsBox { width: 100%; height: auto; background-color: #fff; }
+  #wrap > #contentsBox { width: 100%; height: auto; background-color: #fff; max-width: 1440px; margin: auto; }
   #wrap > #contentsBox > #viewBox_01 { position: relative; z-index: 0; width: 100%; height: 560px; background-color: #2271b2; overflow: hidden; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../../img/480/view.png"); }
-  #wrap > #contentsBox > #viewBox_01 > .view_alien { position: absolute; left: 77%; top: 75%; width: 180px; height: 130px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/view_logo.png"); }
+  #wrap > #contentsBox > #viewBox_01 > .view_alien { position: absolute; left: 80%; top: 75%; width: 180px; height: 130px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/view_logo.png"); }
   #wrap > #contentsBox > #viewBox_01 .indicator_01 { position: absolute; bottom: 5%; margin: auto; right: 0; left: 0; width: 120px; height: 15px; }
   #wrap > #contentsBox > #viewBox_01 .indicator_01 li:nth-child(1) { float: left; width: 60px; height: 15px; background-color: #2271b2; border-radius: 50px; }
   #wrap > #contentsBox > #viewBox_01 .indicator_01 li:nth-child(2) { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
   #wrap > #contentsBox > #viewBox_01 .indicator_01 li:nth-child(3) { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
+  #wrap > #contentsBox > #viewBox_01 .indicator_01 a { display: block; width: 15px; height: 15px; }
+  #wrap > #contentsBox > #viewBox_01 .indicator_01 a:nth-child(1) { width: 60px; height: 15px; }
   #wrap > #contentsBox > #viewBox_01 > .main_title { position: absolute; z-index: 0; left: 5%; top: 15%; width: 400px; height: 300px; }
   #wrap > #contentsBox > #viewBox_01 > .main_title > .view_logo { width: 140px; height: 40px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
   #wrap > #contentsBox > #viewBox_01 > .main_title > ul { width: 100%; height: 40%; }
@@ -198,17 +200,20 @@
   #wrap > #contentsBox > #Box_02 { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox .top3 { width: 100%; height: 360px; border-top: 5px solid #fff; border-bottom: 5px solid #fff; }
   #wrap > #contentsBox .top3 ul { width: 100%; height: 100%; }
-  #wrap > #contentsBox .top3 ul li { float: left; width: 33.3%; height: 100%; font-size: 2rem; background-color: #f2f3f2; border: 5px solid #fff; box-sizing: border-box; font-size: 30px; font-size: 1.875 rem; color: #222; font-weight: bold; text-align: center; }
-  #wrap > #contentsBox .top3 ul li span { font-size: 1.5rem; font-weight: 500; }
+  #wrap > #contentsBox .top3 ul li { float: left; width: 33.3%; height: 100%; font-size: 2rem; background-color: #f0f0f0; border: 5px solid #fff; box-sizing: border-box; text-align: center; }
+  #wrap > #contentsBox .top3 ul li a { display: block; width: 100%; height: 100%; font-size: 30px; font-size: 1.875 rem; color: #222; font-weight: bold; }
+  #wrap > #contentsBox .top3 ul li a span { font-size: 1.5rem; font-weight: 500; }
   #wrap > #contentsBox .top3 ul li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../../img/768/notebook_01.png"); }
   #wrap > #contentsBox .top3 ul li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../../img/768/notebook_02.png"); }
-  #wrap > #contentsBox .top3 ul li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 120%; background-size: 70%; background-image: url("../../img/768/Inspiron_13.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 120%; background-size: 65%; background-image: url("../../img/768/Inspiron_13.png"); }
   #wrap > #contentsBox > #view_tap { position: relative; z-index: 1; width: 100%; height: 560px; overflow: hidden; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../../img/768/view_tap.png"); }
   #wrap > #contentsBox > #view_tap .tap_alien { position: absolute; bottom: 1%; left: 3%; width: 180px; height: 130px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/768/tap_logo.png"); }
   #wrap > #contentsBox > #view_tap .indicator_02 { position: absolute; bottom: 5%; margin: auto; right: 0; left: 0; width: 120px; height: 15px; }
   #wrap > #contentsBox > #view_tap .indicator_02 li:nth-child(1) { float: left; width: 60px; height: 15px; background-color: #2271b2; border-radius: 50px; }
   #wrap > #contentsBox > #view_tap .indicator_02 li:nth-child(2) { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
   #wrap > #contentsBox > #view_tap .indicator_02 li:nth-child(3) { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
+  #wrap > #contentsBox > #view_tap .indicator_02 a { display: block; width: 15px; height: 15px; }
+  #wrap > #contentsBox > #view_tap .indicator_02 a:nth-child(1) { width: 60px; height: 15px; }
   #wrap > #contentsBox > #view_tap .tapBox { position: absolute; z-index: 0; top: 8%; left: 52%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); }
   #wrap > #contentsBox > #view_tap .tapBox li:nth-child(1) { margin-left: 5%; margin-top: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 15px 10px; }
   #wrap > #contentsBox > #view_tap .tapBox li:nth-child(2) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; }
@@ -240,7 +245,7 @@
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) { margin-top: 80px; }
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) > a { width: 300px; height: 50px; font-size: 1.5rem; transform: translateY(150%); font-weight: bold; border-bottom: 3px solid #ccc; padding-bottom: 4px; }
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; z-index: 100; left: 0; top: 15%; width: 400px; height: 250px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/4Box.png"); }
-  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 560px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/acticleBox.png"); }
+  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 620px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/acticleBox.png"); }
   #wrap > #contentsBox > #viewBox_03 > .last_adv { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 100%; height: 200px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul { position: absolute; width: 100%; height: 100%; margin: auto; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li { width: auto; height: auto; text-align: center; margin: auto; }
@@ -249,7 +254,7 @@
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li:nth-child(3) { font-size: 28px; font-size: 1.75 rem; color: #fff; font-weight: 500; margin-bottom: 60px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv .more_03 { position: absolute; bottom: -50%; left: 0; right: 0; margin: auto; width: 200px; height: 50px; background-color: #2271b2; border-radius: 50px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv .more_03 > a { font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
-  #wrap > #footBox { position: relative; width: 100%; height: 450px; background-color: #2271b2; border: 1px solid #fff; }
+  #wrap > #footBox { position: relative; width: 100%; height: 450px; background-color: #2271b2; border: 1px solid #fff; max-width: 1440px; margin: auto; }
   #wrap > #footBox > .foot_text { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 1140px; height: 400px; }
   #wrap > #footBox > .foot_text .logo_sns { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #footBox > .foot_text .foot_logo { display: block; width: 0; height: 0; overflow: hidden; }
@@ -257,8 +262,17 @@
   #wrap > #footBox > .foot_text .foot_info { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #footBox > .foot_text .foot_info_02 { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #footBox > .foot_text > .foot_info_03 { width: 100%; height: 100%; }
-  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo { width: 100%; height: 40px; }
+  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo { width: 100%; height: 40px; margin-bottom: 50px; }
   #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .left { float: left; position: relative; top: 50%; transform: translateY(-50%); width: 430px; height: 5px; background-color: #fff; }
   #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_logo { float: left; width: 100px; height: 50px; margin-left: 25px; margin-top: -5px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
   #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_text { float: left; width: 50px; height: 5px; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; margin-left: 10px; margin-top: 6px; }
-  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .right { float: right; position: relative; top: 50%; transform: translateY(-50%); width: 430px; height: 5px; background-color: #fff; } }
+  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .right { float: right; position: relative; top: 50%; transform: translateY(-50%); width: 430px; height: 5px; background-color: #fff; }
+  #wrap > #footBox > .foot_text > .foot_info_03 .foot_logoBox { float: left; width: 340px; height: 300px; }
+  #wrap > #footBox > .foot_text > .foot_info_03 .foot_logoBox .logo_img { position: relative; margin: auto; right: 0; left: 0; top: 0; bottom: 0; transform: translateY(150%); width: 180px; height: 70px; margin: auto; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #footBox > .foot_text > .foot_info_03 .foot_logoBox .korea { position: absolute; bottom: 0; left: 80px; font-size: 16px; font-size: 1 rem; color: #fff; font-weight: 500; width: 300px; height: 50px; }
+  #wrap > #footBox > .foot_text > .foot_info_03 .info_text { float: right; width: 800px; height: 300px; }
+  #wrap > #footBox > .foot_text > .foot_info_03 .info_text dl { float: left; width: 266px; height: 30px; text-align: center; }
+  #wrap > #footBox > .foot_text > .foot_info_03 .info_text dl dt { font-size: 25px; font-size: 1.5625 rem; color: #fff; font-weight: 500; width: 100%; height: 60px; }
+  #wrap > #footBox > .foot_text > .foot_info_03 .info_text dl dd { width: 100%; height: 40px; text-align: center; }
+  #wrap > #footBox > .foot_text > .foot_info_03 .info_text dl dd a { font-size: 18px; font-size: 1.125 rem; color: #fff; font-weight: 500; }
+  #wrap > #footBox > .foot_text > .foot_info_03 .info_text h6 { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; text-align: center; font-size: 16px; font-size: 1 rem; color: #fff; font-weight: 500; width: 300px; height: 25px; bottom: -320px; right: -730px; } }
