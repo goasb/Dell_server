@@ -257,8 +257,8 @@
   #wrap > #footBox > .foot_text .foot_info { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #footBox > .foot_text .foot_info_02 { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #footBox > .foot_text > .foot_info_03 { width: 100%; height: 100%; }
-  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo { width: 100%; height: 40px; background-color: #ccc; }
-  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .left { float: left; position: relative; top: 50%; transform: translateY(-50%); width: 445px; height: 5px; background-color: #fff; }
-  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_logo { float: left; width: 50px; height: 5px; background-color: #faf; }
-  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_text { float: left; width: 50px; height: 5px; background-color: #faf; }
-  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .right { float: right; position: relative; top: 50%; transform: translateY(-50%); width: 445px; height: 5px; background-color: #fff; } }
+  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo { width: 100%; height: 40px; }
+  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .left { float: left; position: relative; top: 50%; transform: translateY(-50%); width: 430px; height: 5px; background-color: #fff; }
+  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_logo { float: left; width: 100px; height: 50px; margin-left: 25px; margin-top: -5px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_text { float: left; width: 50px; height: 5px; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; margin-left: 10px; margin-top: 6px; }
+  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .right { float: right; position: relative; top: 50%; transform: translateY(-50%); width: 430px; height: 5px; background-color: #fff; } }
