@@ -1,0 +1,5 @@
+// dell.js
+
+(function($){
+
+})(jQuery);

@@ -1,6 +1,6 @@
 @media screen and (min-width:1280px) and (max-width:1919px) {
  
-   #wrap {width: 100%; min-width:320px; height: auto; background-color: #ccc;
+   #wrap {width: 100%; min-width:320px; height: 100%; 
      > #headBox {position: relative; width: 100%; height: 80px; background-color:$dg; max-width: 1440px; margin:auto;
        > h1 {position: absolute; margin:auto; top:0; bottom:0; width: 140px; height: 40px; margin-left:5%;
          > a {display:block; width: 100%; height: 100%; @include url;
@@ -23,43 +23,56 @@
        } // headBox
    // ===============================================================================================
    // contentsBox
-        > #contentsBox {width: 100%; height:auto; background-color:$white; max-width: 1440px; margin:auto;
-         > #viewBox_01 {position:relative; z-index:0; width: 100%; height: 560px; background-color: $main; overflow: hidden;
-              @include url;
-              background-size:cover;
-              background-image:url("../../img/480/view.png");
-              
-              > .view_alien {position:absolute; left:80%; top:75%; width: 180px; height: 130px; 
-                @include url; background-image: url("../../img/480/view_logo.png");}
- 
-               .indicator_01 {position: absolute; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 15px;
-                 li:nth-child(1) {float:left; width: 60px; height: 15px; background-color: $main; border-radius: 50px;}
-                 li:nth-child(2) {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
-                 li:nth-child(3) {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
-                 a {display: block; width: 15px; height: 15px;
-                  &:nth-child(1) {width: 60px; height: 15px;}
-                } // a
-               } // indicator
+        > #contentsBox {width: 100%; height:auto; background-color:$white; max-width: 1440px; margin:auto; 
+         > #viewBox_01 {width: 100%; height: 560px; background-color: $main; overflow: hidden;
+          .viewslide_main {position:relative; z-index:0; width: 100%; height: 100%;
+            
+            .indicator_01 {position: absolute; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 15px;
+              li:nth-child(1) {float:left; width: 60px; height: 15px; background-color: $main; border-radius: 50px;}
+              li:nth-child(2) {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
+              li:nth-child(3) {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
+              a {display: block; width: 15px; height: 15px;
+               &:nth-child(1) {width: 60px; height: 15px;}
+             } // a
+            } // indicator
+            
+            .view_img {width: 100%; height: 100%; background-color: #faf;
+              .slide_img_list {width: 400%; height: 100%; background-color: #ccc;
+              > div{position: relative; z-index: 100;
+                  &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 100%; height: 100%; 
+                    background-color:rgba($main, 0.7); transform:skew(-40deg) translateX(-65%); }
+                  &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width: 40%; height: 100%; 
+                    background-color:rgba($main, 0.7); transform:skew(-50deg) translateX(75%); }
+                }
+              .img_01 {width: 25%; height: 100%; 
+                @include url;
+                background-size:cover;
+                background-image:url("../../img/480/view.png");
+                
+                > .view_alien {position:absolute; left:80%; top:75%; width: 180px; height: 130px; 
+                  @include url; background-image: url("../../img/480/view_logo.png");}
    
-           > .main_title {position:absolute; z-index:0; left:5%; top:15%; width: 400px; height: 300px; 
-             > .view_logo {width: 140px; height: 40px; @include url; background-image: url("../../img/dell_image_09.png");}
-             > ul {width: 100%; height: 40%; 
-               > li {width: 100%; height: 100%;
-               &:nth-child(1){@include h1_w($f:50);margin-top:10px; text-shadow:5px 5px 10px #222;}
-               &:nth-child(2){@include h2_w($f:28); font-weight:600; text-shadow:5px 5px 10px #222;
-                 span{border-bottom:3px solid #fff;padding-bottom:4px;}
-               } //  &:nth-child(2)
-              } // li
-             } // ul
-             .more_01 {position: absolute; z-index:1; top:80%; bottom:10%; left:-40%; right:0; margin:auto; width: 250px; height: 50px; 
-               background-color: $main; border-radius:50px;
-               > a {@include h1_w; display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
-             } // more_01
-           } // .main_picture 
-           &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 100%; height: 100%; 
-             background-color:rgba($main, 0.7); transform:skew(-40deg) translateX(-65%); }
-           &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width: 40%; height: 100%; 
-             background-color:rgba($main, 0.7); transform:skew(-50deg) translateX(75%); }
+     
+             > .main_title {position:absolute; z-index:0; left:5%; top:15%; width: 400px; height: 300px; 
+               > .view_logo {width: 140px; height: 40px; @include url; background-image: url("../../img/dell_image_09.png");}
+               > ul {width: 100%; height: 40%; 
+                 > li {width: 100%; height: 100%;
+                 &:nth-child(1){@include h1_w($f:50);margin-top:10px; text-shadow:5px 5px 10px #222;}
+                 &:nth-child(2){@include h2_w($f:28); font-weight:600; text-shadow:5px 5px 10px #222;
+                   span{border-bottom:3px solid #fff;padding-bottom:4px;}
+                 } //  &:nth-child(2)
+                } // li
+               } // ul
+               .more_01 {position: absolute; z-index:1; top:80%; bottom:10%; left:-40%; right:0; margin:auto; width: 250px; height: 50px; 
+                 background-color: $main; border-radius:50px;
+                 > a {@include h1_w; display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
+                       } // more_01
+                     } // .main_title
+                    } // img_01
+
+                }  // slide_img_list
+              } // view_img
+            } // viewslide_main
           } // viewBox_01
          
           
@@ -86,6 +99,8 @@
                   background-position-y:120%;
                   background-size: 65%; 
                   background-image: url("../../img/768/Inspiron_13.png");}
+                &:nth-child(4){@include hidden;}
+                &:nth-child(5){@include hidden;}
                 
            } // li
          } // ul
@@ -175,7 +190,7 @@
          } // #Box_04
          
    
-         > #viewBox_03 {position: relative; width: 100%; height: 620px; @include url;
+         > #viewBox_03 {position: relative; width: 100%; height: 610px; @include url;
                         background-image:url("../../img/480/acticleBox.png");
            > .last_adv {position: absolute; margin:auto; right:0; left:0; top:0; bottom:0;
                         width: 100%; height: 200px; 
@@ -197,7 +212,7 @@
    // footBox
    
         > #footBox {position: relative; width: 100%; height: 450px; background-color: $main; border:1px solid #fff;
-          max-width: 1440px; margin:auto;
+           margin:auto; 
           > .foot_text {position: absolute; @include margin; width:1140px; height: 400px; 
             .logo_sns {@include hidden;}
             .foot_logo {@include hidden;}

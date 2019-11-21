@@ -12,6 +12,8 @@
       > .categori > i {width: 50px; height: 50px; font-size:3rem; color:#fff;}
       .search {position:absolute; right:5%; bottom:25%; width: 50px; height: 50px;}
       .search > i {width: 50px; height: 50px; font-size:3rem; color:#fff;}
+      .gnb {@include hidden;}
+      .my_id {@include hidden;}
       } // headBox
   // ===============================================================================================
   // contentsBox
@@ -66,6 +68,7 @@
             background-image:url("../../img/480/2Box.png");}
       } // #Box_02
     } // text_img
+      .top3 {@include hidden;}
         
       > #view_tap {position: relative; z-index:1; width: 100%; height:380px;  overflow: hidden;
         @include url;
@@ -106,16 +109,19 @@
             /* width: 50% * $count; */ width:100%;  height: 100%; 
             perspective:500px; transition:all 1000ms linear;transform-origin:50% 0;
             &:hover{transform: translate(-50%, 11.5%) rotateY(45deg);}
-            > li {float:left; width:100% / ($count - 2); height: 100%; margin-left:3%; margin-right:3%;
+            > li {float:left; width:100% / ($count - 2); height: 100%; margin-left:3%; margin-right:3%; @include h1_w($f:24);
+              >span {display: block; text-align: center; margin-top:240px;}
                 
-              &:nth-child(1){@include url; background-image:url("../../img/480/left_note.png"); 
-                  margin-top:-3%; width:20%; transform:rotateY(-20deg); transform-origin:50% 0 ;}
-                
-              &:nth-child(2){@include url; background-image:url("../../img/480/viewBox_02.png"); 
-                  transform:rotateY(0); transform-origin:50% 0;}
-                
-              &:nth-child(3){@include url; background-image:url("../../img/480/right_note.png"); 
-                  margin-top:-3%; width:20%; transform:rotateY(20deg); transform-origin:0 0;}
+              &:nth-child(1){@include url; margin-top:-3%; width:20%; font-size:1.2rem; 
+                background-image:url("../../img/768/notebook_01.png");
+                span { margin-top:200px;}}
+              
+              &:nth-child(2){@include url; 
+               background-image:url("../../img/480/viewBox_02.png");}
+              
+              &:nth-child(3){@include url; margin-top:-3%; width:20%; font-size:1.2rem;
+                background-image:url("../../img/768/noteBox.png");
+               & span{margin-top: 200px;}} 
                 
                 &:nth-child(4){@include hidden;}
                 &:nth-child(5){@include hidden;}
@@ -143,7 +149,7 @@
         } // #Box_04
         
   
-        > #viewBox_03 {position: relative; width: 100%; height: 330px; @include url;
+        > #viewBox_03 {position: relative; width: 100%; height: 340px; @include url;
                        background-image:url("../../img/480/acticleBox.png");
           > .last_adv {position: absolute; margin:auto; right:0; left:0; top:0; bottom:0;
                        width: 100%; height: 200px; 
@@ -154,9 +160,9 @@
                 &:nth-child(3) {@include h2_w; margin-bottom:60px;}
                 } // li
               } // ul
-              .more_03 {position: absolute; bottom:-10%; left:0; right:0; margin:auto; width: 200px; height: 50px; 
+              .more_03 {position: absolute; bottom:-10%; left:0; right:0; margin:auto; width: 200px; height: 30px; 
                      background-color: $main; border-radius:50px;
-                > a {@include h2_w; display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
+                > a {@include h2_w; display: block; width: 100%; height: 100%; text-align: center; line-height:30px;}
               } // more
             }//.last_adv
           } // #viewBox_03
@@ -195,6 +201,7 @@
               >li {float:left; margin-left:10px; width: auto; height:100%;
                 > a {@include h4_w;}
               }}
+              .foot_info_03 {@include hidden;}
                     
                } // .foot_text
             } // footBox
