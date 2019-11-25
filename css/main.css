@@ -199,23 +199,22 @@
   #wrap > #headBox .my_id a { float: left; display: block; width: 100px; height: 100%; text-align: left; line-height: 75px; font-size: 18px; font-size: 1.125 rem; color: #fff; font-weight: 500; font-weight: bold; }
   #wrap > #headBox .my_id i { float: left; display: block; width: 40px; height: 80px; font-size: 30px; text-align: center; line-height: 75px; color: #fff; }
   #wrap > #contentsBox { width: 100%; height: auto; background-color: #fff; max-width: 1440px; margin: auto; }
-  #wrap > #contentsBox > #viewBox_01 { width: 100%; height: 560px; background-color: #2271b2; /* overflow: hidden; */ }
+  #wrap > #contentsBox > #viewBox_01 { width: 100%; height: 560px; background-color: #2271b2; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main { position: relative; z-index: 0; width: 100%; height: 100%; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 { position: absolute; z-index: 500; bottom: 5%; margin: auto; right: 0; left: 0; width: 120px; height: 15px; }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 li:nth-child(1) { float: left; width: 60px; height: 15px; background-color: #2271b2; border-radius: 50px; }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 li:nth-child(2) { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 li:nth-child(3) { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 a { display: block; width: 15px; height: 15px; }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 a:nth-child(1) { width: 60px; height: 15px; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 li.action { width: 60px; height: 15px; background-color: #2271b2; border-radius: 50px; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 li:nth-child(1) { margin-left: 0; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 li { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 a { display: block; width: 100%; height: 15px; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img { width: 100%; height: 100%; background-color: #faf; }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list { width: 400%; height: 100%; background-color: #ccc; margin-left: -100%; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list { width: 400%; height: 100%; background-color: #ccc; /*   margin-left:-100%;  */ position: relative; left: -100%; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div { position: relative; z-index: 100; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(34, 113, 178, 0.7); transform: skew(-40deg) translateX(-65%); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:after { content: " "; display: block; position: absolute; z-index: -1; top: 0; right: 0; width: 40%; height: 100%; background-color: rgba(34, 113, 178, 0.7); transform: skew(-50deg) translateX(75%); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:nth-of-type(2):before { background-color: rgba(121, 208, 50, 0.5); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:nth-of-type(2):after { background-color: rgba(121, 208, 50, 0.5); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:nth-of-type(3):before { background-color: rgba(76, 76, 76, 0.5); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:nth-of-type(3):after { background-color: rgba(76, 76, 76, 0.5); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_02:before { background-color: rgba(121, 208, 50, 0.5); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_02:after { background-color: rgba(121, 208, 50, 0.5); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_03:before { background-color: rgba(76, 76, 76, 0.5); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_03:after { background-color: rgba(76, 76, 76, 0.5); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_01 { background-image: url("../../img/480/view.png"); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_02 { background-image: url("../../img/section_02.jpg"); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_03 { background-image: url("../../img/view_indi1.jpg"); }
@@ -231,14 +230,14 @@
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title .more_01 { position: absolute; z-index: 1; top: 100%; bottom: 10%; left: -40%; right: 0; margin: auto; width: 250px; height: 50px; background-color: #4c4c4c; border-radius: 50px; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title .more_01 > a { font-size: 23px; font-size: 1.4375 rem; color: #fff; font-weight: bold; display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
   #wrap > #contentsBox > #Box_02 { display: block; width: 0; height: 0; overflow: hidden; }
-  #wrap > #contentsBox .top3 { float: left; width: 100%; height: 360px; border-top: 5px solid #fff; border-bottom: 5px solid #fff; }
+  #wrap > #contentsBox .top3 { float: left; width: 100%; height: 360px; padding-top: 1%; padding-bottom: 1%; border-top: 5px solid #fff; border-bottom: 5px solid #fff; }
   #wrap > #contentsBox .top3 ul { width: 2620px; height: 100%; }
   #wrap > #contentsBox .top3 ul li { float: left; width: 426px; height: 100%; font-size: 2rem; background-color: #f0f0f0; border: 5px solid #fff; box-sizing: border-box; text-align: center; }
   #wrap > #contentsBox .top3 ul li a { display: block; width: 100%; height: 100%; font-size: 30px; font-size: 1.875 rem; color: #222; font-weight: bold; }
   #wrap > #contentsBox .top3 ul li a span { font-size: 1.5rem; font-weight: 500; }
-  #wrap > #contentsBox .top3 ul li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../../img/768/notebook_01.png"); }
-  #wrap > #contentsBox .top3 ul li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../../img/768/notebook_02.png"); }
-  #wrap > #contentsBox .top3 ul li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 120%; background-size: 65%; background-image: url("../../img/768/Inspiron_13.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 120%; background-size: 95%; background-image: url("../../img/XPS-13-Desktop.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 70%; background-image: url("../../img/480/viewBox_02.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 70%; background-image: url("../../img/768/notebook_05.png"); }
   #wrap > #contentsBox .top3 ul li:nth-child(4) { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox .top3 ul li:nth-child(5) { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox > #view_tap { position: relative; z-index: 1; width: 100%; height: 560px; overflow: hidden; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../../img/768/view_tap.png"); }
@@ -319,60 +318,95 @@
   #wrap > #headBox > h1 > a > span { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #headBox > .categori { display: none; }
   #wrap > #headBox .search { display: none; }
-  #wrap > #headBox > .gnb { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; margin-right: 20%; width: 540px; height: 80px; }
-  #wrap > #headBox > .gnb li { float: left; width: 135px; height: 100%; text-align: center; line-height: 75px; }
-  #wrap > #headBox > .gnb li a { font-size: 18px; font-size: 1.125 rem; color: #fff; font-weight: 500; font-weight: bold; }
-  #wrap > #headBox .my_id { position: absolute; right: 5%; width: 150px; height: 100%; }
-  #wrap > #headBox .my_id a { float: left; display: block; width: 100px; height: 100%; text-align: left; line-height: 75px; font-size: 18px; font-size: 1.125 rem; color: #fff; font-weight: 500; font-weight: bold; }
+  #wrap > #headBox > .gnb { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; margin-right: 20%; width: 800px; height: 80px; }
+  #wrap > #headBox > .gnb li { float: left; width: 200px; height: 100%; text-align: center; line-height: 75px; }
+  #wrap > #headBox > .gnb li a { font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: bold; font-weight: bold; }
+  #wrap > #headBox .my_id { position: absolute; right: 5%; width: 200px; height: 80px; top: 0; }
+  #wrap > #headBox .my_id a { float: left; display: block; text-align: left; line-height: 75px; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: bold; font-weight: bold; }
   #wrap > #headBox .my_id i { float: left; display: block; width: 40px; height: 80px; font-size: 30px; text-align: center; line-height: 75px; color: #fff; }
-  #wrap > #contentsBox { width: 100%; height: auto; background-color: #fff; margin: auto; max-width: 1920px; }
-  #wrap > #contentsBox > #viewBox_01 { position: relative; z-index: 0; width: 100%; height: 560px; background-color: #2271b2; overflow: hidden; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../../img/view_indi1.jpg"); }
-  #wrap > #contentsBox > #viewBox_01 > .view_alien { position: absolute; left: 83%; top: 75%; width: 180px; height: 130px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/view_logo.png"); }
-  #wrap > #contentsBox > #viewBox_01 .indicator_01 { position: absolute; bottom: 5%; margin: auto; right: 0; left: 0; width: 120px; height: 15px; }
-  #wrap > #contentsBox > #viewBox_01 .indicator_01 li:nth-child(1) { float: left; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
-  #wrap > #contentsBox > #viewBox_01 .indicator_01 li:nth-child(2) { float: left; margin-left: 15px; width: 60px; height: 15px; border-radius: 50px; background-color: #2271b2; border-radius: 50px; }
-  #wrap > #contentsBox > #viewBox_01 .indicator_01 li:nth-child(3) { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
-  #wrap > #contentsBox > #viewBox_01 .indicator_01 a { display: block; width: 15px; height: 15px; }
-  #wrap > #contentsBox > #viewBox_01 .indicator_01 a:nth-child(1) { width: 60px; height: 15px; }
-  #wrap > #contentsBox > #viewBox_01 > .main_title { position: absolute; z-index: 0; left: 5%; top: 15%; width: 400px; height: 300px; }
-  #wrap > #contentsBox > #viewBox_01 > .main_title > .view_logo { width: 140px; height: 40px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
-  #wrap > #contentsBox > #viewBox_01 > .main_title > ul { width: 100%; height: 40%; }
-  #wrap > #contentsBox > #viewBox_01 > .main_title > ul > li { width: 100%; height: 100%; }
-  #wrap > #contentsBox > #viewBox_01 > .main_title > ul > li:nth-child(1) { font-size: 50px; font-size: 3.125 rem; color: #fff; font-weight: bold; margin-top: 10px; text-shadow: 5px 5px 10px #222; }
-  #wrap > #contentsBox > #viewBox_01 > .main_title > ul > li:nth-child(2) { font-size: 28px; font-size: 1.75 rem; color: #fff; font-weight: 500; font-weight: 600; text-shadow: 5px 5px 10px #222; }
-  #wrap > #contentsBox > #viewBox_01 > .main_title > ul > li:nth-child(2) span { border-bottom: 3px solid #fff; padding-bottom: 4px; }
-  #wrap > #contentsBox > #viewBox_01 > .main_title .more_01 { position: absolute; z-index: 1; top: 80%; bottom: 10%; left: -40%; right: 0; margin: auto; width: 250px; height: 50px; background-color: #2271b2; border-radius: 50px; }
-  #wrap > #contentsBox > #viewBox_01 > .main_title .more_01 > a { font-size: 23px; font-size: 1.4375 rem; color: #fff; font-weight: bold; display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
-  #wrap > #contentsBox > #viewBox_01:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(34, 113, 178, 0.7); transform: skew(-40deg) translateX(-70%); }
-  #wrap > #contentsBox > #viewBox_01:after { content: " "; display: block; position: absolute; z-index: -1; top: 0; right: 0; width: 40%; height: 100%; background-color: rgba(34, 113, 178, 0.7); transform: skew(-40deg) translateX(75%); }
+  #wrap > #contentsBox { width: 100%; height: auto; background-color: #fff; margin: auto; max-width: 1620px; }
+  #wrap > #contentsBox > #viewBox_01 { width: 100%; height: 700px; background-color: #2271b2; overflow: hidden; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main { position: relative; z-index: 0; width: 100%; height: 100%; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 { position: absolute; z-index: 500; bottom: 5%; margin: auto; right: 0; left: 0; width: 120px; height: 15px; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 li.action { width: 60px; height: 15px; background-color: #2271b2; border-radius: 50px; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 li:nth-child(1) { margin-left: 0; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 li { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .indicator_01 a { display: block; width: 100%; height: 15px; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img { width: 100%; height: 100%; background-color: #faf; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list { width: 400%; height: 100%; background-color: #ccc; /*   margin-left:-100%;  */ position: relative; left: -100%; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div { position: relative; z-index: 100; overflow: hidden; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(34, 113, 178, 0.7); transform: skew(-40deg) translateX(-70%); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:after { content: " "; display: block; position: absolute; z-index: -1; top: 0; right: 0; width: 40%; height: 100%; background-color: rgba(34, 113, 178, 0.7); transform: skew(-50deg) translateX(75%); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_02:before { background-color: rgba(121, 208, 50, 0.5); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_02:after { background-color: rgba(121, 208, 50, 0.5); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_03:before { background-color: rgba(76, 76, 76, 0.5); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_03:after { background-color: rgba(76, 76, 76, 0.5); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_01 { background-image: url("../../img/480/view.png"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_02 { background-image: url("../../img/section_02.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_03 { background-image: url("../../img/view_indi1.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .view_alien { position: absolute; left: 82%; top: 80%; width: 180px; height: 130px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/view_logo.png"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title { position: absolute; z-index: 0; left: 5%; top: 15%; width: 600px; height: 300px; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > .view_logo { width: 140px; height: 40px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul { width: 100%; height: 40%; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li { width: 100%; height: 100%; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li:nth-child(1) { font-size: 50px; font-size: 3.125 rem; color: #fff; font-weight: bold; margin-top: 20px; text-shadow: 5px 5px 10px #222; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li:nth-child(2) { font-size: 28px; font-size: 1.75 rem; color: #fff; font-weight: 500; margin-top: 30px; font-weight: 600; text-shadow: 5px 5px 10px #222; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li:nth-child(2) span { border-bottom: 3px solid #fff; padding-bottom: 4px; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title .more_01 { position: absolute; z-index: 1; top: 80%; bottom: -30%; left: -60%; right: 0; margin: auto; width: 250px; height: 50px; background-color: #4c4c4c; border-radius: 50px; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title .more_01 > a { font-size: 23px; font-size: 1.4375 rem; color: #fff; font-weight: bold; display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
   #wrap > #contentsBox > #Box_02 { display: block; width: 0; height: 0; overflow: hidden; }
-  #wrap > #contentsBox .top3 { width: 100%; height: 360px; border-top: 5px solid #fff; border-bottom: 5px solid #fff; }
+  #wrap > #contentsBox .top3 { position: relative; width: 100%; height: 400px; padding-top: 1%; padding-bottom: 1%; border-top: 5px solid #fff; border-bottom: 5px solid #fff; }
   #wrap > #contentsBox .top3 ul { width: 100%; height: 100%; }
   #wrap > #contentsBox .top3 ul li { float: left; width: 20%; height: 100%; font-size: 2rem; background-color: #f0f0f0; border: 5px solid #fff; box-sizing: border-box; text-align: center; }
-  #wrap > #contentsBox .top3 ul li a { display: block; width: 100%; height: 100%; font-size: 30px; font-size: 1.875 rem; color: #222; font-weight: bold; }
+  #wrap > #contentsBox .top3 ul li a { display: block; width: 100%; height: 100%; font-size: 30px; font-size: 1.875 rem; color: #222; font-weight: bold; margin-top: 30px; }
   #wrap > #contentsBox .top3 ul li a span { font-size: 1.5rem; font-weight: 500; }
-  #wrap > #contentsBox .top3 ul li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../../img/768/notebook_01.png"); }
-  #wrap > #contentsBox .top3 ul li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../../img/768/notebook_02.png"); }
-  #wrap > #contentsBox .top3 ul li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 120%; background-size: 75%; background-image: url("../../img/768/Inspiron_13.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../../img/Inspiron_17.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 100%; background-image: url("../../img/XPS-13-Desktop.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../../img/XPS-13.png"); }
   #wrap > #contentsBox .top3 ul li:nth-child(4) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 80%; background-size: 70%; background-image: url("../../img/480/viewBox_02.png"); }
   #wrap > #contentsBox .top3 ul li:nth-child(5) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 80%; background-size: 70%; background-image: url("../../img/768/notebook_05.png"); }
-  #wrap > #contentsBox > #view_tap { position: relative; z-index: 1; width: 100%; height: 560px; overflow: hidden; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../../img/768/view_tap.png"); }
-  #wrap > #contentsBox > #view_tap .tap_alien { position: absolute; bottom: 1%; left: 3%; width: 180px; height: 130px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/768/tap_logo.png"); }
-  #wrap > #contentsBox > #view_tap .indicator_02 { position: absolute; bottom: 5%; margin: auto; right: 0; left: 0; width: 120px; height: 15px; }
-  #wrap > #contentsBox > #view_tap .indicator_02 li:nth-child(1) { float: left; width: 60px; height: 15px; background-color: #2271b2; border-radius: 50px; }
-  #wrap > #contentsBox > #view_tap .indicator_02 li:nth-child(2) { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
-  #wrap > #contentsBox > #view_tap .indicator_02 li:nth-child(3) { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
-  #wrap > #contentsBox > #view_tap .indicator_02 a { display: block; width: 15px; height: 15px; }
-  #wrap > #contentsBox > #view_tap .indicator_02 a:nth-child(1) { width: 60px; height: 15px; }
-  #wrap > #contentsBox > #view_tap .tapBox { position: absolute; z-index: 0; top: 8%; left: 65%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); }
-  #wrap > #contentsBox > #view_tap .tapBox li:nth-child(1) { margin-left: 5%; margin-top: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 15px 10px; }
-  #wrap > #contentsBox > #view_tap .tapBox li:nth-child(2) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; }
-  #wrap > #contentsBox > #view_tap .tapBox li:nth-child(3) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; }
-  #wrap > #contentsBox > #view_tap .tapBox li:nth-child(4) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; }
-  #wrap > #contentsBox > #view_tap .tapBox .more_02 { position: absolute; z-index: 1; bottom: 11%; left: 40%; right: 0; margin: auto; width: 180px; height: 40px; background-color: #6f6f70; border-radius: 50px; }
-  #wrap > #contentsBox > #view_tap .tapBox .more_02 > a { font-size: 14px; font-size: 0.875 rem; color: #fff; font-weight: 500; display: block; width: 100%; height: 100%; text-align: center; line-height: 40px; }
-  #wrap > #contentsBox > #view_tap:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; right: 0; width: 100%; height: 100%; background-color: rgba(111, 111, 112, 0.7); transform: skew(40deg) translateX(75%); }
-  #wrap > #contentsBox > #view_tap:after { content: " "; display: block; position: absolute; z-index: -1; top: 0; left: 0; width: 40%; height: 100%; background-color: rgba(111, 111, 112, 0.7); transform: skew(45deg) translateX(-90%); }
+  #wrap > #contentsBox #slide_viewBox { position: relative; z-index: 1; width: 100%; height: 700px; overflow: hidden; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 { position: relative; z-index: 0; width: 100%; height: 100%; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .indicator_01 { position: absolute; z-index: 500; bottom: 5%; margin: auto; right: 0; left: 0; width: 120px; height: 15px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .indicator_01 li.action { width: 60px; height: 15px; background-color: #2271b2; border-radius: 50px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .indicator_01 li:nth-child(1) { margin-left: 0; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .indicator_01 li { float: left; margin-left: 15px; width: 15px; height: 15px; background-color: #fff; border-radius: 100%; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .indicator_01 a { display: block; width: 100%; height: 15px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img { width: 100%; height: 100%; background-color: #faf; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list { width: 400%; height: 100%; background-color: #ccc; /*   margin-left:-100%;  */ position: relative; left: -100%; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .view_alien { position: absolute; z-index: 500; bottom: 1%; left: 3%; width: 180px; height: 130px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/768/tap_logo.png"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list > div { position: relative; z-index: 100; overflow: hidden; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list > div:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; right: 0; width: 100%; height: 100%; background-color: rgba(76, 76, 76, 0.7); transform: skew(40deg) translateX(75%); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list > div:after { content: " "; display: block; position: absolute; z-index: -1; top: 0; left: 0; width: 40%; height: 100%; background-color: rgba(76, 76, 76, 0.7); transform: skew(45deg) translateX(-90%); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list > div.img_02:before { background-color: rgba(121, 208, 50, 0.5); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list > div.img_02:after { background-color: rgba(121, 208, 50, 0.5); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list > div.img_03:before { background-color: rgba(76, 76, 76, 0.5); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list > div.img_03:after { background-color: rgba(76, 76, 76, 0.5); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .img_01-1 { background-image: url("../../img/XPS 15 (9570).jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .img_02-2 { background-image: url("../../img/5K Super Ultrawide.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .img_03-3 { background-image: url("../../img/Dell Xps 15 Flower.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 { position: absolute; z-index: 200; top: 8%; left: 65%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 li:nth-child(1) { margin-left: 5%; margin-top: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 15px 10px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 li:nth-child(2) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 li:nth-child(3) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 .more_02 { position: absolute; z-index: 1; bottom: 11%; left: 40%; right: 0; margin: auto; width: 180px; height: 40px; background-color: #6f6f70; border-radius: 50px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 .more_02 > a { font-size: 14px; font-size: 0.875 rem; color: #fff; font-weight: 500; display: block; width: 100%; height: 100%; text-align: center; line-height: 40px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 { position: absolute; z-index: 200; top: 8%; left: 65%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 li:nth-child(1) { margin-left: 5%; margin-top: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 15px 10px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 li:nth-child(2) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 li:nth-child(3) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 .more_02 { position: absolute; z-index: 1; bottom: 11%; left: 40%; right: 0; margin: auto; width: 180px; height: 40px; background-color: #6f6f70; border-radius: 50px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 .more_02 > a { font-size: 14px; font-size: 0.875 rem; color: #fff; font-weight: 500; display: block; width: 100%; height: 100%; text-align: center; line-height: 40px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 { position: absolute; z-index: 200; top: 8%; left: 65%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 li:nth-child(1) { margin-left: 5%; margin-top: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 15px 10px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 li:nth-child(2) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 li:nth-child(3) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 .more_02 { position: absolute; z-index: 1; bottom: 11%; left: 40%; right: 0; margin: auto; width: 180px; height: 40px; background-color: #6f6f70; border-radius: 50px; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 .more_02 > a { font-size: 14px; font-size: 0.875 rem; color: #fff; font-weight: 500; display: block; width: 100%; height: 100%; text-align: center; line-height: 40px; }
+  #wrap > #contentsBox #slide_viewBox:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; right: 0; width: 100%; height: 100%; background-color: rgba(111, 111, 112, 0.7); transform: skew(40deg) translateX(75%); }
+  #wrap > #contentsBox #slide_viewBox:after { content: " "; display: block; position: absolute; z-index: -1; top: 0; left: 0; width: 40%; height: 100%; background-color: rgba(111, 111, 112, 0.7); transform: skew(45deg) translateX(-90%); }
   #wrap > #contentsBox > #viewBox_02 { margin: auto; width: 100%; height: 560px; background-color: #333; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_02 .noteBox { position: relative; width: 100%; height: 100%; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_02 .noteBox h3 { position: absolute; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; margin: auto; top: 25px; right: 0; left: 0; width: 530px; height: 80px; }

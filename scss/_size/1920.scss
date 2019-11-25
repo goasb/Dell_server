@@ -1,248 +1,300 @@
 @media screen and (min-width:1920px){
  
-   #wrap {width: 100%; min-width:320px; height:auto; max-width:1920px;
-     > #headBox {position: relative; width: 100%; height: 80px; background-color:$dg;  margin:auto;
-       > h1 {position: absolute; margin:auto; top:0; bottom:0; width: 140px; height: 40px; margin-left:5%;
-         > a {display:block; width: 100%; height: 100%; @include url;
-              background-image:url("../../img/dell_image_09.png");
-           > span {@include hidden;}
-         } // a
-      } // h1
-       > .categori {display:none;}
-         .search {display:none;}
-      > .gnb {position: absolute; @include margin; margin-right:20%; width: 540px; height:80px;
-          li {float:left; width: 135px; height:100%; 
-              text-align: center; line-height:75px; 
-              a {@include h2_w; font-weight: bold;}
-            } // li
-         } // gnb
-        .my_id {position: absolute; right:5%; width: 150px; height:100%;
-         a {float:left; display: block; width: 100px; height: 100%; text-align: left; line-height:75px; @include h2_w; font-weight: bold;}
-         i {float:left; display: block; width: 40px; height: 80px; font-size:30px; text-align:center; line-height:75px; color:#fff;}
-         } // my_id
-       } // headBox
-   // ===============================================================================================
-   // contentsBox
-        > #contentsBox {width: 100%; height:auto; background-color:$white;  margin:auto; max-width:1920px;
-         > #viewBox_01 {position:relative; z-index:0; width: 100%; height: 560px; background-color: $main; overflow: hidden;
-              @include url;
-              background-size:cover;
-              background-image:url("../../img/view_indi1.jpg");
-              
-              > .view_alien {position:absolute; left:83%; top:75%; width: 180px; height: 130px; 
-                @include url; background-image: url("../../img/480/view_logo.png");}
- 
-               .indicator_01 {position: absolute; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 15px;
-                 li:nth-child(1) {float:left; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
-                 li:nth-child(2) {float:left; margin-left:15px; width: 60px; height: 15px; border-radius: 50px; background-color: $main; border-radius: 50px;}
-                 li:nth-child(3) {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
-                 a {display: block; width: 15px; height: 15px;
-                  &:nth-child(1) {width: 60px; height: 15px;}
-                } // a
-               } // indicator
-   
-           > .main_title {position:absolute; z-index:0; left:5%; top:15%; width: 400px; height: 300px; 
-             > .view_logo {width: 140px; height: 40px; @include url; background-image: url("../../img/dell_image_09.png");}
-             > ul {width: 100%; height: 40%; 
-               > li {width: 100%; height: 100%;
-               &:nth-child(1){@include h1_w($f:50);margin-top:10px; text-shadow:5px 5px 10px #222;}
-               &:nth-child(2){@include h2_w($f:28); font-weight:600; text-shadow:5px 5px 10px #222;
-                 span{border-bottom:3px solid #fff;padding-bottom:4px;}
-               } //  &:nth-child(2)
-              } // li
-             } // ul
-             .more_01 {position: absolute; z-index:1; top:80%; bottom:10%; left:-40%; right:0; margin:auto; width: 250px; height: 50px; 
-               background-color: $main; border-radius:50px;
-               > a {@include h1_w; display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
-             } // more_01
-           } // .main_picture 
-           &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 100%; height: 100%; 
-             background-color:rgba($main, 0.7); transform:skew(-40deg) translateX(-70%); }
-           &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width: 40%; height: 100%; 
-             background-color:rgba($main, 0.7); transform:skew(-40deg) translateX(75%); }
-          } // viewBox_01
-         
-          
-         > #Box_02 {@include hidden;}
-         .top3 { width: 100%; height: 360px; 
-            border-top:5px solid #fff; border-bottom:5px solid #fff;
-            ul {width: 100%; height: 100%;
-            li {float:left; width: 20%; height: 100%; font-size:2rem; background-color:rgb(240, 240, 240); 
-                border:5px solid #fff; box-sizing: border-box; text-align: center; 
-                a {display: block; width: 100%; height: 100%; @include h1($f:30);
-                span {font-size:1.5rem; font-weight: 500;}
-              } // a
-              
-                
-                &:nth-child(1){@include url;
-                  background-position-y:90%;
-                  background-size: 90%; 
-                  background-image: url("../../img/768/notebook_01.png");}
-                &:nth-child(2){@include url; 
-                  background-position-y:90%;
-                  background-size: 90%; 
-                  background-image: url("../../img/768/notebook_02.png");}
-                &:nth-child(3){@include url;  
-                  background-position-y:120%;
-                  background-size: 75%; 
-                  background-image: url("../../img/768/Inspiron_13.png");}
-                &:nth-child(4){@include url;  
-                  background-position-y:80%;
-                  background-size: 70%; 
-                  background-image: url("../../img/480/viewBox_02.png");}
-                &:nth-child(5){@include url;  
-                  background-position-y:80%;
-                  background-size: 70%; 
-                  background-image: url("../../img/768/notebook_05.png");}
-                
+  #wrap {width: 100%; min-width:320px; height:auto; max-width:1920px;
+    > #headBox {position: relative; width: 100%; height: 80px; background-color:$dg;  margin:auto;
+      > h1 {position: absolute; margin:auto; top:0; bottom:0; width: 140px; height: 40px; margin-left:5%;
+        > a {display:block; width: 100%; height: 100%; @include url;
+             background-image:url("../../img/dell_image_09.png");
+          > span {@include hidden;}
+        } // a
+     } // h1
+      > .categori {display:none;}
+        .search {display:none;}
+     > .gnb {position: absolute; @include margin; margin-right:20%; width: 800px; height:80px;
+         li {float:left; width: 200px; height:100%; 
+             text-align: center; line-height:75px; 
+             a {@include h1_w($f:20); font-weight: bold;}
            } // li
-         } // ul
-      } // top3
-         
-       > #view_tap {position: relative; z-index:1; width: 100%; height:560px;  overflow: hidden;
-         @include url;
-         background-size: cover;
-         background-image:url("../../img/768/view_tap.png");
-         
-         .tap_alien {position: absolute; bottom:1%; left:3%; width: 180px; height: 130px; 
-           @include url; background-image: url("../../img/768/tap_logo.png");}
- 
-         .indicator_02 {position: absolute; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 15px;
-           li:nth-child(1) {float:left; width: 60px; height: 15px; background-color: $main; border-radius: 50px;}
-           li:nth-child(2) {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
-           li:nth-child(3) {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
-           a {display: block; width: 15px; height: 15px;
-            &:nth-child(1) {width: 60px; height: 15px;}
-         } // a
-        } // indicator
-         
-         .tapBox {position: absolute; z-index:0; top:8%; left:65%; width: 500px; height: 300px; background-color:rgba(#4c4c4c,0.7);
-           li:nth-child(1) {margin-left:5%; margin-top:3%; @include h1_w($f:40); padding:15px 10px;}
-           li:nth-child(2) {margin-left:5%;  @include h2_w($f:20); padding:10px;}
-           li:nth-child(3) {margin-left:5%;  @include h2_w($f:20); padding:10px;}
-           li:nth-child(4) {margin-left:5%;  @include h2_w($f:20); padding:10px;}
-           .more_02 {position: absolute; z-index:1; bottom:11%; left:40%; right:0; margin:auto; width:180px; height: 40px; 
-             background-color: $darkGray; border-radius:50px;
-             > a {@include h4_w; display: block; width: 100%; height: 100%; text-align: center; line-height:40px;}
-           } // .more_02
-         } // .tapBox
- 
-         &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width:100%; height: 100%; 
-           background-color:rgba($darkGray, 0.7); transform:skew(40deg) translateX(75%); }
-         &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 40%; height: 100%; 
-           background-color:rgba($darkGray, 0.7); transform:skew(45deg) translateX(-90%); }
-       } // #view_tap
- 
- 
-       > #viewBox_02 {margin:auto; width: 100%; height:560px; background-color:$sub1; overflow: hidden;
-         $count:5;
-         .noteBox{position: relative; width: 100%; height: 100%; overflow: hidden;
-          h3 {position: absolute; @include h1_w($f:40); margin:auto; top:25px; right:0; left:0; width: 530px; height: 80px;}
-           > ul {position:absolute; margin:auto; left:5%; right:5%; top:0; bottom:0;
-             /* width: 50% * $count; */ width:100%;  height: 100%; 
-             perspective:500px; transition:all 1000ms linear;transform-origin:50% 0;
-             &:hover{transform: translate(-50%, 11.5%) rotateY(45deg);}
-             > li {float:left; width:1500px / ($count - 2); height: 100%; margin-left:4%; margin-right:3%; @include h1_w($f:40);
-              >span {display: block; text-align: center; margin-top:450px;}
+        } // gnb
+       .my_id {position: absolute; right:5%; width: 200px; height:80px; top:0;
+        a {float:left; display: block; text-align: left; line-height:75px; @include h1_w($f:20); font-weight: bold;}
+        i {float:left; display: block; width: 40px; height: 80px; font-size:30px; text-align:center; line-height:75px; color:#fff;}
+        } // my_id
+      } // headBox
+  // ===============================================================================================
+  // contentsBox
+       > #contentsBox {width: 100%; height:auto; background-color:$white;  margin:auto; max-width:1620px;
+        > #viewBox_01 {width: 100%; height: 700px; background-color: $main; overflow: hidden;
+          .viewslide_main {position:relative; z-index:0; width: 100%; height: 100%; 
+            
+            .indicator_01 {position: absolute; z-index: 500; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 15px;
+              li.action { width: 60px; height: 15px; background-color: $main; border-radius: 50px;}
+              li:nth-child(1) { margin-left:0;}
+              li {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
+              a {display: block; width:100%; height: 15px;} // a
+            } // indicator
+            
+            .view_img {width: 100%; height: 100%; background-color: #faf;
+              .slide_img_list {$count:4; width: 100% * $count; height: 100%; background-color: #ccc;/*   margin-left:-100%;  */
+                      position: relative; left:-100%;
+              > div{position: relative; z-index: 100; overflow: hidden;
+                  &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 100%; height: 100%;
+                    background-color:rgba($main, 0.7); transform:skew(-40deg) translateX(-70%); }
+                  &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width: 40%; height: 100%; 
+                    background-color:rgba($main, 0.7); transform:skew(-50deg) translateX(75%); }
+                    &.img_02 { 
+                      &:before{background-color:rgba($deepGreen,0.5)}
+                      &:after{background-color:rgba($deepGreen,0.5)}
+                    } // img_02
+                    &.img_03 { 
+                      &:before{background-color:rgba($dg,0.5)}
+                      &:after{background-color:rgba($dg,0.5)}
+                    } // img_03
+                } // div
 
-                 
-               &:nth-child(1){@include url; margin-top:-3%; width:20%; font-size:2rem; 
-                   background-image:url("../../img/768/notebook_01.png");
-                   span { margin-top:380px;}}
-                 
-               &:nth-child(2){@include url; 
-                  background-image:url("../../img/480/viewBox_02.png");}
-                 
-               &:nth-child(3){@include url; margin-top:-3%; width:20%; font-size:2rem;
-                   background-image:url("../../img/768/noteBox.png");
-                  & span{margin-top: 380px;}} 
-                 
-                 &:nth-child(4){@include hidden;}
-                 &:nth-child(5){@include hidden;}
- 
-               } // li
-             } // ul
-           } // noteBox
-         } // #viewBox_02
-         
-   
-         > #Box_04 {width: 100%; height: 400px;
-           > .text_img_04 {position: relative; margin:auto; right:0%; left:0; top:15%; width:1100px; height: 300px; 
-             background-color: #fff; overflow: hidden;
-           > .box_04_text {position: absolute; margin:auto; top:0; left:40%; margin:auto; z-index:50 ; width: 100%; height:100%; overflow: hidden;
-             &>li:nth-child(1) {@include h1($f:40); margin-top:10px;}
-             &>li:nth-child(2) {@include h2($f:25); font-weight: 500; margin-top:7px;}
-             &>li:nth-child(3) {margin-top: 80px;}
-             &>li:nth-child(3) > a {width: 300px; height: 50px; font-size:1.5rem; transform: translateY(150%); 
-                 font-weight: bold; border-bottom:3px solid #ccc;padding-bottom:4px;}
-             } // .box_04_text
-             > .img_02 {position: absolute; z-index:100 ; left:0; top:15%; width: 400px; height:250px;
-               @include url;
-               background-image:url("../../img/480/4Box.png");}
-           } // .text_img_04
-         } // #Box_04
-         
-   
-         > #viewBox_03 {position: relative; width: 100%; height: 560px; @include url; 
-                        background-size: cover;
-                        background-image:url("../../img/480/acticleBox.png");
-           > .last_adv {position: absolute; margin:auto; right:0; left:0; top:0; bottom:0;
-                        width: 100%; height: 200px; 
-             > ul {position: absolute; width: 100%; height: 100%; margin:auto;
-                li {width: auto; height:auto;text-align:center;margin:auto;
-                 &:nth-child(1) {@include h1_w($f:40); padding:20px 20px 30px; }
-                 &:nth-child(2) {@include h2_w($f:28);}
-                 &:nth-child(3) {@include h2_w($f:28); margin-bottom:60px;}
-                 } // li
+              .img_01{background-image:url("../../img/480/view.png");}
+              .img_02{background-image:url("../../img/section_02.jpg");}
+              .img_03{background-image:url("../../img/view_indi1.jpg");}
+              .slide {float:left; width:100% / $count; height: 100%; 
+                @include url; 
+                background-size:cover;
+                
+                > .view_alien {position:absolute; left:82%; top:80%; width: 180px; height: 130px; 
+                  @include url; background-image: url("../../img/480/view_logo.png");}
+              
+     
+             > .main_title {position:absolute; z-index:0; left:5%; top:15%; width: 600px; height: 300px; 
+               > .view_logo {width: 140px; height: 40px; @include url; background-image: url("../../img/dell_image_09.png");}
+               > ul {width: 100%; height: 40%; 
+                 > li {width: 100%; height: 100%;
+                 &:nth-child(1){@include h1_w($f:50); margin-top:20px; text-shadow:5px 5px 10px #222;}
+                 &:nth-child(2){@include h2_w($f:28); margin-top:30px; font-weight:600; text-shadow:5px 5px 10px #222;
+                   span{border-bottom:3px solid #fff;padding-bottom:4px;}
+                 } //  &:nth-child(2)
+                } // li
                } // ul
-               .more_03 {position: absolute; bottom:-50%; left:0; right:0; margin:auto; width: 200px; height: 50px; 
-                      background-color: $main; border-radius:50px;
-                 > a {@include h2_w($f:20); display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
-               } // more
-             }//.last_adv
-           } // #viewBox_03
-         } // #contentsBox
-   // ===============================================================================================
-   // footBox
-   
-        > #footBox {position: relative; width: 100%; height: 450px; background-color: $main; border:1px solid #fff;
-          margin:auto; max-width:1920px;
-          > .foot_text {position: absolute; @include margin; width:1140px; height: 400px; 
-            .logo_sns {@include hidden;}
-            .foot_logo {@include hidden;}
-            .sns_box {@include hidden;}
-            .foot_info {@include hidden;}
-            .foot_info_02 {@include hidden;}
-            > .foot_info_03 {width: 100%; height: 100%; 
-             > .top_logo {width: 100%; height: 40px; margin-bottom:50px;
-              .left {float:left; position: relative; top:50%; transform:translateY(-50%); width: 430px; height: 5px; background-color: #fff;}
-              .center_logo {float:left; width: 100px; height:50px; margin-left:25px; margin-top:-5px;
-                @include url; background-image: url("../../img/dell_image_09.png");
-              }
-              .center_text {float:left; width: 50px; height: 5px;
-                            @include h4_w($f:20); margin-left:10px; margin-top:6px;}
-              .right {float:right; position: relative; top:50%; transform:translateY(-50%); width: 430px; height: 5px; background-color: #fff;}
-                    } // .top_logo
-              .foot_logoBox {float:left; width: 340px; height: 300px; 
-                .logo_img {position: relative; @include margin; transform:translateY(150%); 
-                           width: 180px; height: 70px; margin:auto;
-                          @include url; background-image: url("../../img/dell_image_09.png");
-                            } // .logo_img
-                            .korea {position: absolute; bottom:0; left:80px; @include h3_w;
-                              width: 300px; height: 50px; }
-                          } // .foot_logoBox
-              .info_text {float:right; width: 800px; height: 200px; 
-                dl {float: left; width: 266px; height: auto; text-align: center;
-                  dt {@include h3_w($f:25); width: 100%; height: 60px; } 
-                    dd {width: 100%; height: 40px; text-align:center; 
-                      a {@include h3_w($f:18);}
-                        } // dd
-                      } // dl
-                     } // info_text
-                     .caution {float:right; width: 300px; height: 100px;
-                        a {@include h4_w; position: absolute; margin:auto; bottom:40px; }}
-                  } // .foot_info_03
-                } // .foot_text
-             } // footBox
-           } // #wrap
-         } // media screen
+               .more_01 {position: absolute; z-index:1; top:80%; bottom:-30%; left:-60%; right:0; margin:auto; width: 250px; height: 50px; 
+                 background-color: $dg; border-radius:50px;
+                 
+                 > a {@include h1_w; display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
+                       } // more_01
+                     } // .main_title
+                    } // img_01
+
+                }  // slide_img_list
+              } // view_img
+            } // viewslide_main
+          } // viewBox_01
+        
+         
+        > #Box_02 {@include hidden;}
+        .top3 {position: relative;  width: 100%; height: 400px; padding-top:1%; padding-bottom:1%;
+           border-top:5px solid #fff; border-bottom:5px solid #fff;
+           ul {width: 100%; height: 100%;
+           li {float:left; width: 20%; height: 100%; font-size:2rem; background-color:rgb(240, 240, 240); 
+               border:5px solid #fff; box-sizing: border-box; text-align: center; 
+               a {display: block; width: 100%; height: 100%; @include h1($f:30); margin-top:30px;
+               span {font-size:1.5rem; font-weight: 500;}
+             } // a
+             
+               
+               &:nth-child(1){@include url;
+                 background-position-y:90%;
+                 background-size: 90%; 
+                 background-image: url("../../img/Inspiron_17.png");}
+               &:nth-child(2){@include url; 
+                 background-position-y:90%;
+                 background-size: 100%; 
+                 background-image: url("../../img/XPS-13-Desktop.png");}
+               &:nth-child(3){@include url;  
+                 background-position-y:90%;
+                 background-size: 90%; 
+                 background-image: url("../../img/XPS-13.png");}
+               &:nth-child(4){@include url;  
+                 background-position-y:80%;
+                 background-size: 70%; 
+                 background-image: url("../../img/480/viewBox_02.png");}
+               &:nth-child(5){@include url;  
+                 background-position-y:80%;
+                 background-size: 70%; 
+                 background-image: url("../../img/768/notebook_05.png");}
+               
+          } // li
+        } // ul
+      } // top3
+      //  ===============================================================================================
+
+      #slide_viewBox {position: relative; z-index:1; width: 100%; height:700px;  overflow: hidden;
+
+        .viewslide_main_02 {position:relative; z-index:0; width: 100%; height: 100%; 
+          
+          .indicator_01 {position: absolute; z-index: 500; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 15px;
+            li.action { width: 60px; height: 15px; background-color: $main; border-radius: 50px;}
+            li:nth-child(1) { margin-left:0;}
+            li {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
+            a {display: block; width:100%; height: 15px;
+            } // a
+          } // indicator
+          
+          .view_img {width: 100%; height: 100%; background-color: #faf;
+
+          .slide_img_list {$count:4; width: 100% * $count; height: 100%; background-color: #ccc;/*   margin-left:-100%;  */
+              position: relative; left:-100%;
+
+          .view_alien {position: absolute; z-index:500; bottom:1%; left:3%; width: 180px; height: 130px; 
+                  @include url; background-image: url("../../img/768/tap_logo.png");}
+
+     > div{position: relative; z-index: 100; overflow: hidden;
+        &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width: 100%; height: 100%; 
+        background-color:rgba($dg, 0.7); transform:skew(40deg) translateX(75%); }
+        &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 40%; height: 100%;
+           background-color:rgba($dg, 0.7); transform:skew(45deg) translateX(-90%); }
+           &.img_02 { 
+             &:before{background-color:rgba($deepGreen,0.5)}
+             &:after{background-color:rgba($deepGreen,0.5)}
+           } // img_02
+           &.img_03 { 
+             &:before{background-color:rgba($dg,0.5)}
+             &:after{background-color:rgba($dg,0.5)}
+           } // img_03
+       } // div
+             .img_01-1{background-image:url("../../img/XPS\ 15\ \(9570\).jpg");}
+             .img_02-2{background-image:url("../../img/5K\ Super\ Ultrawide.jpg");}
+             .img_03-3{background-image:url("../../img/Dell\ Xps\ 15\ Flower.jpg");}
+             .slide {float:left; width:100% / $count; height: 100%; 
+               @include url; 
+               background-size:cover;
+              .tapBox_01 {@include text;}
+              .tapBox_02 {@include text;}
+              .tapBox_03 {@include text;}
+             } // slide
+         } // .slide_img_list
+       } // .view_img
+     } // .viewslide_main_02
+
+
+
+    
+
+        &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width:100%; height: 100%; 
+          background-color:rgba($darkGray, 0.7); transform:skew(40deg) translateX(75%); }
+        &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 40%; height: 100%; 
+          background-color:rgba($darkGray, 0.7); transform:skew(45deg) translateX(-90%); }
+
+    } // slide_viewBox
+      // ========================================================================
+
+
+      > #viewBox_02 {margin:auto; width: 100%; height:560px; background-color:$sub1; overflow: hidden;
+        $count:5;
+        .noteBox{position: relative; width: 100%; height: 100%; overflow: hidden;
+         h3 {position: absolute; @include h1_w($f:40); margin:auto; top:25px; right:0; left:0; width: 530px; height: 80px;}
+          > ul {position:absolute; margin:auto; left:5%; right:5%; top:0; bottom:0;
+            /* width: 50% * $count; */ width:100%;  height: 100%; 
+            perspective:500px; transition:all 1000ms linear;transform-origin:50% 0;
+            &:hover{transform: translate(-50%, 11.5%) rotateY(45deg);}
+            > li {float:left; width:1500px / ($count - 2); height: 100%; margin-left:4%; margin-right:3%; @include h1_w($f:40);
+             >span {display: block; text-align: center; margin-top:450px;}
+
+                
+              &:nth-child(1){@include url; margin-top:-3%; width:20%; font-size:2rem; 
+                  background-image:url("../../img/768/notebook_01.png");
+                  span { margin-top:380px;}}
+                
+              &:nth-child(2){@include url; 
+                 background-image:url("../../img/480/viewBox_02.png");}
+                
+              &:nth-child(3){@include url; margin-top:-3%; width:20%; font-size:2rem;
+                  background-image:url("../../img/768/noteBox.png");
+                 & span{margin-top: 380px;}} 
+                
+                &:nth-child(4){@include hidden;}
+                &:nth-child(5){@include hidden;}
+
+              } // li
+            } // ul
+          } // noteBox
+        } // #viewBox_02
+        
+  
+        > #Box_04 {width: 100%; height: 400px;
+          > .text_img_04 {position: relative; margin:auto; right:0%; left:0; top:15%; width:1100px; height: 300px; 
+            background-color: #fff; overflow: hidden;
+          > .box_04_text {position: absolute; margin:auto; top:0; left:40%; margin:auto; z-index:50 ; width: 100%; height:100%; overflow: hidden;
+            &>li:nth-child(1) {@include h1($f:40); margin-top:10px;}
+            &>li:nth-child(2) {@include h2($f:25); font-weight: 500; margin-top:7px;}
+            &>li:nth-child(3) {margin-top: 80px;}
+            &>li:nth-child(3) > a {width: 300px; height: 50px; font-size:1.5rem; transform: translateY(150%); 
+                font-weight: bold; border-bottom:3px solid #ccc;padding-bottom:4px;}
+            } // .box_04_text
+            > .img_02 {position: absolute; z-index:100 ; left:0; top:15%; width: 400px; height:250px;
+              @include url;
+              background-image:url("../../img/480/4Box.png");}
+          } // .text_img_04
+        } // #Box_04
+        
+  
+        > #viewBox_03 {position: relative; width: 100%; height: 560px; @include url; 
+                       background-size: cover;
+                       background-image:url("../../img/480/acticleBox.png");
+          > .last_adv {position: absolute; margin:auto; right:0; left:0; top:0; bottom:0;
+                       width: 100%; height: 200px; 
+            > ul {position: absolute; width: 100%; height: 100%; margin:auto;
+               li {width: auto; height:auto;text-align:center;margin:auto;
+                &:nth-child(1) {@include h1_w($f:40); padding:20px 20px 30px; }
+                &:nth-child(2) {@include h2_w($f:28);}
+                &:nth-child(3) {@include h2_w($f:28); margin-bottom:60px;}
+                } // li
+              } // ul
+              .more_03 {position: absolute; bottom:-50%; left:0; right:0; margin:auto; width: 200px; height: 50px; 
+                     background-color: $main; border-radius:50px;
+                > a {@include h2_w($f:20); display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
+              } // more
+            }//.last_adv
+          } // #viewBox_03
+        } // #contentsBox
+  // ===============================================================================================
+  // footBox
+  
+       > #footBox {position: relative; width: 100%; height: 450px; background-color: $main; border:1px solid #fff;
+         margin:auto; max-width:1920px;
+         > .foot_text {position: absolute; @include margin; width:1140px; height: 400px; 
+           .logo_sns {@include hidden;}
+           .foot_logo {@include hidden;}
+           .sns_box {@include hidden;}
+           .foot_info {@include hidden;}
+           .foot_info_02 {@include hidden;}
+           > .foot_info_03 {width: 100%; height: 100%; 
+            > .top_logo {width: 100%; height: 40px; margin-bottom:50px;
+             .left {float:left; position: relative; top:50%; transform:translateY(-50%); width: 430px; height: 5px; background-color: #fff;}
+             .center_logo {float:left; width: 100px; height:50px; margin-left:25px; margin-top:-5px;
+               @include url; background-image: url("../../img/dell_image_09.png");
+             }
+             .center_text {float:left; width: 50px; height: 5px;
+                           @include h4_w($f:20); margin-left:10px; margin-top:6px;}
+             .right {float:right; position: relative; top:50%; transform:translateY(-50%); width: 430px; height: 5px; background-color: #fff;}
+                   } // .top_logo
+             .foot_logoBox {float:left; width: 340px; height: 300px; 
+               .logo_img {position: relative; @include margin; transform:translateY(150%); 
+                          width: 180px; height: 70px; margin:auto;
+                         @include url; background-image: url("../../img/dell_image_09.png");
+                           } // .logo_img
+                           .korea {position: absolute; bottom:0; left:80px; @include h3_w;
+                             width: 300px; height: 50px; }
+                         } // .foot_logoBox
+             .info_text {float:right; width: 800px; height: 200px; 
+               dl {float: left; width: 266px; height: auto; text-align: center;
+                 dt {@include h3_w($f:25); width: 100%; height: 60px; } 
+                   dd {width: 100%; height: 40px; text-align:center; 
+                     a {@include h3_w($f:18);}
+                       } // dd
+                     } // dl
+                    } // info_text
+                    .caution {float:right; width: 300px; height: 100px;
+                       a {@include h4_w; position: absolute; margin:auto; bottom:40px; }}
+                 } // .foot_info_03
+               } // .foot_text
+            } // footBox
+          } // #wrap
+        } // media screen
+        
