@@ -126,12 +126,38 @@ $url:'../img/slide_01/'; // @mixin 사용전 경로 설정할것
 
 // 1920 slide_viewBox {텍스트}
 @mixin text 
-{position: absolute; z-index:200; top:8%; left:65%; width: 500px; height: 300px; background-color:rgba(#4c4c4c,0.7); word-break:keep-all; letter-spacing:-0.05rem;
+{position: absolute; z-index:200; top:8%; left:65%; width:500px; height:300px; background-color:rgba(#4c4c4c,0.7); word-break:keep-all; letter-spacing:-0.05rem;
   li:nth-child(1) {margin-left:5%; margin-top:3%; @include h1_w($f:40); padding:15px 10px;}
   li:nth-child(2) {margin-left:5%; @include h2_w($f:20); padding:10px; line-height:32px;}
   li:nth-child(3) {margin-left:5%; @include h2_w($f:20); padding:10px; line-height:32px;}
   .more_02 {position: absolute; z-index:1; bottom:11%; left:40%; right:0; margin:auto; width:180px; height: 40px; 
     background-color: $darkGray; border-radius:50px;
     > a {@include h4_w; display: block; width: 100%; height: 100%; text-align: center; line-height:40px;}
+  } // .more_02
+} // .tapBox
+
+// 1280 slide_viewBox {텍스트}
+@mixin text_02
+{position: absolute; z-index:200; top:10%; left:55%; width: 500px; height: 300px; background-color:rgba(#4c4c4c,0.7); word-break:keep-all; letter-spacing:-0.05rem;
+  li:nth-child(1) {margin-left:5%; margin-top:3%; @include h1_w($f:40); padding:15px 10px;}
+  li:nth-child(2) {margin-left:5%; @include h2_w($f:20); padding:10px; line-height:32px;}
+  li:nth-child(3) {margin-left:5%; @include h2_w($f:20); padding:10px; line-height:32px;}
+  .more_02 {position: absolute; z-index:1; bottom:11%; left:40%; right:0; margin:auto; width:180px; height: 40px; 
+    background-color: $darkGray; border-radius:50px;
+    > a {@include h4_w; display: block; width: 100%; height: 100%; text-align: center; line-height:40px;}
+  } // .more_02
+} // .tapBox
+
+// 768 slide_viewBox {텍스트}
+@mixin text_03
+{position: absolute; z-index:200; top:0; bottom:0; margin:auto; right:0; width:50px; height:70px; background-color:rgba($main,0.7);
+  li:nth-child(1){@include hidden;}
+  li:nth-child(2){@include hidden;}
+  li:nth-child(3){@include hidden;}
+
+  .more_02 {position: absolute; z-index:1; bottom:0; top:0;  margin:auto; width:50px; height: 50px; 
+    > i {@include hidden; display: block; width: 100%; height: 100%; text-align: center; color:#fff; font-size:3rem;
+    a {width: 50px; height: 50px; background-color: #faf;}
+    } // i
   } // .more_02
 } // .tapBox
