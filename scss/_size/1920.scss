@@ -75,9 +75,9 @@
                 } // li
                } // ul
                .more_01 {position: absolute; z-index:1; top:90%; bottom:-10%; left:-55%; right:0; margin:auto; width: 200px; height: 50px; 
-                 background-color: $dg; border-radius:50px;
+                 background-color: $white; border-radius:10px;
                  
-                 > a {@include h1_w($f:20); display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
+                 > a {@include h1($f:20); display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
                        } // more_01
                      } // .main_title
                     } // img_01
@@ -168,12 +168,6 @@
          } // .slide_img_list
        } // .view_img
      } // .viewslide_main_02
-
-        &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width:100%; height: 100%; 
-          background-color:rgba($darkGray, 0.7); transform:skew(40deg) translateX(75%); }
-        &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 40%; height: 100%; 
-          background-color:rgba($darkGray, 0.7); transform:skew(45deg) translateX(-90%); }
-
     } // slide_viewBox
       // ========================================================================
 
@@ -210,26 +204,28 @@
         
   
         > #Box_04 {width: 100%; height: 400px;
-          > .text_img_04 {position: relative; margin:auto; right:0%; left:0; top:15%; width:1100px; height: 300px; 
-            background-color: #fff; overflow: hidden;
-          > .box_04_text {position: absolute; margin:auto; top:0; left:40%; margin:auto; z-index:50 ; width: 100%; height:100%; overflow: hidden;
-            &>li:nth-child(1) {@include h1($f:40); margin-top:10px;}
-            &>li:nth-child(2) {@include h2($f:25); font-weight: 500; margin-top:7px;}
-            &>li:nth-child(3) {margin-top: 80px;}
-            &>li:nth-child(3) > a {width: 300px; height: 50px; font-size:1.5rem; transform: translateY(150%); 
-                font-weight: bold; border-bottom:3px solid #ccc;padding-bottom:4px;}
+          > .text_img_04 {position: relative;
+                          width:100%; height: 100%; background-color: #fff; overflow: hidden;
+          > .box_04_text {position: absolute; z-index:50 ; left:50%; top:25%; width: 450px; height:200px; overflow: hidden;
+            &>li:nth-child(1) {@include h1($f:28); margin-top:10px;}
+            &>li:nth-child(2) {@include h2($f:14); font-weight: 500; margin-top:10px;}
+            &>li:nth-child(3) {margin-top: 40px;}
+            &>li:nth-child(3) > a {width: 300px; height: 50px; @include h2($f:14); 
+                font-weight: bold; border-bottom:1px solid #ccc;padding-bottom:4px;}
             } // .box_04_text
-            > .img_02 {position: absolute; z-index:100 ; left:0; top:15%; width: 400px; height:250px;
+            > .img_02 {position: absolute; z-index:10; left:25%; top:18%; width: 250px; height:250px;
               @include url;
               background-image:url("../../img/480/4Box.png");}
           } // .text_img_04
         } // #Box_04
         
   
-        > #viewBox_03 {position: relative; width: 100%; height: 560px; @include url; margin-bottom:100px;
+        > #viewBox_03 {position: relative; width: 100%; height: 610px; @include url; 
+                       margin-bottom:100px;
                        background-size: cover;
                        background-position:80% 40%;
-                       background-image:url("../../img/buisness_01.jpg");
+                       background-image:url("../../img/buisness_05.jpg");
+          
           > .last_adv {position: absolute; margin:auto; right:0; left:0; top:0; bottom:0;
                        width: 100%; height: 200px; 
             > ul {position: absolute; width: 100%; height: 100%; margin:auto;
@@ -240,8 +236,8 @@
                 } // li
               } // ul
               .more_03 {position: absolute; bottom:-50%; left:0; right:0; margin:auto; width: 200px; height: 50px; 
-                     background-color: $main; border-radius:50px;
-                > a {@include h2_w($f:20); display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
+                     background-color: $white; border-radius:10px;
+                > a {@include h2($f:20); display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
               } // more
             }//.last_adv
           } // #viewBox_03

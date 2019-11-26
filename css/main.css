@@ -311,7 +311,7 @@
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li:nth-child(1) { font-size: 30px; font-size: 1.875 rem; color: #fff; font-weight: bold; text-shadow: 5px 5px 10px #222; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li:nth-child(2) { font-size: 16px; font-size: 1 rem; color: #fff; font-weight: 500; font-weight: 600; text-shadow: 5px 5px 10px #222; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li:nth-child(2) span { border-bottom: 1px solid #fff; padding-bottom: 4px; }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title .more_01 { position: absolute; z-index: 1; top: 90%; bottom: 10%; left: -65%; right: 0; margin: auto; width: 150px; height: 50px; background-color: #fff; border-radius: 0px; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title .more_01 { position: absolute; z-index: 1; top: 90%; bottom: 10%; left: -65%; right: 0; margin: auto; width: 150px; height: 50px; background-color: #fff; border-radius: 10px; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title .more_01 > a { font-size: 16px; font-size: 1 rem; color: #222; font-weight: bold; display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
   #wrap > #contentsBox > #Box_02 { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox .top3 { width: 100%; height: 800px; padding: 120px 0; box-sizing: border-box; border-top: 5px solid #fff; border-bottom: 5px solid #fff; }
@@ -383,22 +383,22 @@
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(4) { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(5) { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox > #Box_04 { width: 100%; height: 400px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 { position: relative; margin: auto; right: 0%; left: 0; top: 15%; width: 1100px; height: 300px; background-color: #fff; overflow: hidden; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text { position: absolute; margin: auto; top: 0; left: 40%; margin: auto; z-index: 50; width: 100%; height: 100%; overflow: hidden; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(1) { font-size: 40px; font-size: 2.5 rem; color: #222; font-weight: bold; margin-top: 10px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(2) { font-size: 25px; font-size: 1.5625 rem; color: #222; font-weight: 600; font-weight: 500; margin-top: 7px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) { margin-top: 80px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) > a { width: 300px; height: 50px; font-size: 1.5rem; transform: translateY(150%); font-weight: bold; border-bottom: 3px solid #ccc; padding-bottom: 4px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; z-index: 100; left: 0; top: 15%; width: 400px; height: 250px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/4Box.png"); }
-  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 610px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/acticleBox.png"); }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 { position: relative; width: 100%; height: 100%; background-color: #fff; overflow: hidden; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text { position: absolute; z-index: 50; left: 50%; top: 25%; width: 450px; height: 200px; overflow: hidden; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(1) { font-size: 28px; font-size: 1.75 rem; color: #222; font-weight: bold; margin-top: 10px; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(2) { font-size: 14px; font-size: 0.875 rem; color: #222; font-weight: 600; font-weight: 500; margin-top: 10px; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) { margin-top: 40px; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) > a { width: 300px; height: 50px; font-size: 14px; font-size: 0.875 rem; color: #222; font-weight: 600; font-weight: bold; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; z-index: 10; left: 25%; top: 18%; width: 250px; height: 250px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/4Box.png"); }
+  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 610px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-bottom: 100px; background-size: cover; background-position: 80% 40%; background-image: url("../../img/buisness_05.jpg"); }
   #wrap > #contentsBox > #viewBox_03 > .last_adv { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 100%; height: 200px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul { position: absolute; width: 100%; height: 100%; margin: auto; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li { width: auto; height: auto; text-align: center; margin: auto; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li:nth-child(1) { font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 20px 20px 30px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li:nth-child(2) { font-size: 28px; font-size: 1.75 rem; color: #fff; font-weight: 500; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li:nth-child(3) { font-size: 28px; font-size: 1.75 rem; color: #fff; font-weight: 500; margin-bottom: 60px; }
-  #wrap > #contentsBox > #viewBox_03 > .last_adv .more_03 { position: absolute; bottom: -50%; left: 0; right: 0; margin: auto; width: 200px; height: 50px; background-color: #2271b2; border-radius: 50px; }
-  #wrap > #contentsBox > #viewBox_03 > .last_adv .more_03 > a { font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
+  #wrap > #contentsBox > #viewBox_03 > .last_adv .more_03 { position: absolute; bottom: -50%; left: 0; right: 0; margin: auto; width: 200px; height: 50px; background-color: #fff; border-radius: 10px; }
+  #wrap > #contentsBox > #viewBox_03 > .last_adv .more_03 > a { font-size: 20px; font-size: 1.25 rem; color: #222; font-weight: 600; display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
   #wrap > #footBox { position: relative; width: 100%; height: 450px; background-color: #2271b2; border: 1px solid #fff; margin: auto; }
   #wrap > #footBox > .foot_text { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 1140px; height: 400px; }
   #wrap > #footBox > .foot_text .logo_sns { display: block; width: 0; height: 0; overflow: hidden; }
@@ -464,8 +464,8 @@
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li:nth-child(1) { font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; text-shadow: 5px 5px 10px #222; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li:nth-child(2) { font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding-top: 30px; font-weight: 600; text-shadow: 5px 5px 10px #222; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li:nth-child(2) span { border-bottom: 2px solid #fff; padding-bottom: 4px; }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title .more_01 { position: absolute; z-index: 1; top: 90%; bottom: -10%; left: -55%; right: 0; margin: auto; width: 200px; height: 50px; background-color: #4c4c4c; border-radius: 50px; }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title .more_01 > a { font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: bold; display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title .more_01 { position: absolute; z-index: 1; top: 90%; bottom: -10%; left: -55%; right: 0; margin: auto; width: 200px; height: 50px; background-color: #fff; border-radius: 10px; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title .more_01 > a { font-size: 20px; font-size: 1.25 rem; color: #222; font-weight: bold; display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
   #wrap > #contentsBox > #Box_02 { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox .top3 { width: 100%; height: 800px; padding: 120px 0; box-sizing: border-box; border-top: 5px solid #fff; border-bottom: 5px solid #fff; }
   #wrap > #contentsBox .top3 .Best { position: relative; right: 0; left: 0; margin: auto; width: 650px; height: 80px; font-size: 34px; font-size: 2.125 rem; color: #222; font-weight: bold; }
@@ -500,29 +500,27 @@
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .img_02-2 { background-image: url("../../img/Dell Technologies.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .img_03-3 { background-image: url("../../img/dell.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 { position: absolute; z-index: 200; top: 8%; left: 65%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 { position: absolute; z-index: 200; top: 8%; left: 70%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 li:nth-child(1) { margin-left: 5%; margin-top: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 15px 10px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 li:nth-child(2) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 li:nth-child(3) { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 li:nth-child(4) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 .more_02 { position: absolute; z-index: 1; bottom: 11%; left: 40%; right: 0; margin: auto; width: 180px; height: 40px; background-color: #6f6f70; border-radius: 50px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_01 .more_02 > a { font-size: 14px; font-size: 0.875 rem; color: #fff; font-weight: 500; display: block; width: 100%; height: 100%; text-align: center; line-height: 40px; }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 { position: absolute; z-index: 200; top: 8%; left: 65%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 { position: absolute; z-index: 200; top: 8%; left: 70%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 li:nth-child(1) { margin-left: 5%; margin-top: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 15px 10px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 li:nth-child(2) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 li:nth-child(3) { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 li:nth-child(4) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 .more_02 { position: absolute; z-index: 1; bottom: 11%; left: 40%; right: 0; margin: auto; width: 180px; height: 40px; background-color: #6f6f70; border-radius: 50px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_02 .more_02 > a { font-size: 14px; font-size: 0.875 rem; color: #fff; font-weight: 500; display: block; width: 100%; height: 100%; text-align: center; line-height: 40px; }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 { position: absolute; z-index: 200; top: 8%; left: 65%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 { position: absolute; z-index: 200; top: 8%; left: 70%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 li:nth-child(1) { margin-left: 5%; margin-top: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 15px 10px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 li:nth-child(2) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 li:nth-child(3) { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 li:nth-child(4) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 .more_02 { position: absolute; z-index: 1; bottom: 11%; left: 40%; right: 0; margin: auto; width: 180px; height: 40px; background-color: #6f6f70; border-radius: 50px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list .slide .tapBox_03 .more_02 > a { font-size: 14px; font-size: 0.875 rem; color: #fff; font-weight: 500; display: block; width: 100%; height: 100%; text-align: center; line-height: 40px; }
-  #wrap > #contentsBox #slide_viewBox:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; right: 0; width: 100%; height: 100%; background-color: rgba(111, 111, 112, 0.7); transform: skew(40deg) translateX(75%); }
-  #wrap > #contentsBox #slide_viewBox:after { content: " "; display: block; position: absolute; z-index: -1; top: 0; left: 0; width: 40%; height: 100%; background-color: rgba(111, 111, 112, 0.7); transform: skew(45deg) translateX(-90%); }
   #wrap > #contentsBox > #viewBox_02 { margin: auto; width: 100%; height: 650px; background-color: #333; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_02 .noteBox { position: relative; width: 100%; height: 100%; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_02 .noteBox h3 { position: absolute; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; margin: auto; top: 25px; right: 0; left: 0; width: 530px; height: 80px; }
@@ -537,22 +535,22 @@
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(4) { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(5) { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox > #Box_04 { width: 100%; height: 400px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 { position: relative; margin: auto; right: 0%; left: 0; top: 15%; width: 1100px; height: 300px; background-color: #fff; overflow: hidden; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text { position: absolute; margin: auto; top: 0; left: 40%; margin: auto; z-index: 50; width: 100%; height: 100%; overflow: hidden; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(1) { font-size: 40px; font-size: 2.5 rem; color: #222; font-weight: bold; margin-top: 10px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(2) { font-size: 25px; font-size: 1.5625 rem; color: #222; font-weight: 600; font-weight: 500; margin-top: 7px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) { margin-top: 80px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) > a { width: 300px; height: 50px; font-size: 1.5rem; transform: translateY(150%); font-weight: bold; border-bottom: 3px solid #ccc; padding-bottom: 4px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; z-index: 100; left: 0; top: 15%; width: 400px; height: 250px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/4Box.png"); }
-  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 560px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-bottom: 100px; background-size: cover; background-position: 80% 40%; background-image: url("../../img/buisness_01.jpg"); }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 { position: relative; width: 100%; height: 100%; background-color: #fff; overflow: hidden; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text { position: absolute; z-index: 50; left: 50%; top: 25%; width: 450px; height: 200px; overflow: hidden; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(1) { font-size: 28px; font-size: 1.75 rem; color: #222; font-weight: bold; margin-top: 10px; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(2) { font-size: 14px; font-size: 0.875 rem; color: #222; font-weight: 600; font-weight: 500; margin-top: 10px; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) { margin-top: 40px; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) > a { width: 300px; height: 50px; font-size: 14px; font-size: 0.875 rem; color: #222; font-weight: 600; font-weight: bold; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; z-index: 10; left: 25%; top: 18%; width: 250px; height: 250px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/4Box.png"); }
+  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 610px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-bottom: 100px; background-size: cover; background-position: 80% 40%; background-image: url("../../img/buisness_05.jpg"); }
   #wrap > #contentsBox > #viewBox_03 > .last_adv { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 100%; height: 200px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul { position: absolute; width: 100%; height: 100%; margin: auto; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li { width: auto; height: auto; text-align: center; margin: auto; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li:nth-child(1) { font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 20px 20px 30px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li:nth-child(2) { font-size: 24px; font-size: 1.5 rem; color: #fff; font-weight: 500; line-height: 60px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li:nth-child(3) { font-size: 24px; font-size: 1.5 rem; color: #fff; font-weight: 500; margin-bottom: 60px; }
-  #wrap > #contentsBox > #viewBox_03 > .last_adv .more_03 { position: absolute; bottom: -50%; left: 0; right: 0; margin: auto; width: 200px; height: 50px; background-color: #2271b2; border-radius: 50px; }
-  #wrap > #contentsBox > #viewBox_03 > .last_adv .more_03 > a { font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
+  #wrap > #contentsBox > #viewBox_03 > .last_adv .more_03 { position: absolute; bottom: -50%; left: 0; right: 0; margin: auto; width: 200px; height: 50px; background-color: #fff; border-radius: 10px; }
+  #wrap > #contentsBox > #viewBox_03 > .last_adv .more_03 > a { font-size: 20px; font-size: 1.25 rem; color: #222; font-weight: 600; display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
   #wrap > #footBox { position: relative; width: 100%; height: 450px; background-color: #2271b2; margin: auto; max-width: 1920px; }
   #wrap > #footBox > .foot_text { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 1140px; height: 400px; }
   #wrap > #footBox > .foot_text .logo_sns { display: block; width: 0; height: 0; overflow: hidden; }
