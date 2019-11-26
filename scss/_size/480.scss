@@ -46,7 +46,7 @@
                   } // img_03
               } // div
 
-            .img_01{background-image:url("../../img/480/view.png");}
+            .img_01{background-image:url("../../img/Dell_Alienware.jpg");}
             .img_02{background-image:url("../../img/section_02.jpg");}
             .img_03{background-image:url("../../img/view_indi1.jpg");}
             .slide {float:left; width:100% / $count; height: 100%; 
@@ -96,7 +96,7 @@
   
      //  ===============================================================================================
 
-     #slide_viewBox {position: relative; z-index:1; width: 100%; height:700px;  overflow: hidden;
+     #slide_viewBox {position: relative; z-index:1; width: 100%; height:500px;  overflow: hidden;
 
       .viewslide_main_02 {position:relative; z-index:0; width: 100%; height: 100%; 
         
@@ -110,16 +110,15 @@
         
         .view_img {width: 100%; height: 100%; 
 
-        .slide_img_list {$count:4; width: 100% * $count; height: 100%; background-color: #ccc;/*   margin-left:-100%;  */
+        .slide_img_list {$count:4; width: 100% * $count; height: 100%; /*   margin-left:-100%;  */
             position: relative; left:-100%;
 
-        .view_alien {position: absolute; z-index:500; bottom:1%; left:3%; width: 180px; height: 130px; 
-                @include url; background-image: url("../../img/768/tap_logo.png");}
+        .view_alien {@include hidden;}
 
    > div{position: relative; z-index: 100; overflow: hidden;
-      &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width: 100%; height: 100%; 
+      &:before{content:" "; display: none; position:absolute; z-index:-1; top: 0; right: 0; width: 100%; height: 100%; 
       background-color:rgba($dg, 0.7); transform:skew(40deg) translateX(75%); }
-      &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 40%; height: 100%;
+      &:after{content:" "; display: none; position:absolute; z-index:-1; top: 0; left: 0; width: 40%; height: 100%;
          background-color:rgba($dg, 0.7); transform:skew(45deg) translateX(-90%); }
          &.img_02 { 
            &:before{background-color:rgba($deepGreen,0.5)}
@@ -131,27 +130,21 @@
          } // img_03
      } // div
            .img_01-1{background-image:url("../../img/XPS\ 15\ \(9570\).jpg");}
-           .img_02-2{background-image:url("../../img/5K\ Super\ Ultrawide.jpg");}
-           .img_03-3{background-image:url("../../img/Dell\ Xps\ 15\ Flower.jpg");}
+           .img_02-2{background-image:url("../../img/Dell\ Technologies.jpg");}
+           .img_03-3{background-image:url("../../img/dell.jpg");}
            .slide {float:left; width:100% / $count; height: 100%; 
              @include url; 
-             background-size:contain;
-            .tapBox_01 {@include text;}
-            .tapBox_02 {@include text;}
-            .tapBox_03 {@include text;}
+             background-size:cover;
+            .tapBox_01 {@include text_04;}
+            .tapBox_02 {@include text_04;}
+            .tapBox_03 {@include text_04;}
            } // slide
        } // .slide_img_list
      } // .view_img
    } // .viewslide_main_02
-
-      &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width:100%; height: 100%; 
-        background-color:rgba($darkGray, 0.7); transform:skew(40deg) translateX(75%); }
-      &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 40%; height: 100%; 
-        background-color:rgba($darkGray, 0.7); transform:skew(45deg) translateX(-90%); }
-
   } // slide_viewBox
     // ========================================================================
-      
+      #viewBox_02 {@include hidden;}
 
       > #Box_04 {width: 100%; height: 180px;
         > .text_img_04 {position: relative; margin:auto; right:0%; left:5%; top:20%; transform: translateY(10%); width: 400px; height: 90px; background-color: #fff;

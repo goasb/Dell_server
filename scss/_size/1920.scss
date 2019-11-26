@@ -23,8 +23,8 @@
       } // headBox
   // ===============================================================================================
   // contentsBox
-       > #contentsBox {width: 100%; height:auto; background-color:$white;  margin:auto; max-width:1620px;
-        > #viewBox_01 {width: 100%; height: 700px; background-color: $main; overflow: hidden;
+       > #contentsBox {width: 100%; height:auto; background-color:$white;  margin:auto; 
+        > #viewBox_01 {width: 100%; height: 700px; background-color: $main; overflow: hidden; 
           .viewslide_main {position:relative; z-index:0; width: 100%; height: 100%; 
             
             .indicator_01 {position: absolute; z-index: 500; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 15px;
@@ -39,8 +39,8 @@
                       position: relative; left:-100%;
               > div{position: relative; z-index: 100; overflow: hidden;
                   &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 100%; height: 100%;
-                    background-color:rgba($main, 0.7); transform:skew(-40deg) translateX(-70%); }
-                  &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width: 40%; height: 100%; 
+                    background-color:rgba($main, 0.7); transform:skew(-30deg) translateX(-70%); }
+                  &:after{content:" "; display: none; position:absolute; z-index:-1; top: 0; right: 0; width: 40%; height: 100%; 
                     background-color:rgba($main, 0.7); transform:skew(-50deg) translateX(75%); }
                     &.img_02 { 
                       &:before{background-color:rgba($deepGreen,0.5)}
@@ -52,31 +52,32 @@
                     } // img_03
                 } // div
 
-              .img_01{background-image:url("../../img/480/view.png");}
+              .img_01{background-image:url("../../img/Dell_Alienware.jpg");}
               .img_02{background-image:url("../../img/section_02.jpg");}
               .img_03{background-image:url("../../img/view_indi1.jpg");}
               .slide {float:left; width:100% / $count; height: 100%; 
                 @include url; 
                 background-size:cover;
                 
-                > .view_alien {position:absolute; left:82%; top:80%; width: 180px; height: 130px; 
-                  @include url; background-image: url("../../img/480/view_logo.png");}
+                > .view_alien {@include hidden;}
               
      
-             > .main_title {position:absolute; z-index:0; left:5%; top:15%; width: 600px; height: 300px; 
-               > .view_logo {width: 140px; height: 40px; @include url; background-image: url("../../img/dell_image_09.png");}
-               > ul {width: 100%; height: 40%; 
+             > .main_title {position:absolute; z-index:0; left:5%; top:30%; width: 400px; height: 300px; 
+               > .view_logo {position: absolute; z-index:100; width: 150px; height: 100px;
+                @include url;
+                background-image:url("../../img/480/view_logo.png"); top:-35%;}
+               > ul {width: 100%; height: 100px; 
                  > li {width: 100%; height: 100%;
-                 &:nth-child(1){@include h1_w($f:50); margin-top:20px; text-shadow:5px 5px 10px #222;}
-                 &:nth-child(2){@include h2_w($f:28); margin-top:30px; font-weight:600; text-shadow:5px 5px 10px #222;
-                   span{border-bottom:3px solid #fff;padding-bottom:4px;}
+                 &:nth-child(1){@include h1_w($f:40); text-shadow:5px 5px 10px #222;}
+                 &:nth-child(2){@include h2_w($f:20); padding-top:30px; font-weight:600; text-shadow:5px 5px 10px #222;
+                   span{border-bottom:2px solid #fff; padding-bottom:4px;}
                  } //  &:nth-child(2)
                 } // li
                } // ul
-               .more_01 {position: absolute; z-index:1; top:80%; bottom:-30%; left:-60%; right:0; margin:auto; width: 250px; height: 50px; 
+               .more_01 {position: absolute; z-index:1; top:90%; bottom:-10%; left:-55%; right:0; margin:auto; width: 200px; height: 50px; 
                  background-color: $dg; border-radius:50px;
                  
-                 > a {@include h1_w; display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
+                 > a {@include h1_w($f:20); display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
                        } // more_01
                      } // .main_title
                     } // img_01
@@ -88,37 +89,34 @@
         
          
         > #Box_02 {@include hidden;}
-        .top3 {position: relative;  width: 100%; height: 400px; padding-top:1%; padding-bottom:1%;
-           border-top:5px solid #fff; border-bottom:5px solid #fff;
-           ul {width: 100%; height: 100%;
-           li {float:left; width: 20%; height: 100%; font-size:2rem; background-color:rgb(240, 240, 240); 
-               border:5px solid #fff; box-sizing: border-box; text-align: center; 
-               a {display: block; width: 100%; height: 100%; @include h1($f:30); margin-top:30px;
-               span {font-size:1.5rem; font-weight: 500;}
-             } // a
+        .top3 {width: 100%; height: 800px; padding:120px 0 ; box-sizing: border-box;
+          border-top:5px solid #fff; border-bottom:5px solid #fff;
+          .Best {position: relative; right:0; left:0; 
+            margin:auto; width: 650px; height: 80px; @include h1($f:34);}
+            .Best_more {position: relative; right:0; left:0; margin:auto; width: 240px; height: 50px; @include h1($f:20); margin-bottom:80px;
+            i {width: 10px; height: 10px;}
+          } // Best_more
+            ul {padding:0 435px; width: 1050px; height:400px; 
+              &:after,&::after {content:" "; display:block; width: 1030px; height: 1px; background-color: #ccc; }
+            li {float:left; width: 350px; height: 350px; font-size:2rem; background-color:rgb(240, 240, 240); margin-top:20px;
+                border-right:20px solid #fff; box-sizing: border-box; text-align: center; 
+                a {display: block; width: 100%; height:100%; @include h1($f:30); margin-top:40px;
+                span {@include h1($f:16); display:block; font-weight: 500; width: 100%; height:20px; margin-top:10px;}
+              } // a
              
                
                &:nth-child(1){@include url;
                  background-position-y:90%;
-                 background-size: 90%; 
-                 background-image: url("../../img/Inspiron_17.png");}
+                 background-size: 70%; 
+                 background-image: url("../../img/480/viewBox_02.png");}
                &:nth-child(2){@include url; 
                  background-position-y:90%;
-                 background-size: 100%; 
+                 background-size: 90%; 
                  background-image: url("../../img/XPS-13-Desktop.png");}
                &:nth-child(3){@include url;  
                  background-position-y:90%;
-                 background-size: 90%; 
-                 background-image: url("../../img/XPS-13.png");}
-               &:nth-child(4){@include url;  
-                 background-position-y:80%;
                  background-size: 70%; 
-                 background-image: url("../../img/480/viewBox_02.png");}
-               &:nth-child(5){@include url;  
-                 background-position-y:80%;
-                 background-size: 70%; 
-                 background-image: url("../../img/768/notebook_05.png");}
-               
+                 background-image: url("../../img/768/notebook_05.png");}         
           } // li
         } // ul
       } // top3
@@ -141,13 +139,12 @@
           .slide_img_list {$count:4; width: 100% * $count; height: 100%; background-color: #ccc;/*   margin-left:-100%;  */
               position: relative; left:-100%;
 
-          .view_alien {position: absolute; z-index:500; bottom:1%; left:3%; width: 180px; height: 130px; 
-                  @include url; background-image: url("../../img/768/tap_logo.png");}
+          .view_alien {@include hidden; }
 
      > div{position: relative; z-index: 100; overflow: hidden;
         &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: 0; width: 100%; height: 100%; 
-        background-color:rgba($dg, 0.7); transform:skew(40deg) translateX(75%); }
-        &:after{content:" "; display: block; position:absolute; z-index:-1; top: 0; left: 0; width: 40%; height: 100%;
+        background-color:rgba($dg, 0.7); transform:skew(30deg) translateX(75%); }
+        &:after{content:" "; display: none; position:absolute; z-index:-1; top: 0; left: 0; width: 40%; height: 100%;
            background-color:rgba($dg, 0.7); transform:skew(45deg) translateX(-90%); }
            &.img_02 { 
              &:before{background-color:rgba($deepGreen,0.5)}
@@ -159,8 +156,8 @@
            } // img_03
        } // div
              .img_01-1{background-image:url("../../img/XPS\ 15\ \(9570\).jpg");}
-             .img_02-2{background-image:url("../../img/5K\ Super\ Ultrawide.jpg");}
-             .img_03-3{background-image:url("../../img/Dell\ Xps\ 15\ Flower.jpg");}
+             .img_02-2{background-image:url("../../img/Dell\ Technologies.jpg");}
+             .img_03-3{background-image:url("../../img/dell.jpg");}
              .slide {float:left; width:100% / $count; height: 100%; 
                @include url; 
                background-size:cover;
@@ -181,28 +178,27 @@
       // ========================================================================
 
 
-      > #viewBox_02 {margin:auto; width: 100%; height:560px; background-color:$sub1; overflow: hidden;
+      > #viewBox_02 {margin:auto; width: 100%; height:650px; background-color:$sub1; overflow: hidden;
         $count:5;
         .noteBox{position: relative; width: 100%; height: 100%; overflow: hidden;
          h3 {position: absolute; @include h1_w($f:40); margin:auto; top:25px; right:0; left:0; width: 530px; height: 80px;}
           > ul {position:absolute; margin:auto; left:5%; right:5%; top:0; bottom:0;
             /* width: 50% * $count; */ width:100%;  height: 100%; 
-            perspective:500px; transition:all 1000ms linear;transform-origin:50% 0;
-            &:hover{transform: translate(-50%, 11.5%) rotateY(45deg);}
+            
             > li {float:left; width:1500px / ($count - 2); height: 100%; margin-left:4%; margin-right:3%; @include h1_w($f:40);
-             >span {display: block; text-align: center; margin-top:450px;}
+             >span {display: block; text-align: center; margin-top:500px;}
 
                 
               &:nth-child(1){@include url; margin-top:-3%; width:20%; font-size:2rem; 
                   background-image:url("../../img/768/notebook_01.png");
-                  span { margin-top:380px;}}
+                  span { margin-top:470px;}}
                 
               &:nth-child(2){@include url; 
                  background-image:url("../../img/480/viewBox_02.png");}
                 
               &:nth-child(3){@include url; margin-top:-3%; width:20%; font-size:2rem;
                   background-image:url("../../img/768/noteBox.png");
-                 & span{margin-top: 380px;}} 
+                 & span{margin-top: 470px;}} 
                 
                 &:nth-child(4){@include hidden;}
                 &:nth-child(5){@include hidden;}
@@ -230,16 +226,17 @@
         } // #Box_04
         
   
-        > #viewBox_03 {position: relative; width: 100%; height: 560px; @include url; 
+        > #viewBox_03 {position: relative; width: 100%; height: 560px; @include url; margin-bottom:100px;
                        background-size: cover;
-                       background-image:url("../../img/480/acticleBox.png");
+                       background-position:80% 40%;
+                       background-image:url("../../img/buisness_01.jpg");
           > .last_adv {position: absolute; margin:auto; right:0; left:0; top:0; bottom:0;
                        width: 100%; height: 200px; 
             > ul {position: absolute; width: 100%; height: 100%; margin:auto;
                li {width: auto; height:auto;text-align:center;margin:auto;
                 &:nth-child(1) {@include h1_w($f:40); padding:20px 20px 30px; }
-                &:nth-child(2) {@include h2_w($f:28);}
-                &:nth-child(3) {@include h2_w($f:28); margin-bottom:60px;}
+                &:nth-child(2) {@include h2_w($f:24); line-height:60px;}
+                &:nth-child(3) {@include h2_w($f:24); margin-bottom:60px;}
                 } // li
               } // ul
               .more_03 {position: absolute; bottom:-50%; left:0; right:0; margin:auto; width: 200px; height: 50px; 
@@ -252,7 +249,7 @@
   // ===============================================================================================
   // footBox
   
-       > #footBox {position: relative; width: 100%; height: 450px; background-color: $main; border:1px solid #fff;
+       > #footBox {position: relative; width: 100%; height: 450px; background-color: $main; 
          margin:auto; max-width:1920px;
          > .foot_text {position: absolute; @include margin; width:1140px; height: 400px; 
            .logo_sns {@include hidden;}
