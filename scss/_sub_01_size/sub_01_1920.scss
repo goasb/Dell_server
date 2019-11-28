@@ -2,29 +2,188 @@
 
 
 #wrap {width: 100%; height: 100%; background-color: #ccc;} // #wrap
-#headBox {width: 100%; height:260px; background-color: #4cc4;}
+#headBox {width: 100%; height:200px; background-color: #4cc4;}
 
-#contentsBox {width: 100%; height: 100%; background-color: #777;} // #contentsBox
-
-#viewBox {width: 100%; height: 100%; margin:auto; background-color: #444;
- .title {width: 100%; height:auto; margin-bottom: 2rem; text-align:center; padding-top: 4rem; line-height:1.5; letter-spacing:-0.1rem; color:#fff;
-   h3 {font-size:2rem;}
+#viewBox {width: 100%; height: 150%; margin:auto; background-color: #444;
+ .title {width: 100%; height:100px; margin-bottom: 2rem; padding-top:4rem; text-align:center; 
+         line-height:1.5; letter-spacing:-0.1rem; color:#fff;
+   h3 {font-size:1.5rem;}
    p {font-size:3rem; font-weight:900;}
  } // .title 
- .fix_img {width: 70%; height:500px; margin:auto; margin-top:5rem; margin-bottom: 5rem; background-color: #f4f4f4;
-   &~p {width:66%; height: 100%; margin:auto; font-size: 2.2rem; font-weight:800; letter-spacing:-0.1rem; color:#fff; line-height:1.2;}
+ .fix_img {width: 70%; height:600px; margin:auto; margin-top:5rem; margin-bottom: 5rem; background-color: #f4f4f4;
+   &~p {width:66%; height: 70px; margin:auto; text-align:center; font-size: 1rem; font-weight:500; 
+        letter-spacing:-0.1rem; color:#fff; line-height:2;}
  } //.fix_img
 } // #viewBox
 
 
-#intro_con_01 {}
-#intro_con_02 {}
-#os_conBox {}
-#intro_con_03 {}
-#innovation_conBox {}
+#intro_con_01 {position: relative; width: 100%; height: 100%; 
+  .title {position: absolute; width: 70%; height: 500px; top:0; bottom:0; right:0; left:0; margin:auto; 
+    .text {float:right; width: 45%; height: 435px; box-sizing: border-box; padding-top:5rem; 
+      h3 {position: absolute; top:8rem; font-size:2.5rem; }
+      dl {width: 100%; height: auto; margin:auto; margin-top:9rem; 
+      dt {font-size: 0.9rem; font-weight:600; letter-spacing:-0.1rem; line-height:1.7; }
+      dd {font-size: 0.9rem; font-weight:bold; margin-top:4rem;}
+      a {color:#222;}
+      i {font-size:1rem;}
+     } // dl
+    } // .text
+    .con_01_img {float:left; width: 50%; height: 100%;
+                 background-position: 50% 50%;
+                 background-repeat: no-repeat;
+                 background-size: contain;
+                 background-image:url("../../img/dell_image_05.jpg");}
+  } // .title
+} // intro_con_01
 
 
+#intro_con_02 {position: relative; width: 100%; height: 100%; 
+  .title {position: absolute; width: 70%; height: 500px; top:0; bottom:0; right:0; left:0; margin:auto; 
+    .text {float:left; width: 45%; height: 435px; box-sizing: border-box; padding-top:5rem; 
+      h3 {position: absolute; top:8rem; font-size:2rem; margin-left:40px;}
+      dl {width: 100%; height: auto; margin:auto; margin-top:8rem; margin-left:40px;
+      dt {font-size: 0.9rem; font-weight:600; letter-spacing:-0.1rem; line-height:1.7; }
+      dd {font-size: 0.9rem; font-weight:bold; margin-top:4rem;}
+      a {color:#222;}
+      i {font-size:1rem;}
+     } // dl
+    } // .text
+    .con_02_img {float:right; width: 50%; height: 100%; 
+                 background-position: 50% 50%;
+                 background-repeat: no-repeat;
+                 background-size: contain;
+                 background-image:url("../../img/dell_alien_02.png");}
+  } // .title
+} // intro_con_02
 
 
+#os_conBox {position:relative; width: 70%; height: 70%; margin:auto; color:#fff;
+            background-repeat: no-repeat;
+            background-position:50% 50%;
+            background-size:cover;
+            background-image:url("../../img/os_con.jpg");
+  h3 {position: absolute; right:0; left:0; top:25%; font-size:1.5rem; text-align:center;}
+  dl {position: absolute; top:8%; bottom:0; right:0; left:0; margin:auto; width: 650px; height: 200px; text-align:center;
+    dt {font-size:2.3rem; font-weight:800; margin-bottom:40px;}
+    dd {font-size:1rem; font-weight:800; margin-bottom:5rem;}
+    a {font-size: 1rem; font-weight:800; color:#fff;}
+  } // dl
+} // os_conBox
+#intro_con_03 {width: 100%; height: 100%;
+               position: relative; width: 100%; height: 100%; 
+  .title {position: absolute; width: 70%; height: 500px; top:0; bottom:0; right:0; left:0; margin:auto;
+    .text {position: absolute; top:60px; width: 500px; height: 380px; box-sizing: border-box; padding-top:5rem;
+      h3 {position: absolute; top:15%; bottom:0; left:0; right:0; margin:auto; text-align: center; font-size:2rem;}
+      dl {width: 100%; height: auto; margin:auto; margin-top:5rem; margin-left:70px;
+      dt {font-size: 0.9rem; font-weight:600; letter-spacing:-0.1rem; line-height:1.7; }
+      dd {font-size: 0.9rem; font-weight:bold; margin-top:4rem;}
+      a {color:#222;}
+      i {font-size:1rem;}
+     } // dl
+    } // .text
+    .con_03_img {float:right; width: 50%; height: 100%; 
+                 background-position: 50% 50%;
+                 background-repeat: no-repeat;
+                 background-size: contain;
+                 background-image:url("../../img/Dell_inspiron_laptop.png");}
+  } // .title
+} // intro_con_03
 
-#footBox {width: 100%; height: 500px; background-color:$main;}
+
+#innovation_conBox {width: 800px; height:110%; margin:auto;
+  h3 {font-size:2rem; text-align: center; margin-bottom:10%;}
+  .line_01 {width: 100%; height:400px; background-color: #ccc;
+    .midmarket {position: relative; float:left; width: 400px; height: 400px;
+                background-repeat:no-repeat;
+                background-position:50% 50%;
+                background-size:cover;
+                background-image:url("../../img/midmarket.png");
+    dl {position: absolute; top:15%; right:0; left:0; width: 280px; height: 200px; margin:auto; color:#fff;
+    dt {font-size: 1.3rem; font-weight:900; text-align: center; margin-top:30px; margin-bottom:15px;}
+    dd {font-size: 0.8rem; font-weight:600; text-align: center; margin-bottom:15px;}
+    a {font-size: 0.8rem; font-weight:600; margin-left:100px; color:#fff;}
+    i {font-size:0.8rem;}
+    } // dl
+  } // .midmarket
+    .pc {float:left; width: 400px; height: 400px; background-color: #999;
+         position: relative; float:left; width: 400px; height: 400px; 
+         background-repeat:no-repeat;
+         background-position:50% 50%;
+         background-size:cover;
+         background-image:url("../../img/display.jpg");
+    dl {position: absolute; top:15%; right:0; left:0; width: 280px; height: 200px; margin:auto; color:#fff;
+    dt {font-size: 1.3rem; font-weight:900; text-align: center; margin-top:30px; margin-bottom:15px;}
+    dd {font-size: 0.8rem; font-weight:600; text-align: center; margin-bottom:15px;}
+    a {font-size: 0.8rem; font-weight:600; margin-left:100px; color:#fff;}
+    i {font-size:0.8rem;}
+    } // dl
+    } // pc
+  } // .line_01
+
+  .line_02 {width: 100%; height:400px; background-color:#444;
+    .new_belgium {float:left; width: 400px; height: 400px; background-color: #555;
+                  position: relative; float:left; width: 400px; height: 400px; 
+                  background-repeat:no-repeat;
+                  background-position:50% 50%;
+                  background-size:cover;
+                  background-image:url("../../img/new_belgim.jpg");
+      dl {position: absolute; top:15%; right:0; left:0; width: 280px; height: 200px; margin:auto; color:#fff;
+      dt {font-size: 1.3rem; font-weight:900; text-align: center; margin-top:30px; margin-bottom:15px;}
+      dd {font-size: 0.8rem; font-weight:600; text-align: center; margin-bottom:15px;}
+      a {font-size: 0.8rem; font-weight:600; margin-left:100px; color:#fff;}
+      i {font-size:0.8rem;}
+    } // dl
+  } .new_belgium
+    .mclaren {float:left; width: 400px; height: 400px; background-color: #666;
+              position: relative; float:left; width: 400px; height: 400px; 
+              background-repeat:no-repeat;
+              background-position:50% 50%;
+              background-size:cover;
+              background-image:url("../../img/mclaren.jpg");
+      dl {position: absolute; top:15%; right:0; left:0; width: 280px; height: 200px; margin:auto; color:#fff;
+      dt {font-size: 1.3rem; font-weight:900; text-align: center; margin-top:30px; margin-bottom:15px;}
+      dd {font-size: 0.8rem; font-weight:600; text-align: center; margin-bottom:15px;}
+      a {font-size: 0.8rem; font-weight:600; margin-left:100px; color:#fff;}
+      i {font-size:0.8rem;}
+     } // dl
+    } // .mclaren
+  } // .line_02
+} // #innovation_conBox
+
+
+#footBox {position: relative; width: 100%; height:400px; background-color: $main; margin:auto;
+ .foot_info_03 {width: 100%; height: 100%; 
+  .top_logo {width: 100%; height: 40px; margin-bottom:50px;
+   .left {float:left; position: relative; top:50%; transform:translateY(-50%); width: 430px; height: 5px; background-color: #fff;}
+   .center_logo {float:left; width: 200px; height:80px; 
+                 background-repeat:no-repeat;
+                 background-position:50% 50%;
+                 background-size:cover; 
+                 background-image: url("../../img/dell_image_09.png");}
+   .center_text {float:left; width: 50px; height: 5px;
+                 font-size: 1.25rem; margin-left:10px; margin-top:6px;}
+   .right {float:right; position: relative; top:50%; transform:translateY(-50%); width: 430px; height: 5px; background-color: #fff;}
+            } // .top_logo
+
+  .foot_logoBox {float:left; width: 340px; height: 300px; 
+   .logo_img {position: relative; top:0; bottom:0; right:0; left:0; transform:translateY(150%); 
+              width: 180px; height: 70px; margin:auto;
+              background-repeat:no-repeat;
+              background-position:50% 50%;
+              background-size:cover; 
+              background-image: url("../../img/dell_image_09.png");} 
+   .korea {position: absolute; bottom:0; left:80px; font-size: 1rem; width: 300px; height: 50px;}
+      } // .foot_logoBox
+
+   .info_text {float:right; width: 800px; height: 200px; 
+    dl {float: left; width: 266px; height: auto; text-align: center;
+    dt {font-size: 1.5625rem; width: 100%; height: 60px; } 
+    dd {width: 100%; height: 40px; text-align:center; 
+     a {font-size: 1.125rem;}
+        } // dd
+      } // dl
+    } // info_text
+    .caution {float:right; width: 300px; height: 100px;
+     a {font-size: 1.25rem; position: absolute; margin:auto; bottom:40px; }}
+          } // .foot_info_03
+        } // .foot_text
