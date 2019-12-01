@@ -1,17 +1,17 @@
 @media screen and (min-width:768px) and (max-width:1279px) {
  
-  #wrap {width: 100%; min-width:320px; height: auto; background-color: #ccc;
-    > #headBox {position: relative; width: 100%; height: 114px; padding: 20px 10px; box-sizing: border-box; background-color:$dg;
-      > h1 {width: 140px; height: 100%; margin:auto; 
-        > a {display:block; width: 100%; height: 100%; @include url;
+  #wrap {width: 100%; min-width:320px; height: auto;
+    > #headBox {position: relative; width: 100%; height: 114px; background-color:$dg;
+      > h1 {width: 140px; height: 100%; 
+        > a {position: absolute; display:block; @include margin; margin:auto; width:100px; height:50px; @include url;
              background-image:url("../../img/dell_image_09.png");
           > span {@include hidden;}
         }};
           
       > .categori {position: absolute; left:5%; bottom:25%; width: 50px; height: 50px;}
-      > .categori > i {width: 50px; height: 50px; font-size:3rem; color:#fff;}
+      > .categori > i {width: 50px; height: 50px; font-size:2rem; color:#fff; text-align: center; line-height:50px;}
       .search {position:absolute; right:5%; bottom:25%; width: 50px; height: 50px;}
-      .search > i {width: 50px; height: 50px; font-size:3rem; color:#fff;}
+      .search > i {width: 50px; height: 50px; font-size:2rem; color:#fff; text-align: center; line-height:50px;}
       .gnb {@include hidden;}
       .my_id {@include hidden;}
       } // headBox
@@ -69,9 +69,9 @@
                   } // li
                  } // ul
                  .more_01 {position: absolute; z-index:1; top:20%; bottom:-30%; left:-75%; right:0; margin:auto; width: 150px; height: 50px; 
-                   background-color: $dg; border-radius:50px;
+                   background-color:$white; border-radius:10px;
                    
-                   > a {@include h1_w($f:16); display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
+                   > a {@include h1($f:16); display: block; width: 100%; height: 100%; text-align: center; line-height:50px;}
                          } // more_01
                        } // .main_title
                       } // img_01
@@ -82,16 +82,16 @@
             } // viewBox_01
         
          
-        > #Box_02 {width: 100%; height: 300px;
-          > .text_img {position: relative; margin:auto; right:0; left:0; top:0; bottom:0; width: 688px; height: 200px; background-color: #fff;
+        > #Box_02 {width: 100%; height: 300px;  margin-bottom:10%; margin-top:10%;
+          > .text_img {position: relative; margin:auto; right:0; left:2%; top:0; bottom:0; width: 700px; height: 200px;
             > .box_02_text {position: absolute; margin:auto; left:0; top:50%; bottom:0; z-index:100 ; width: 100%; height:100%; 
-              &>li:nth-child(1) {@include h1;}
-              &>li:nth-child(2) {@include h2($f:16); margin-top:7px;}
-              &>li:nth-child(3) {margin-top: 100px;}
-              &>li:nth-child(3) > a {width: 150px; height: 20px; font-size:1.25rem; transform: translateY(150%); 
+              &>li:nth-child(1) {font-size: 1.3rem; font-weight:800; margin-top:10px;}
+              &>li:nth-child(2) {font-size: 0.8rem; font-weight:700; margin-top:15px;}
+              &>li:nth-child(3) {margin-top: 50px;}
+              &>li:nth-child(3) > a {width: 150px; height: 20px; font-size:1rem;
                                      font-weight: bold; text-decoration:underline;}
         } // 2box_text
-          > .img_01 {position: absolute; bottom:-25%; z-index:50 ; right:0; width: 300px; height:160px;
+          > .img_01 {position: absolute; bottom:-10%; z-index:50 ; right:0; width: 300px; height:160px;
             @include url;
             background-image:url("../../img/480/2Box.png");}
       } // #Box_02
@@ -102,7 +102,7 @@
 
       #slide_viewBox {position: relative; z-index:1; width: 100%; height:500px;  overflow: hidden;
 
-        .viewslide_main_02 {position:relative; z-index:0; width: 100%; height: 100%; 
+        .viewslide_main_02 {position:relative; z-index:0; width: 100%; height: 100%; background-color: #faf;
           
           .indicator_01 {position: absolute; z-index: 500; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 10px;
             li.action { width: 60px; height: 10px; background-color: $main; border-radius: 50px;}
@@ -114,7 +114,7 @@
           
           .view_img {width: 100%; height: 100%; 
 
-          .slide_img_list {$count:4; width: 100% * $count; height: 100%; 
+          .slide_img_list_02 {$count:4; width: 100% * $count; height: 100%; 
                            background-color: #ccc; /* margin-left:-100%; */
               position: relative; left:-100%;
 
@@ -157,13 +157,12 @@
           h3 {position: absolute; @include h1_w($f:25); margin:auto; top:25px; right:0; left:0; width: 330px; height: 50px;}
           > ul {position:absolute; margin:auto; left:5%; right:0; top:0; bottom:0;
             /* width: 50% * $count; */ width:100%;  height: 100%; 
-            perspective:500px; transition:all 1000ms linear;transform-origin:50% 0;
-            &:hover{transform: translate(-50%, 11.5%) rotateY(45deg);}
-            > li {float:left; width:100% / ($count - 2); height:100%; margin-left:3%; margin-right:3%; @include h1_w($f:24);
+            
+            > li {float:left; width:100% / ($count - 2); height:100%; margin-left:3%; margin-right:3%; @include h1_w($f:20);
               >span {display: block; 
                 width: 100%; height:30px; text-align: center;}
                 
-              &:nth-child(1){@include url; margin-top:-3%; width:20%; font-size:1.2rem; 
+              &:nth-child(1){@include url; margin-top:-3%; width:20%; font-size:1rem; font-weight:700;
                 background-image:url("../../img/768/notebook_01.png");
                 span { margin-top:260px;}}
               
@@ -171,7 +170,7 @@
                background-image:url("../../img/480/viewBox_02.png");
                span { margin-top:300px;}}
               
-              &:nth-child(3){@include url; margin-top:-3%; width:20%; font-size:1.2rem;
+              &:nth-child(3){@include url; margin-top:-3%; width:20%; font-size:1rem; font-weight:700;
                 background-image:url("../../img/768/noteBox.png");
                & span{margin-top: 260px;}} 
               } // li
@@ -180,37 +179,38 @@
         } // #viewBox_02
         
   
-        > #Box_04 {width: 100%; height: 300px;
-          > .text_img_04 {position: relative; margin:auto; right:0%; left:0; top:15%; width: 688px; height: 200px; 
+        > #Box_04 {width: 100%; height: 300px; margin-bottom:10%; margin-top:10%;
+          > .text_img_04 {position: relative; margin:auto; right:0%; left:0; top:15%; width:700px; height: 200px; 
             background-color: #fff; overflow: hidden;
-          > .box_04_text {position: absolute; margin:auto; top:0; left:40%; margin:auto; z-index:50 ; width: 100%; height:100%; overflow: hidden;
-            &>li:nth-child(1) {@include h1; margin-top:10px;}
-            &>li:nth-child(2) {@include h2($f:16); margin-top:7px;}
-            &>li:nth-child(3) {margin-top: 80px;}
-            &>li:nth-child(3) > a {width: 150px; height: 20px; font-size:1.25rem; transform: translateY(150%); 
+          > .box_04_text {position: absolute; margin:auto; top:10%; right:0; margin:auto; z-index:50 ; width:350px; height:100%; overflow: hidden;
+            &>li:nth-child(1) {font-size: 1.3rem; font-weight:800; margin-top:10px;}
+            &>li:nth-child(2) {font-size: 0.8em; font-weight:700; margin-top:20px;}
+            &>li:nth-child(3) {margin-top: 50px;}
+            &>li:nth-child(3) > a {width: 150px; height: 20px; font-size:1rem; 
                 font-weight: bold; text-decoration:underline;}
             } // .box_04_text
-            > .img_02 {position: absolute; z-index:100 ; right:60%; top:15%; width: 300px; height:160px;
+            > .img_02 {position: absolute; z-index:100 ; right:50%; top:20%; width: 300px; height:160px;
               @include url;
               background-image:url("../../img/480/4Box.png");}
           } // .text_img_04
         } // #Box_04
         
   
-        > #viewBox_03 {position: relative; width: 100%; height: 340px; @include url;
-                       background-image:url("../../img/480/acticleBox.png");
+        > #viewBox_03 {position: relative; width: 100%; height: 340px; @include url; margin-bottom:10%;
+                       background-size: cover;
+                       background-image:url("../../img/buisness_05.jpg");
           > .last_adv {position: absolute; margin:auto; right:0; left:0; top:0; bottom:0;
                        width: 100%; height: 200px; 
             > ul {position: absolute; width: 100%; height: 100%; margin:auto;
                li {width: auto; height:auto;text-align:center;margin:auto;
-                &:nth-child(1) {@include h1_w; padding:20px 20px 30px; }
-                &:nth-child(2) {@include h2_w;}
-                &:nth-child(3) {@include h2_w; margin-bottom:60px;}
+                &:nth-child(1) {@include h1_w($f:20); padding:20px 20px 30px; }
+                &:nth-child(2) {@include h2_w($f:16);}
+                &:nth-child(3) {@include h2_w($f:16); margin-bottom:60px;}
                 } // li
               } // ul
-              .more_03 {position: absolute; bottom:-10%; left:0; right:0; margin:auto; width: 200px; height: 30px; 
-                     background-color: $main; border-radius:50px;
-                > a {@include h2_w; display: block; width: 100%; height: 100%; text-align: center; line-height:30px;}
+              .more_03 {position: absolute; bottom:-10%; left:0; right:0; margin:auto; width: 150px; height: 30px; 
+                     background-color: $white; border-radius:10px;
+                > a {@include h2($f:14); display: block; width: 100%; height: 100%; text-align: center; line-height:30px;}
               } // more
             }//.last_adv
           } // #viewBox_03
@@ -218,7 +218,7 @@
   // ===============================================================================================
   // footBox
   
-       > #footBox {width: 100%; height: 150px; background-color: $main; border:1px solid #fff;
+       > #footBox {width: 100%; height: 150px; background-color: $main; 
         
           > .foot_text {margin:auto; transform: translateY(28%);  width: 83.5%; height: 100px;
             > .logo_sns {width: 100%; height: 50px;
@@ -242,12 +242,12 @@
             
             > .foot_info {width: 100%; height: 20px; margin:auto; text-transform: capitalize;
               >li {float:left; margin-left:10px; width: auto; height:100%;
-                > a {@include h4_w;} 
+                > a {@include h4_w($f:12);} 
               }}
             
             > .foot_info_02 {width: 100%; height: 20px; margin:auto; text-transform: capitalize;
               >li {float:left; margin-left:10px; width: auto; height:100%;
-                > a {@include h4_w;}
+                > a {@include h4_w($f:12);}
               }}
               .foot_info_03 {@include hidden;}
                     

@@ -3,15 +3,15 @@
 #wrap {width: 100%; min-width:320px; height: 100%; background-color: #ccc;
   > #headBox {position: relative; width: 100%; height: 65px; padding: 20px 10px; box-sizing: border-box; background-color:$dg;
     > h1 {width: 120px; height: 100%; margin:auto; 
-      > a {display:block; width: 100%; height: 100%; @include url;
+      > a {position: absolute; display:block; @include margin; width: 80px; height:30px; @include url;
            background-image:url("../../img/dell_image_09.png");
         > span {@include hidden;}
       }};
         
-    > .categori {position: absolute; left:10%; bottom:-7%; width: 50px; height: 50px;}
-    > .categori > i {width: 50px; height: 50px; font-size:1.5rem; color:#fff;}
-    .search {position:absolute; right:5%; bottom:-7%; width: 50px; height: 50px;}
-    .search > i {width: 50px; height: 50px; font-size:1.5rem; color:#fff;}
+    > .categori {position: absolute; left:5%; top:0; bottom:0; margin:auto; width: 50px; height: 50px;}
+    > .categori > i {width: 50px; height: 50px; font-size:1.3rem; color:#fff; text-align: center; line-height:50px;}
+    .search {position:absolute; right:5%; top:0; bottom:0; margin:auto; width: 50px; height: 50px;}
+    .search > i {width: 50px; height: 50px; font-size:1.3rem; color:#fff; text-align: center; line-height:50px;}
     .gnb {@include hidden;}
     .my_id {@include hidden;}
     } // headBox
@@ -21,11 +21,11 @@
       > #viewBox_01 {width: 100%; height: 500px; background-color: $main; overflow: hidden;
         .viewslide_main {position:relative; z-index:0; width: 100%; height: 100%; 
           
-          .indicator_01 {position: absolute; z-index: 500; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 15px;
-            li.action { width: 60px; height: 15px; background-color: $main; border-radius: 50px;}
+          .indicator_01 {position: absolute; z-index: 500; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 10px;
+            li.action { width: 60px; height: 10px; background-color: $main; border-radius: 50px;}
             li:nth-child(1) { margin-left:0;}
-            li {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
-            a {display: block; width:100%; height: 15px;} // a
+            li {float:left; margin-left:10px; width: 10px; height: 10px; background-color: $white; border-radius: 100%;}
+            a {display: block; width:100%; height: 10px;} // a
           } // indicator
           
           .view_img {width: 100%; height: 100%;
@@ -67,9 +67,9 @@
               } // li
              } // ul
              .more_01 {position: absolute; z-index:1; top:70%; bottom:0; left:0; right:0; margin:auto; width: 160px; height: 40px; 
-               background-color: $dg; border-radius:50px;
+               background-color:$white; border-radius:10px;
                
-               > a {@include h1_w($f:15); display: block; width: 100%; height: 100%; text-align: center; line-height:40px;}
+               > a {@include h1($f:15); display: block; width: 100%; height: 100%; text-align: center; line-height:40px;}
                      } // more_01
                    } // .main_title
                   } // img_01
@@ -80,16 +80,18 @@
         } // viewBox_01
       
        
-      > #Box_02 {width: 100%; height: 180px;
-        > .text_img {position: relative; margin:auto; right:0; left:0; top:20%; transform: translateY(15%); width: 400px; height: 90px; background-color: #fff;
-        > .box_02_text {position: absolute; left:5%; z-index:100 ; width: 100%; height:100%; 
-          & :nth-child(1) {@include St;}
-          & :nth-child(2) {@include St_s;}
-          & :nth-child(3) {width: 90px; height: 20px; font-size:9px; transform: translateY(150%);}
+      > #Box_02 {position: relative; margin:auto; width: 100%; height: 180px; padding-top:3rem; padding-bottom:3rem;
+        > .text_img {position: absolute; @include margin; width: 400px; height: 90px;
+        > .box_02_text {position: absolute; z-index:10; width: 100%; height:100%; 
+          & :nth-child(1) {font-size:1rem; font-weight:800;}
+          & :nth-child(2) {font-size:0.8rem; font-weight:700; margin-top:10px;}
+          & :nth-child(3) {margin-top: 40px;}
+          &>li:nth-child(3) > a {width: 150px; height: 20px; font-size:0.8rem;
+            font-weight: bold; text-decoration:underline;}
       } // 2box_text
-        > .img_01 {position: absolute; z-index:50 ; right:-1%; width: 150px; height:100%;
+        > .img_01 {position: absolute; top:40%; right:-30%; width: 100%; height:100%;
           @include url;
-          background-image:url("../../img/480/2Box.png");}
+          background-image:url("../../img/box_.png");}
     } // #Box_02
   } // text_img
       .top3 {@include hidden;}
@@ -100,17 +102,17 @@
 
       .viewslide_main_02 {position:relative; z-index:0; width: 100%; height: 100%; 
         
-        .indicator_01 {position: absolute; z-index: 500; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 15px;
-          li.action { width: 60px; height: 15px; background-color: $main; border-radius: 50px;}
+        .indicator_01 {position: absolute; z-index: 500; bottom:5%; margin:auto; right:0; left:0; width: 120px; height: 10px;
+          li.action { width: 60px; height: 10px; background-color: $main; border-radius: 50px;}
           li:nth-child(1) { margin-left:0;}
-          li {float:left; margin-left:15px; width: 15px; height: 15px; background-color: $white; border-radius: 100%;}
-          a {display: block; width:100%; height: 15px;
+          li {float:left; margin-left:10px; width: 10px; height: 10px; background-color: $white; border-radius: 100%;}
+          a {display: block; width:100%; height: 10px;
           } // a
         } // indicator
         
         .view_img {width: 100%; height: 100%; 
 
-        .slide_img_list {$count:4; width: 100% * $count; height: 100%; /*   margin-left:-100%;  */
+        .slide_img_list_02 {$count:4; width: 100% * $count; height: 100%; /*   margin-left:-100%;  */
             position: relative; left:-100%;
 
         .view_alien {@include hidden;}
@@ -146,35 +148,38 @@
     // ========================================================================
       #viewBox_02 {@include hidden;}
 
-      > #Box_04 {width: 100%; height: 180px;
-        > .text_img_04 {position: relative; margin:auto; right:0%; left:5%; top:20%; transform: translateY(10%); width: 400px; height: 90px; background-color: #fff;
-        > .box_04_text {position: absolute; left:145px; margin:auto; z-index:50 ; width: 50%; height:100%;
-          & :nth-child(1) {@include St;}
-          & :nth-child(2) {@include St_s;}
-          & :nth-child(3) {width: 90px; height: 20px; font-size:9px; transform: translateY(90%);}
+      > #Box_04 {position: relative; margin:auto; width: 100%; height: 180px; padding-top:3rem; padding-bottom:3rem;
+        > .text_img_04 {position: absolute; @include margin; width: 400px; height: 90px;
+        > .box_04_text {position: absolute; z-index:10; right:0; width:240px; height:100%; 
+          & :nth-child(1) {font-size:1rem; font-weight:800;}
+          & :nth-child(2) {font-size:0.8rem; font-weight:700; margin-top:10px;}
+          & :nth-child(3) {margin-top: 30px;}
+          &>li:nth-child(3) > a {width: 150px; height: 20px; font-size:0.8rem;
+            font-weight: bold; text-decoration:underline;}
           } // .box_04_text
-          > .img_02 {position: absolute; z-index:100 ; right:68%; top:10%; width: 150px; height:100%;
+          > .img_02 {position: absolute; @include margin; top:50%; left:-70%; width: 200px; height:200px;
             @include url;
+            background-size:90%;
             background-image:url("../../img/480/4Box.png");}
         } // .text_img_04
       } // #Box_04
       
 
-      > #viewBox_03 {width: 100%; height: 218px;  @include url; background-size: contain;
-                     background-image:url("../../img/480/acticleBox.png");
+      > #viewBox_03 {width: 100%; height: 218px;  @include url; margin-bottom:10%;
+                     background-size:cover;
+                     background-image:url("../../img/buisness_05.jpg");
         > .last_adv {margin:auto; right:0; left:0; transform: translateY(40%); 
                      width: 100%; height: 120px; 
           > ul {width: 100%; height: 100%; margin:auto; transform: translateY(-10%); 
              li {width: auto; height:auto;text-align:center;margin:auto;
-              &:nth-child(1) {@include St_L;}
-              &:nth-child(2) {@include St_L_s;}
-              &:nth-child(3) {@include St_L_s;}
-              &:nth-child(4) a {@include St_L_s1;}
+              &:nth-child(1) {@include h1_w($f:16); padding:10px 10px 20px;}
+              &:nth-child(2) {@include h1_w($f:14);}
+              &:nth-child(3) {@include h1_w($f:14);}
               } // li
             } // ul
             .more_03 {position: absolute; bottom:0; left:0; right:0; margin:auto; width: 150px; height: 20px; 
-              background-color: $main; border-radius:50px;
-         > a {@include h2_w($f:12); display: block; width: 100%; height: 100%; text-align: center; line-height:20px;}
+              background-color:$white; border-radius:10px;
+         > a {@include h2($f:12); display: block; width: 100%; height: 100%; text-align: center; line-height:20px;}
        } // more
           }//.last_adv
         } // #viewBox_03
@@ -182,7 +187,7 @@
 // ===============================================================================================
 // footBox
 
-     > #footBox {width: 100%; height: 120px;  background-color: $main; border:1px solid #fff;
+     > #footBox {width: 100%; height: 120px;  background-color: $main; 
       
         > .foot_text {margin:auto; transform: translateY(28%);  width: 83.5%; height: 75px;
           > .logo_sns {width: 100%; height: 50px;
@@ -206,7 +211,7 @@
           
           > .foot_info {width: 100%; height: 15px; margin:auto; text-transform: capitalize;
             >li {float:left; margin-left:10px;
-              > a {@include St_f;}
+              > a {@include h2_w($f:10);}
             } // li
           } // .foot_info
           .foot_info_02 {@include hidden;}

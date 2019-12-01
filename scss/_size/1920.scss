@@ -1,7 +1,7 @@
 @media screen and (min-width:1920px){
  
-  #wrap {width: 100%; min-width:320px; height:auto; max-width:1920px;
-    > #headBox {position: relative; width: 100%; height: 80px; background-color:$dg;  margin:auto;
+  #wrap {width: 100%; min-width:320px; height:auto;
+    > #headBox {position: relative; width: 100%; height: 100px; background-color:$dg;  margin:auto;
       > h1 {position: absolute; margin:auto; top:0; bottom:0; width: 140px; height: 40px; margin-left:5%;
         > a {display:block; width: 100%; height: 100%; @include url;
              background-image:url("../../img/dell_image_09.png");
@@ -10,15 +10,14 @@
      } // h1
       > .categori {display:none;}
         .search {display:none;}
-     > .gnb {position: absolute; @include margin; margin-right:20%; width: 800px; height:80px;
-         li {float:left; width: 200px; height:100%; 
-             text-align: center; line-height:75px; 
-             a {@include h1_w($f:20); font-weight: bold;}
+     > .gnb {position: absolute; @include margin; margin-right:20%; width: 600px; height:80px;
+         li {float:left; width: 150px; height:100%; text-align: center; line-height:80px; 
+             a {@include h1_w($f:16); font-weight:800;}
            } // li
         } // gnb
-       .my_id {position: absolute; right:5%; width: 200px; height:80px; top:0;
-        a {float:left; display: block; text-align: left; line-height:75px; @include h1_w($f:20); font-weight: bold;}
-        i {float:left; display: block; width: 40px; height: 80px; font-size:30px; text-align:center; line-height:75px; color:#fff;}
+       .my_id {position: absolute; top:0; bottom:0; right:100px; margin:auto; width: 200px; height:80px; 
+        a {float:left; display: block; text-align: left; line-height:80px; @include h1_w($f:16); font-weight: 800;}
+        i {float:left; display: block; width: 40px; height: 80px; font-size:20px; text-align:center; line-height:80px; color:#fff;}
         } // my_id
       } // headBox
   // ===============================================================================================
@@ -61,7 +60,7 @@
 
               .img_01{background-image:url("../../img/Dell_Alienware.jpg");}
               .img_02{background-image:url("../../img/section_02.jpg");}
-              .img_03{background-image:url("../../img/view_indi1.jpg");}
+              .img_03{background-image:url("../../img/D0.jpg");}
               .slide {float:left; width:100% / $count; height: 100%; 
                 @include url; 
                 background-size:cover;
@@ -110,9 +109,8 @@
               background-color:rgb(240, 240, 240); text-align: center; 
                &:nth-child(1) {margin-left:0;}
 
-              a {display: block; width: 100%; height:100%; @include h1($f:30);
-                span {width: 100%; height: 100%;  display: none; line-height:0.9; font-size: 2.5rem; text-transform: uppercase;     
-                  text-align:justify; color:#fff;}
+              a {display: block; width: 100%; height:100%; @include h1($f:20);
+                span {width: 100%; height: 100%;  display: none; line-height:0.9; font-size: 2.5rem; text-transform: uppercase; color:#222;}
                 } // a
               dl {width: 100%; height: 100%; box-sizing: border-box; padding:10px;
               dt {font-size:2rem; width: 100%; height: auto; margin-bottom:10px; margin-top:20px;}
@@ -267,45 +265,43 @@
   // ===============================================================================================
   // footBox
   
-       > #footBox {position: relative; width: 100%; height: 450px; background-color: $main; 
-         margin:auto; max-width:1920px;
-         > .foot_text {position: absolute; @include margin; width:1140px; height: 400px; 
-           .logo_sns {@include hidden;}
-           .foot_logo {@include hidden;}
-           .sns_box {@include hidden;}
-           .foot_info {@include hidden;}
-           .foot_info_02 {@include hidden;}
-           > .foot_info_03 {width: 100%; height: 100%; 
-            > .top_logo {width: 100%; height: 40px; margin-bottom:50px;
-             .left {float:left; position: relative; top:50%; transform:translateY(-50%); width: 430px; height: 5px; background-color: #fff;}
-             .center_logo {float:left; width: 100px; height:50px; margin-left:25px; margin-top:-5px;
-               @include url; background-image: url("../../img/dell_image_09.png");
-             }
-             .center_text {float:left; width: 50px; height: 5px;
-                           @include h4_w($f:20); margin-left:10px; margin-top:6px;}
-             .right {float:right; position: relative; top:50%; transform:translateY(-50%); width: 430px; height: 5px; background-color: #fff;}
-                   } // .top_logo
-             .foot_logoBox {float:left; width: 340px; height: 300px; 
-               .logo_img {position: relative; @include margin; transform:translateY(150%); 
-                          width: 180px; height: 70px; margin:auto;
-                         @include url; background-image: url("../../img/dell_image_09.png");
-                           } // .logo_img
-                           .korea {position: absolute; bottom:0; left:80px; @include h3_w;
-                             width: 300px; height: 50px; }
-                         } // .foot_logoBox
-             .info_text {float:right; width: 800px; height: 200px; 
-               dl {float: left; width: 266px; height: auto; text-align: center;
-                 dt {@include h3_w($f:25); width: 100%; height: 60px; } 
-                   dd {width: 100%; height: 40px; text-align:center; 
-                     a {@include h3_w($f:18);}
-                       } // dd
-                     } // dl
-                    } // info_text
-                    .caution {float:right; width: 300px; height: 100px;
-                       a {@include h4_w; position: absolute; margin:auto; bottom:40px; }}
-                 } // .foot_info_03
-               } // .foot_text
-            } // footBox
-          } // #wrap
-        } // media screen
-        
+    > #footBox {width: 100%; height: 320px; background-color: $main; margin:auto; max-width:1920px;
+      > .foot_text {width:1000px; height:100%; margin:auto;
+        .logo_sns {@include hidden;}
+        .foot_logo {@include hidden;}
+        .sns_box {@include hidden;}
+        .foot_info {@include hidden;}
+        .foot_info_02 {@include hidden;}
+        > .foot_info_03 {width: 1000px; height: 100%; margin:auto;
+         > .top_logo {position: relative; width: 100%; height: 30px; padding-top:20px;
+          .left {position: absolute; top:30%; bottom:0; margin:auto; width: 300px; height: 2px; background-color: #fff;}
+          .center_logo {float:left; margin-left:345px; width: 150px; height:100%;
+            @include url; background-image: url("../../img/dell_image_09.png");
+          } // center_log
+          .center_text {float:left; width: 150px; height:100%; text-align: center; line-height:30px;
+                        font: size 1.3rem;; font-weight:800; color:#fff;}
+          .right {position: absolute; top:40%; bottom:0; right:0; margin:auto; width: 300px; height: 2px; background-color: #fff;}
+                } // .top_log
+          .foot_logoBox {float:left; width: 270px; height: 270px;
+           .logo_img {margin-top:30px; width: 100px; height: 100px; @include url; 
+                      background-position:30% 90%;
+                      background-image: url("../../img/dell_image_09.png");
+                        } // .logo_img
+           .korea {margin-top:100px; font-size: 0.8rem; width: 270px; height: 20px; color:#fff; font-weight:400;}
+                      } // .foot_logoBox
+          .info_text {float:right; width: 730px; height: 220px;
+            dl {float: left; width: 243px; height:100%; 
+              dt {@include h3_w($f:19.2); margin-top: 30px; margin-bottom: 30px; } 
+                dd {width: 100%; height: 30px; 
+                  a {@include h3_w($f:12.8); font-weight:400;}
+                    } // dd
+                  } // dl
+                 } // info_text
+                 .caution {float:right; text-align: center; width: 300px; height: 20px;
+                    a {@include h4_w($f:12.8); font-weight:400;}}
+              } // .foot_info_03
+            } // .foot_text
+         } // footBox
+       } // #wrap
+     } // media screen
+     
