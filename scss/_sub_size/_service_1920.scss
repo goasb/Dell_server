@@ -1,0 +1,57 @@
+#wrap {width: 100%; height:auto;} // #wrap
+#headBox { width: 100%; height:100%;
+  .top {position: relative; width: 100%; height: 100px; background-color:$dg;
+    h1 {position: absolute; top:0; bottom:0; left:70px; margin:auto; width: 140px; height: 40px;
+        @include url; background-image: url("../../img/dell_image_09.png");
+    a {display: block; width: 100%; height: 100%;
+      span {@include hidden;}
+      } // a
+    } // h1
+   .gnb {position: absolute; @include margin; margin-right:20%; width: 600px; height: 80px;
+    li {float:left; width: 150px; height: 100%; text-align: center; line-height: 80px;
+     a {font-size:1rem; font-weight:800; color:#fff;}
+      } // li
+    } // gnb
+    .my_id {position: absolute; width: 200px; height: 80px; top:0; bottom:0; right:100px; margin:auto;
+     a {float:left; display: block; text-align:left; line-height: 80px; font-size: 1rem; font-weight:800; color:#fff;}
+     i {float:left; display: block; width: 40px; height: 80px; font-size: 20px; text-align: center; line-height: 80px; color:#fff;}
+    } // .my_id
+  } // .top
+} // #headBox
+ 
+#viewBox {position: relative; width: 100%; height: 600px; 
+ .view_img {width: 100%; height:100%; @include url;
+  background-size: cover;
+  background-image: url("../../img/business_view.jpg");
+  .title {position: absolute; @include margin; width: 1280px; height: 300px;
+    h1 {position: absolute; right:0; left:0; top:10%; margin:auto; width: 100%; height: 80px; 
+      font-size: 3.5rem; font-weight:bold; text-align:center; color:#fff;}
+    p {position: absolute; right:0; left:0; bottom:-20%; margin:auto; width:100%; height: 200px; 
+      font-size:1.3rem; font-weight:bold; text-align: center; line-height:35px; letter-spacing:-0.1rem; color:#fff;}
+     } // .title
+    } // .view_img
+  .search_area {position: relative; width: 100%; height: 100px; background-color: rgb(233, 233, 233);
+   .search {position: absolute; @include margin; width: 800px; height: 50px; background-color: #fff; border:2px solid $main;
+    #searchBar {float:right; width: 730px; height: 50px; border:none; font-size:1.1rem; font-weight:bold; line-height:50px;}
+    .search_icon {float:left; width: 50px; height: 50px; background-color:transparent; font-size:1.5rem; color:$main;}
+     p {font-size:1rem; font-weight:bold; color:$main; line-height:50px; margin-left:15%; }
+  } // .search
+ } // .search_area
+} // #viewBox
+
+#select {margin:auto; margin-top:100px; width:1300px; height: 750px;
+ h2 {padding-top:70px; font-size:3rem; font-weight:800; margin:auto; width:210px; height:70px;}
+ .product_img {width:100%; height:200px; padding-top:150px;
+  ul {width: 100%; height: 100%;
+   li {float:left; margin-left:50px; width: 200px; height: 200px; background-color:#ccc;
+    a {display: block; width: 100%; height: 100%;
+     span {display: block; font-size:1rem; line-height:28; font-weight:bold; width: 100%; height: 100%; text-align:center;}
+    } // a
+   } // li
+  } // ul
+ } // .product_img
+ .all_product {margin:auto; margin-top:190px; width: 200px; height: 70px;
+  p {float:left; width: 160px; height: 100%; text-align: center; line-height:70px; font-size: 1.4rem; font-weight:500; color:$main;}
+  i {float:left; display: block; font-size:1.6rem; width: 40px; height: 70px; color:$main; text-align: center; line-height:75px;}
+ } // .all_product
+} // #select

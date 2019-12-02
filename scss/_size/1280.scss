@@ -111,8 +111,8 @@
                  &:nth-child(1) {margin-left:0;}
 
                 a {display: block; width: 100%; height:100%; @include h1($f:30);
-                span {width: 100%; height: 100%;  display: none; line-height:0.9; font-size: 2.5rem; text-transform: uppercase;     
-                      text-align:justify; color:#fff;}
+                span {width: 100%; height: 100%;  display: none; padding-top:70px; line-height:2; font-size: 1rem;
+                  text-transform:capitalize; text-align: center; color:#fff;}
               } // a
                 dl {width: 100%; height: 100%; box-sizing: border-box; padding:10px;
                 dt {font-size:2rem; width: 100%; height: auto; margin-bottom:10px; margin-top:20px;}
@@ -172,7 +172,7 @@
              &:after{background-color:rgba($dg,0.5);}
            } // img_03
         > div{position: relative; z-index: 100; overflow: hidden;
-         &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: -100%; width: 100%; height: 100%; 
+         &:before{content:" "; display: block; position:absolute; z-index:-1; top: 0; right: -100%; width: 100%; height: 100%;
            background-color:rgba($dg, 0.7); transform:skew(25deg) translateX(70%); 
            transition:all 1000ms ease;}
          &:after{content:" "; display: none; position:absolute; z-index:-1; top: 0; left: 0; width: 40%; height: 100%;
@@ -183,7 +183,7 @@
              .img_01-1{background-image:url("../../img/XPS\ 15\ \(9570\).jpg");}
              .img_02-2{background-image:url("../../img/Dell\ Technologies.jpg");}
              .img_03-3{background-image:url("../../img/dell.jpg");}
-             .slide {position: relative; float:left; width:100% / $count; height: 100%; 
+             .slide {position: relative; width:100% / $count; height: 100%; 
                @include url; 
                background-size:cover;
               .tapBox_01 { @include text_02;}

@@ -1,0 +1,65 @@
+/* service.css */
+/* @mixin myname(){}   // @include myname(); @function myFn(){}  // myFn(); */
+#wrap { width: 100%; height: auto; }
+
+#headBox { width: 100%; height: 100%; }
+
+#headBox .top { position: relative; width: 100%; height: 100px; background-color: #4c4c4c; }
+
+#headBox .top h1 { position: absolute; top: 0; bottom: 0; left: 70px; margin: auto; width: 140px; height: 40px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+
+#headBox .top h1 a { display: block; width: 100%; height: 100%; }
+
+#headBox .top h1 a span { display: block; width: 0; height: 0; overflow: hidden; }
+
+#headBox .top .gnb { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; margin-right: 20%; width: 600px; height: 80px; }
+
+#headBox .top .gnb li { float: left; width: 150px; height: 100%; text-align: center; line-height: 80px; }
+
+#headBox .top .gnb li a { font-size: 1rem; font-weight: 800; color: #fff; }
+
+#headBox .top .my_id { position: absolute; width: 200px; height: 80px; top: 0; bottom: 0; right: 100px; margin: auto; }
+
+#headBox .top .my_id a { float: left; display: block; text-align: left; line-height: 80px; font-size: 1rem; font-weight: 800; color: #fff; }
+
+#headBox .top .my_id i { float: left; display: block; width: 40px; height: 80px; font-size: 20px; text-align: center; line-height: 80px; color: #fff; }
+
+#viewBox { position: relative; width: 100%; height: 600px; }
+
+#viewBox .view_img { width: 100%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../../img/business_view.jpg"); }
+
+#viewBox .view_img .title { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 1280px; height: 300px; }
+
+#viewBox .view_img .title h1 { position: absolute; right: 0; left: 0; top: 10%; margin: auto; width: 100%; height: 80px; font-size: 3.5rem; font-weight: bold; text-align: center; color: #fff; }
+
+#viewBox .view_img .title p { position: absolute; right: 0; left: 0; bottom: -20%; margin: auto; width: 100%; height: 200px; font-size: 1.3rem; font-weight: bold; text-align: center; line-height: 35px; letter-spacing: -0.1rem; color: #fff; }
+
+#viewBox .search_area { position: relative; width: 100%; height: 100px; background-color: #e9e9e9; }
+
+#viewBox .search_area .search { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 800px; height: 50px; background-color: #fff; border: 2px solid #2271b2; }
+
+#viewBox .search_area .search #searchBar { float: right; width: 730px; height: 50px; border: none; font-size: 1.1rem; font-weight: bold; line-height: 50px; }
+
+#viewBox .search_area .search .search_icon { float: left; width: 50px; height: 50px; background-color: transparent; font-size: 1.5rem; color: #2271b2; }
+
+#viewBox .search_area .search p { font-size: 1rem; font-weight: bold; color: #2271b2; line-height: 50px; margin-left: 15%; }
+
+#select { margin: auto; margin-top: 100px; width: 1300px; height: 750px; }
+
+#select h2 { padding-top: 70px; font-size: 3rem; font-weight: 800; margin: auto; width: 210px; height: 70px; }
+
+#select .product_img { width: 100%; height: 200px; padding-top: 150px; }
+
+#select .product_img ul { width: 100%; height: 100%; }
+
+#select .product_img ul li { float: left; margin-left: 50px; width: 200px; height: 200px; background-color: #ccc; }
+
+#select .product_img ul li a { display: block; width: 100%; height: 100%; }
+
+#select .product_img ul li a span { display: block; font-size: 1rem; line-height: 28; font-weight: bold; width: 100%; height: 100%; text-align: center; }
+
+#select .all_product { margin: auto; margin-top: 190px; width: 200px; height: 70px; }
+
+#select .all_product p { float: left; width: 160px; height: 100%; text-align: center; line-height: 70px; font-size: 1.4rem; font-weight: 500; color: #2271b2; }
+
+#select .all_product i { float: left; display: block; font-size: 1.6rem; width: 40px; height: 70px; color: #2271b2; text-align: center; line-height: 75px; }
