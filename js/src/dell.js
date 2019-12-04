@@ -57,7 +57,7 @@
    topA.on('mouseenter',function(e){
       e.preventDefault();
       $(this).find('span').css({display:'block'});
-      $(this).stop().animate({'backgroundColor':'rgba(0,0,0,0.5)'});
+      $(this).stop().animate({'backgroundColor':'rgba(0,0,0,0.8)'});
       $(this).find('dl').css({display:'none'});
    });
 

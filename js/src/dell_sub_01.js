@@ -1,23 +1,29 @@
 (function($){
  // top3 호버 ==========================================================
- const iCon = $('#innovation_conBox');
- const topUl = top3.find('ul');
- const topLi = topUl.children('li');
- const topA = topLi.children('a');
+ const line_01 = $('.line_01');
+ const line_02 = $('.line_02');
+ const div = line_01.find('div');
+ const div_02 = line_02.find('div');
 
- topA.on('mouseenter',function(e){
+ div.on('mouseenter',function(e){
     e.preventDefault();
-    $(this).find('span').css({display:'block'});
-    $(this).stop().animate({'backgroundColor':'rgba(0,0,0,0.5)'});
-    $(this).find('dl').css({display:'none'});
+    $(this).find('a').stop().animate({'backgroundColor':'rgba(0,0,0,0.5)'});
  });
 
- topA.on('mouseleave',function(e){
+ div.on('mouseleave',function(e){
     e.preventDefault();
-    $(this).find('span').css({display:'none'});
-    $(this).stop().animate({'backgroundColor':'transparent'});
-    $(this).find('dl').css({display:'block'});
+    $(this).find('a').stop().animate({'backgroundColor':'transparent'});
  });
+
+ div_02.on('mouseenter',function(e){
+   e.preventDefault();
+   $(this).find('a').stop().animate({'backgroundColor':'rgba(0,0,0,0.5)'});
+});
+
+ div_02.on('mouseleave',function(e){
+   e.preventDefault();
+   $(this).find('a').stop().animate({'backgroundColor':'transparent'});
+});
 
  // top3 호버 ====================================================================
 })(jQuery);

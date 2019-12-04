@@ -68,8 +68,8 @@
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_02:after { background-color: rgba(121, 208, 50, 0.5); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_03:before { background-color: rgba(76, 76, 76, 0.5); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_03:after { background-color: rgba(76, 76, 76, 0.5); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS 15 (9570).jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell Technologies.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS_15_9570.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell_Technologies.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../../img/dell.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 { position: absolute; z-index: 200; bottom: 10%; left: 0; right: 0; margin: auto; width: 400px; height: 100px; word-break: keep-all; letter-spacing: -0.05rem; text-align: center; }
@@ -196,8 +196,8 @@
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_02:after { background-color: rgba(121, 208, 50, 0.5); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_03:before { background-color: rgba(76, 76, 76, 0.5); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_03:after { background-color: rgba(76, 76, 76, 0.5); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS 15 (9570).jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell Technologies.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS_15_9570.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell_Technologies.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../../img/dell.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 { position: absolute; z-index: 200; bottom: 10%; left: 0; right: 0; margin: auto; width: 400px; height: 100px; word-break: keep-all; letter-spacing: -0.05rem; text-align: center; }
@@ -352,10 +352,10 @@
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div { position: relative; z-index: 100; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; right: -100%; width: 100%; height: 100%; background-color: rgba(76, 76, 76, 0.7); transform: skew(25deg) translateX(70%); transition: all 1000ms ease; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div:after { content: " "; display: none; position: absolute; z-index: -1; top: 0; left: 0; width: 40%; height: 100%; background-color: rgba(76, 76, 76, 0.7); transform: skew(45deg) translateX(-90%); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS 15 (9570).jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell Technologies.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS_15_9570.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell_Technologies.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../../img/dell.jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide { position: relative; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide { float: left; position: relative; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 { position: absolute; z-index: 200; top: 10%; left: 55%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 li:nth-child(1) { margin-left: 5%; margin-top: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 15px 10px; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 li:nth-child(2) { margin-left: 5%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: 500; padding: 10px; line-height: 32px; }
@@ -488,7 +488,7 @@
   #wrap > #contentsBox .top3 ul li { float: left; margin-left: 2%; width: 32%; height: 350px; background-color: #f0f0f0; text-align: center; }
   #wrap > #contentsBox .top3 ul li:nth-child(1) { margin-left: 0; }
   #wrap > #contentsBox .top3 ul li a { display: block; width: 100%; height: 100%; font-size: 20px; font-size: 1.25 rem; color: #222; font-weight: bold; }
-  #wrap > #contentsBox .top3 ul li a span { width: 100%; height: 100%; display: none; padding-top: 70px; line-height: 2; font-size: 1rem; text-transform: capitalize; text-align: center; color: #fff; }
+  #wrap > #contentsBox .top3 ul li a span { width: 100%; height: 100%; display: none; padding-top: 70px; line-height: 2; font-size: 1rem; text-transform: capitalize; text-align: left; color: #fff; }
   #wrap > #contentsBox .top3 ul li dl { width: 100%; height: 100%; box-sizing: border-box; padding: 10px; }
   #wrap > #contentsBox .top3 ul li dl dt { font-size: 2rem; width: 100%; height: auto; margin-bottom: 10px; margin-top: 20px; }
   #wrap > #contentsBox .top3 ul li dl dd { font-size: 1rem; width: 100%; height: auto; }
@@ -515,8 +515,8 @@
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div { position: relative; z-index: 100; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; right: -100%; width: 100%; height: 100%; background-color: rgba(76, 76, 76, 0.7); transform: skew(30deg) translateX(75%); transition: all 1000ms ease; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div:after { content: " "; display: none; position: absolute; z-index: -1; top: 0; left: 0; width: 40%; height: 100%; background-color: rgba(76, 76, 76, 0.7); transform: skew(45deg) translateX(-90%); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS 15 (9570).jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell Technologies.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS_15_9570.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell_Technologies.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../../img/dell.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 { position: absolute; /*  z-index:200; */ top: 8%; left: 70%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }

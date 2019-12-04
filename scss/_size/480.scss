@@ -131,8 +131,8 @@
            &:after{background-color:rgba($dg,0.5)}
          } // img_03
      } // div
-           .img_01-1{background-image:url("../../img/XPS\ 15\ \(9570\).jpg");}
-           .img_02-2{background-image:url("../../img/Dell\ Technologies.jpg");}
+           .img_01-1{background-image:url("../../img/XPS_15_9570.jpg");}
+           .img_02-2{background-image:url("../../img/Dell_Technologies.jpg");}
            .img_03-3{background-image:url("../../img/dell.jpg");}
            .slide {float:left; width:100% / $count; height: 100%; 
              @include url; 
