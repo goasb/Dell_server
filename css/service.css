@@ -68,7 +68,7 @@
 
 #select .product_img ul li a span { display: block; font-size: 1rem; line-height: 28; font-weight: bold; width: 100%; height: 100%; text-align: center; }
 
-#select .all_product { margin: auto; margin-top: 190px; width: 100%; height: auto; }
+#select .all_product { margin: auto; margin-top: 190px; width: 100%; height: auto; padding: 50px 0; }
 
 #select .all_product .all_button { margin: auto; width: 180px; height: 35px; }
 
@@ -78,7 +78,7 @@
 
 #select .all_product .all_button button i { float: left; display: block; font-size: 1.6rem; line-height: 33px; color: #2271b2; text-align: center; margin-left: 15px; }
 
-#select .all_product .productBox { position: relative; margin: auto; right: 0; left: 0; width: 100%; height: 300px; }
+#select .all_product .productBox { display: none; position: relative; margin: auto; right: 0; left: 0; width: 100%; height: 300px; }
 
 #select .all_product .productBox ul { position: absolute; margin: auto; top: 50px; right: 0; left: 0; width: 600px; height: auto; }
 
@@ -96,17 +96,11 @@
 
 #service .buttonBox div { float: left; width: 200px; height: 100%; }
 
-#service .buttonBox div:nth-of-type(2) button { background-color: #4c4c4c; }
+#service .buttonBox div button { display: block; width: 100%; height: 100%; padding: 0; background-color: #4c4c4c; }
 
-#service .buttonBox div:nth-of-type(2) span { color: #fff; }
+#service .buttonBox div button.young { background-color: #fff; color: #000; }
 
-#service .buttonBox div:nth-of-type(3) button { background-color: #4c4c4c; }
-
-#service .buttonBox div:nth-of-type(3) span { color: #fff; }
-
-#service .buttonBox div button { width: 100%; height: 100%; padding: 0; background-color: #fff; }
-
-#service .buttonBox div button span { display: block; color: #2271b2; }
+#service .buttonBox div button span { display: block; }
 
 #service .asBox { width: 100%; height: auto; border-bottom: 1px solid #ccc; }
 

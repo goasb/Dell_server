@@ -38,9 +38,14 @@
    h3 {font-size:1.5rem;}
    p {font-size:3rem; font-weight:900;}
  } // .title 
- .fix_img {width: 1200px; max-width:1200px; height:600px; margin:auto; margin-top:5rem; margin-bottom: 5rem; background-color: #f4f4f4;
+ .fix_img {position: relative; width: 1200px; max-width:1200px; height:700px; margin:auto; margin-top:5rem; margin-bottom: 5rem; overflow: hidden;
    &~p {width:66%; height: 70px; margin:auto; text-align:center; font-size: 1.2rem; font-weight:800; 
-        letter-spacing:-0.1rem; color:#222; line-height:2;}
+        letter-spacing:-0.1rem; color:#222; line-height:2;
+      }
+    video {position:absolute; left: 50%; top: 50%; width:100%; min-width:100%; height:auto; min-height:100%; transform: translate(-50%, -50%); 
+      @include url;
+      background-image: url("../../img/stop_img.png");
+    }
  } //.fix_img
 } // #viewBox
 
