@@ -98,15 +98,17 @@
 
 #os_conBox { position: relative; width: 70%; height: 70%; margin: auto; color: #fff; background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; background-image: url("../../img/os_con.jpg"); }
 
-#os_conBox h3 { position: absolute; right: 0; left: 0; top: 25%; font-size: 1.5rem; text-align: center; }
+#os_conBox h3 { position: absolute; right: 0; left: 0; top: 30%; font-size: 1.5rem; text-align: center; }
 
-#os_conBox dl { position: absolute; top: 8%; bottom: 0; right: 0; left: 0; margin: auto; width: 650px; height: 200px; text-align: center; }
+#os_conBox dl { position: absolute; top: 0; bottom: 0; right: 0; left: 0; margin: auto; width: 650px; height: 200px; text-align: center; }
 
-#os_conBox dl dt { font-size: 2.5rem; font-weight: 800; margin-bottom: 40px; }
+#os_conBox dl dt { font-size: 2.5rem; font-weight: 800; margin-bottom: 50px; }
 
-#os_conBox dl dd { font-size: 1rem; font-weight: 800; margin-bottom: 5rem; }
+#os_conBox dl dd { font-size: 1rem; font-weight: 800; margin-bottom: 5rem; margin-top: 100px 0; }
 
-#os_conBox dl a { font-size: 1rem; font-weight: 800; color: #fff; }
+#os_conBox dl dd a { font-size: 1rem; font-weight: 800; color: #fff; }
+
+#os_conBox dl dd i { font-size: 1rem; color: #fff; }
 
 #intro_con_03 { width: 100%; height: 100%; position: relative; width: 100%; height: 100%; }
 

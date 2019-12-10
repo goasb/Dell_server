@@ -95,12 +95,14 @@
             background-position:50% 50%;
             background-size:cover;
             background-image:url("../../img/os_con.jpg");
-  h3 {position: absolute; right:0; left:0; top:25%; font-size:1.5rem; text-align:center;}
-  dl {position: absolute; top:8%; bottom:0; right:0; left:0; margin:auto; width: 650px; height: 200px; text-align:center;
-    dt {font-size:2.5rem; font-weight:800; margin-bottom:40px;}
-    dd {font-size:1rem; font-weight:800; margin-bottom:5rem;}
+  h3 {position: absolute; right:0; left:0; top:30%; font-size:1.5rem; text-align:center;}
+  dl {position: absolute; top:0; bottom:0; right:0; left:0; margin:auto; width: 650px; height: 200px; text-align:center;
+    dt {font-size:2.5rem; font-weight:800; margin-bottom:50px;}
+    dd {font-size:1rem; font-weight:800; margin-bottom:5rem; margin-top:100px 0;
     a {font-size: 1rem; font-weight:800; color:#fff;}
-  } // dl
+    i {font-size: 1rem; color:#fff;}
+      } // dd
+     } // dl
 } // os_conBox
 #intro_con_03 {width: 100%; height: 100%;
                position: relative; width: 100%; height: 100%; 

@@ -99,7 +99,8 @@
           border-top:5px solid #fff; border-bottom:5px solid #fff;
           .Best {position: relative; right:0; left:0; 
             margin:auto; width: 650px; height: 80px; @include h1($f:34);}
-            .Best_more {position: relative; right:0; left:0; margin:auto; width: 240px; height: 50px; @include h1($f:20); margin-bottom:80px;
+            .Best_more {position: relative; right:0; left:0; margin:auto; width: 240px; 
+                        height: 50px; @include h1($f:20); margin-bottom:80px;
             i {width: 10px; height: 10px;}
           } // Best_more
           ul {padding-top:30px; width: 1050px; height:400px; 
@@ -109,8 +110,9 @@
               background-color:rgb(240, 240, 240); text-align: center; 
                &:nth-child(1) {margin-left:0;}
               a {display: block; width: 100%; height:100%; @include h1($f:20);
-                span {width: 100%; height: 100%;  display: none; padding-top:70px; line-height:2; font-size: 1rem;
-                  text-transform:capitalize; text-align: left; color:#fff;}
+                span {width: 100%; height: 100%;  display: none; padding-top:70px; 
+                      line-height:2; font-size: 1rem;
+                      text-transform:capitalize; text-align: left; color:#fff;}
                 } // a
                 
               dl {width: 100%; height: 100%; box-sizing: border-box; padding:10px;
@@ -268,7 +270,7 @@
   // ===============================================================================================
   // footBox
   
-    > #footBox {width: 100%; height: 320px; background-color: $main; margin:auto; max-width:1920px;
+    > #footBox {width: 100%; height: 320px; background-color: $main; margin:auto;
       > .foot_text {width:1000px; height:100%; margin:auto;
         .logo_sns {@include hidden;}
         .foot_logo {@include hidden;}
