@@ -4,7 +4,7 @@
     > #headBox {position: relative; width: 100%; height: 114px; background-color:$dg;
       > h1 {width: 140px; height: 100%; 
         > a {position: absolute; display:block; @include margin; margin:auto; width:100px; height:50px; @include url;
-             background-image:url("../../img/dell_image_09.png");
+             background-image:url("../img/dell_image_09.png");
           > span {@include hidden;}
         }};
           
@@ -48,9 +48,9 @@
                       } // img_03
                   } // div
   
-                .img_01{background-image:url("../../img/Dell_Alienware.jpg");}
-                .img_02{background-image:url("../../img/section_02.jpg");}
-                .img_03{background-image:url("../../img/view_indi1.jpg");}
+                .img_01{background-image:url("../img/Dell_Alienware.jpg");}
+                .img_02{background-image:url("../img/section_02.jpg");}
+                .img_03{background-image:url("../img/view_indi1.jpg");}
                 .slide {float:left; width:100% / $count; height: 100%; 
                   @include url; 
                   background-size:cover;
@@ -93,7 +93,7 @@
         } // 2box_text
           > .img_01 {position: absolute; bottom:-10%; z-index:50 ; right:0; width: 300px; height:160px;
             @include url;
-            background-image:url("../../img/480/2Box.png");}
+            background-image:url("../img/480/2Box.png");}
       } // #Box_02
     } // text_img
       .top3 {@include hidden;}
@@ -134,9 +134,9 @@
              &:after{background-color:rgba($dg,0.5)}
            } // img_03
        } // div
-             .img_01-1{background-image:url("../../img/XPS_15_9570.jpg");}
-             .img_02-2{background-image:url("../../img/Dell_Technologies.jpg");}
-             .img_03-3{background-image:url("../../img/dell.jpg");}
+             .img_01-1{background-image:url("../img/XPS_15_9570.jpg");}
+             .img_02-2{background-image:url("../img/Dell_Technologies.jpg");}
+             .img_03-3{background-image:url("../img/dell.jpg");}
              .slide {float:left; width:100% / $count; height: 100%; 
                @include url; 
                background-size:cover;
@@ -163,15 +163,15 @@
                 width: 100%; height:30px; text-align: center;}
                 
               &:nth-child(1){@include url; margin-top:-3%; width:20%; font-size:1rem; font-weight:700;
-                background-image:url("../../img/768/notebook_01.png");
+                background-image:url("../img/768/notebook_01.png");
                 span { margin-top:260px;}}
               
               &:nth-child(2){@include url; 
-               background-image:url("../../img/480/viewBox_02.png");
+               background-image:url("../img/480/viewBox_02.png");
                span { margin-top:300px;}}
               
               &:nth-child(3){@include url; margin-top:-3%; width:20%; font-size:1rem; font-weight:700;
-                background-image:url("../../img/768/noteBox.png");
+                background-image:url("../img/768/noteBox.png");
                & span{margin-top: 260px;}} 
               } // li
             } // ul
@@ -191,14 +191,14 @@
             } // .box_04_text
             > .img_02 {position: absolute; z-index:100 ; right:50%; top:20%; width: 300px; height:160px;
               @include url;
-              background-image:url("../../img/480/4Box.png");}
+              background-image:url("../img/480/4Box.png");}
           } // .text_img_04
         } // #Box_04
         
   
         > #viewBox_03 {position: relative; width: 100%; height: 340px; @include url; margin-bottom:10%;
                        background-size: cover;
-                       background-image:url("../../img/buisness_05.jpg");
+                       background-image:url("../img/buisness_05.jpg");
           > .last_adv {position: absolute; margin:auto; right:0; left:0; top:0; bottom:0;
                        width: 100%; height: 200px; 
             > ul {position: absolute; width: 100%; height: 100%; margin:auto;
@@ -223,18 +223,18 @@
           > .foot_text {margin:auto; transform: translateY(28%);  width: 83.5%; height: 100px;
             > .logo_sns {width: 100%; height: 50px;
             > .foot_logo {float:left; margin-left:7px; width: 80px; height: 35px; @include url;
-                          background-image:url("../../img/dell_image_09.png");}
+                          background-image:url("../img/dell_image_09.png");}
             > .sns_box {float:right; width: 145px; height: 30px; margin:auto; transform: translateY(20%);
               li {float:left; width: 23px; height: 23px; text-align: center;  margin-right:15px;
                 > a {display: block; width: 100%; height: 100%;}
                 &:nth-child(1) {@include url;
-                                background-image:url("../../img/480/facebook.png");}
+                                background-image:url("../img/480/facebook.png");}
                 &:nth-child(2) {@include url;
-                                background-image:url("../../img/480/instar.png");}
+                                background-image:url("../img/480/instar.png");}
                 &:nth-child(3) {@include url;
-                                background-image:url("../../img/480/twiter.png");}
+                                background-image:url("../img/480/twiter.png");}
                 &:nth-child(4) {@include url; margin-right:0;
-                                background-image:url("../../img/480/youtube.png");}
+                                background-image:url("../img/480/youtube.png");}
                               
               }// li
             } // ul

@@ -3,7 +3,7 @@
 @media screen and (max-width: 767px) { #wrap { width: 100%; min-width: 320px; height: 100%; background-color: #ccc; }
   #wrap > #headBox { position: relative; width: 100%; height: 65px; padding: 20px 10px; box-sizing: border-box; background-color: #4c4c4c; }
   #wrap > #headBox > h1 { width: 120px; height: 100%; margin: auto; }
-  #wrap > #headBox > h1 > a { position: absolute; display: block; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 80px; height: 30px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #headBox > h1 > a { position: absolute; display: block; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 80px; height: 30px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/dell_image_09.png"); }
   #wrap > #headBox > h1 > a > span { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #headBox > .categori { position: absolute; left: 5%; top: 0; bottom: 0; margin: auto; width: 50px; height: 50px; }
   #wrap > #headBox > .categori > i { width: 50px; height: 50px; font-size: 1.3rem; color: #fff; text-align: center; line-height: 50px; }
@@ -28,9 +28,9 @@
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_02:after { background-color: rgba(121, 208, 50, 0.5); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_03:before { background-color: rgba(76, 76, 76, 0.5); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_03:after { background-color: rgba(76, 76, 76, 0.5); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_01 { background-image: url("../../img/Dell_Alienware.jpg"); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_02 { background-image: url("../../img/section_02.jpg"); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_03 { background-image: url("../../img/view_indi1.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_01 { background-image: url("../img/Dell_Alienware.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_02 { background-image: url("../img/section_02.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_03 { background-image: url("../img/view_indi1.jpg"); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .view_alien { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title { position: absolute; z-index: 0; left: 0; right: 0; margin: auto; top: 15%; width: 300px; height: 300px; text-align: center; }
@@ -49,7 +49,7 @@
   #wrap > #contentsBox > #Box_02 > .text_img > .box_02_text :nth-child(2) { font-size: 0.8rem; font-weight: 700; margin-top: 10px; }
   #wrap > #contentsBox > #Box_02 > .text_img > .box_02_text :nth-child(3) { margin-top: 40px; }
   #wrap > #contentsBox > #Box_02 > .text_img > .box_02_text > li:nth-child(3) > a { width: 150px; height: 20px; font-size: 0.8rem; font-weight: bold; text-decoration: underline; }
-  #wrap > #contentsBox > #Box_02 > .text_img > .img_01 { position: absolute; top: 40%; right: -30%; width: 100%; height: 100%; overflow: hidden; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/box_.png"); }
+  #wrap > #contentsBox > #Box_02 > .text_img > .img_01 { position: absolute; top: 40%; right: -30%; width: 100%; height: 100%; overflow: hidden; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/box_.png"); }
   #wrap > #contentsBox .top3 { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox { position: relative; z-index: 1; width: 100%; height: 500px; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 { position: relative; z-index: 0; width: 100%; height: 100%; }
@@ -68,9 +68,9 @@
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_02:after { background-color: rgba(121, 208, 50, 0.5); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_03:before { background-color: rgba(76, 76, 76, 0.5); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_03:after { background-color: rgba(76, 76, 76, 0.5); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS_15_9570.jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell_Technologies.jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../../img/dell.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../img/XPS_15_9570.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../img/Dell_Technologies.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../img/dell.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 { position: absolute; z-index: 200; bottom: 10%; left: 0; right: 0; margin: auto; width: 400px; height: 100px; word-break: keep-all; letter-spacing: -0.05rem; text-align: center; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 li:nth-child(1) { font-size: 30px; font-size: 1.875 rem; color: #fff; font-weight: bold; margin-bottom: 10px; }
@@ -101,8 +101,8 @@
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text :nth-child(2) { font-size: 0.8rem; font-weight: 700; margin-top: 10px; }
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text :nth-child(3) { margin-top: 30px; }
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) > a { width: 150px; height: 20px; font-size: 0.8rem; font-weight: bold; text-decoration: underline; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; top: 50%; left: -70%; width: 200px; height: 200px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 90%; background-image: url("../../img/480/4Box.png"); }
-  #wrap > #contentsBox > #viewBox_03 { width: 100%; height: 218px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-bottom: 10%; background-size: cover; background-image: url("../../img/buisness_05.jpg"); }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; top: 50%; left: -70%; width: 200px; height: 200px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 90%; background-image: url("../img/480/4Box.png"); }
+  #wrap > #contentsBox > #viewBox_03 { width: 100%; height: 218px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-bottom: 10%; background-size: cover; background-image: url("../img/buisness_05.jpg"); }
   #wrap > #contentsBox > #viewBox_03 > .last_adv { margin: auto; right: 0; left: 0; transform: translateY(40%); width: 100%; height: 120px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul { width: 100%; height: 100%; margin: auto; transform: translateY(-10%); }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li { width: auto; height: auto; text-align: center; margin: auto; }
@@ -114,14 +114,14 @@
   #wrap > #footBox { width: 100%; height: 120px; background-color: #2271b2; }
   #wrap > #footBox > .foot_text { margin: auto; transform: translateY(28%); width: 83.5%; height: 75px; }
   #wrap > #footBox > .foot_text > .logo_sns { width: 100%; height: 50px; }
-  #wrap > #footBox > .foot_text > .logo_sns > .foot_logo { float: left; margin-left: 7px; width: 80px; height: 35px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #footBox > .foot_text > .logo_sns > .foot_logo { float: left; margin-left: 7px; width: 80px; height: 35px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/dell_image_09.png"); }
   #wrap > #footBox > .foot_text > .logo_sns > .sns_box { float: right; width: 145px; height: 30px; margin: auto; transform: translateY(20%); }
   #wrap > #footBox > .foot_text > .logo_sns > .sns_box li { float: left; width: 23px; height: 23px; text-align: center; margin-right: 15px; }
   #wrap > #footBox > .foot_text > .logo_sns > .sns_box li > a { display: block; width: 100%; height: 100%; }
-  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/facebook.png"); }
-  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/instar.png"); }
-  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/twiter.png"); }
-  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(4) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-right: 0; background-image: url("../../img/480/youtube.png"); }
+  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/facebook.png"); }
+  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/instar.png"); }
+  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/twiter.png"); }
+  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(4) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-right: 0; background-image: url("../img/480/youtube.png"); }
   #wrap > #footBox > .foot_text > .foot_info { width: 100%; height: 15px; margin: auto; text-transform: capitalize; }
   #wrap > #footBox > .foot_text > .foot_info > li { float: left; margin-left: 10px; }
   #wrap > #footBox > .foot_text > .foot_info > li > a { font-size: 10px; font-size: 0.625 rem; color: #fff; font-weight: 500; }
@@ -131,7 +131,7 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) { #wrap { width: 100%; min-width: 320px; height: auto; }
   #wrap > #headBox { position: relative; width: 100%; height: 114px; background-color: #4c4c4c; }
   #wrap > #headBox > h1 { width: 140px; height: 100%; }
-  #wrap > #headBox > h1 > a { position: absolute; display: block; margin: auto; right: 0; left: 0; top: 0; bottom: 0; margin: auto; width: 100px; height: 50px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #headBox > h1 > a { position: absolute; display: block; margin: auto; right: 0; left: 0; top: 0; bottom: 0; margin: auto; width: 100px; height: 50px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/dell_image_09.png"); }
   #wrap > #headBox > h1 > a > span { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #headBox > .categori { position: absolute; left: 5%; bottom: 25%; width: 50px; height: 50px; }
   #wrap > #headBox > .categori > i { width: 50px; height: 50px; font-size: 2rem; color: #fff; text-align: center; line-height: 50px; }
@@ -156,9 +156,9 @@
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_02:after { background-color: rgba(121, 208, 50, 0.5); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_03:before { background-color: rgba(76, 76, 76, 0.5); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div.img_03:after { background-color: rgba(76, 76, 76, 0.5); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_01 { background-image: url("../../img/Dell_Alienware.jpg"); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_02 { background-image: url("../../img/section_02.jpg"); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_03 { background-image: url("../../img/view_indi1.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_01 { background-image: url("../img/Dell_Alienware.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_02 { background-image: url("../img/section_02.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_03 { background-image: url("../img/view_indi1.jpg"); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .view_alien { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title { position: absolute; z-index: 0; left: 5%; top: 15%; width: 600px; height: 300px; }
@@ -177,7 +177,7 @@
   #wrap > #contentsBox > #Box_02 > .text_img > .box_02_text > li:nth-child(2) { font-size: 0.8rem; font-weight: 700; margin-top: 15px; }
   #wrap > #contentsBox > #Box_02 > .text_img > .box_02_text > li:nth-child(3) { margin-top: 50px; }
   #wrap > #contentsBox > #Box_02 > .text_img > .box_02_text > li:nth-child(3) > a { width: 150px; height: 20px; font-size: 1rem; font-weight: bold; text-decoration: underline; }
-  #wrap > #contentsBox > #Box_02 > .text_img > .img_01 { position: absolute; bottom: -10%; z-index: 50; right: 0; width: 300px; height: 160px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/2Box.png"); }
+  #wrap > #contentsBox > #Box_02 > .text_img > .img_01 { position: absolute; bottom: -10%; z-index: 50; right: 0; width: 300px; height: 160px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/2Box.png"); }
   #wrap > #contentsBox .top3 { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox { position: relative; z-index: 1; width: 100%; height: 500px; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 { position: relative; z-index: 0; width: 100%; height: 100%; background-color: #faf; }
@@ -196,9 +196,9 @@
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_02:after { background-color: rgba(121, 208, 50, 0.5); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_03:before { background-color: rgba(76, 76, 76, 0.5); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.img_03:after { background-color: rgba(76, 76, 76, 0.5); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS_15_9570.jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell_Technologies.jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../../img/dell.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../img/XPS_15_9570.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../img/Dell_Technologies.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../img/dell.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 { position: absolute; z-index: 200; bottom: 10%; left: 0; right: 0; margin: auto; width: 400px; height: 100px; word-break: keep-all; letter-spacing: -0.05rem; text-align: center; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 li:nth-child(1) { font-size: 30px; font-size: 1.875 rem; color: #fff; font-weight: bold; margin-bottom: 10px; }
@@ -227,11 +227,11 @@
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul { position: absolute; margin: auto; left: 5%; right: 0; top: 0; bottom: 0; /* width: 50% * $count; */ width: 100%; height: 100%; }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li { float: left; width: 33.33333%; height: 100%; margin-left: 3%; margin-right: 3%; font-size: 20px; font-size: 1.25 rem; color: #fff; font-weight: bold; }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li > span { display: block; width: 100%; height: 30px; text-align: center; }
-  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 1rem; font-weight: 700; background-image: url("../../img/768/notebook_01.png"); }
+  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 1rem; font-weight: 700; background-image: url("../img/768/notebook_01.png"); }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(1) span { margin-top: 260px; }
-  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/viewBox_02.png"); }
+  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/viewBox_02.png"); }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(2) span { margin-top: 300px; }
-  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 1rem; font-weight: 700; background-image: url("../../img/768/noteBox.png"); }
+  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 1rem; font-weight: 700; background-image: url("../img/768/noteBox.png"); }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(3) span { margin-top: 260px; }
   #wrap > #contentsBox > #Box_04 { width: 100%; height: 300px; margin-bottom: 10%; margin-top: 10%; }
   #wrap > #contentsBox > #Box_04 > .text_img_04 { position: relative; margin: auto; right: 0%; left: 0; top: 15%; width: 700px; height: 200px; background-color: #fff; overflow: hidden; }
@@ -240,8 +240,8 @@
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(2) { font-size: 0.8em; font-weight: 700; margin-top: 20px; }
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) { margin-top: 50px; }
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) > a { width: 150px; height: 20px; font-size: 1rem; font-weight: bold; text-decoration: underline; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; z-index: 100; right: 50%; top: 20%; width: 300px; height: 160px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/4Box.png"); }
-  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 340px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-bottom: 10%; background-size: cover; background-image: url("../../img/buisness_05.jpg"); }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; z-index: 100; right: 50%; top: 20%; width: 300px; height: 160px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/4Box.png"); }
+  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 340px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-bottom: 10%; background-size: cover; background-image: url("../img/buisness_05.jpg"); }
   #wrap > #contentsBox > #viewBox_03 > .last_adv { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 100%; height: 200px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul { position: absolute; width: 100%; height: 100%; margin: auto; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li { width: auto; height: auto; text-align: center; margin: auto; }
@@ -253,14 +253,14 @@
   #wrap > #footBox { width: 100%; height: 150px; background-color: #2271b2; }
   #wrap > #footBox > .foot_text { margin: auto; transform: translateY(28%); width: 83.5%; height: 100px; }
   #wrap > #footBox > .foot_text > .logo_sns { width: 100%; height: 50px; }
-  #wrap > #footBox > .foot_text > .logo_sns > .foot_logo { float: left; margin-left: 7px; width: 80px; height: 35px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #footBox > .foot_text > .logo_sns > .foot_logo { float: left; margin-left: 7px; width: 80px; height: 35px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/dell_image_09.png"); }
   #wrap > #footBox > .foot_text > .logo_sns > .sns_box { float: right; width: 145px; height: 30px; margin: auto; transform: translateY(20%); }
   #wrap > #footBox > .foot_text > .logo_sns > .sns_box li { float: left; width: 23px; height: 23px; text-align: center; margin-right: 15px; }
   #wrap > #footBox > .foot_text > .logo_sns > .sns_box li > a { display: block; width: 100%; height: 100%; }
-  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/facebook.png"); }
-  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/instar.png"); }
-  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/twiter.png"); }
-  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(4) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-right: 0; background-image: url("../../img/480/youtube.png"); }
+  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/facebook.png"); }
+  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/instar.png"); }
+  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/twiter.png"); }
+  #wrap > #footBox > .foot_text > .logo_sns > .sns_box li:nth-child(4) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-right: 0; background-image: url("../img/480/youtube.png"); }
   #wrap > #footBox > .foot_text > .foot_info { width: 100%; height: 20px; margin: auto; text-transform: capitalize; }
   #wrap > #footBox > .foot_text > .foot_info > li { float: left; margin-left: 10px; width: auto; height: 100%; }
   #wrap > #footBox > .foot_text > .foot_info > li > a { font-size: 12px; font-size: 0.75 rem; color: #fff; font-weight: 500; }
@@ -272,7 +272,7 @@
 @media screen and (min-width: 1280px) and (max-width: 1919px) { #wrap { width: 100%; min-width: 320px; height: 100%; }
   #wrap > #headBox { position: relative; width: 100%; height: 80px; background-color: #4c4c4c; max-width: 1440px; margin: auto; }
   #wrap > #headBox > h1 { position: absolute; margin: auto; top: 0; bottom: 0; width: 140px; height: 40px; margin-left: 5%; }
-  #wrap > #headBox > h1 > a { display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #headBox > h1 > a { display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/dell_image_09.png"); }
   #wrap > #headBox > h1 > a > span { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #headBox > .categori { display: none; }
   #wrap > #headBox .search { display: none; }
@@ -302,13 +302,13 @@
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div { position: relative; z-index: 100; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; left: -100%; width: 100%; height: 100%; background-color: rgba(34, 113, 178, 0.7); transform: skew(-20deg) translateX(-70%); transition: all 1000ms ease; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:after { content: " "; display: none; position: absolute; z-index: -1; top: 0; right: 0; width: 40%; height: 100%; background-color: rgba(34, 113, 178, 0.7); transform: skew(-50deg) translateX(75%); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_01 { background-image: url("../../img/Dell_Alienware.jpg"); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_02 { background-image: url("../../img/section_02.jpg"); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_03 { background-image: url("../../img/D0.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_01 { background-image: url("../img/Dell_Alienware.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_02 { background-image: url("../img/section_02.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_03 { background-image: url("../img/D0.jpg"); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .view_alien { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title { position: absolute; z-index: 0; left: 5%; top: 30%; width: 400px; height: 300px; }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > .view_logo { position: absolute; z-index: 100; width: 120px; height: 100px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/view_logo.png"); top: -35%; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > .view_logo { position: absolute; z-index: 100; width: 120px; height: 100px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/view_logo.png"); top: -35%; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul { width: 100%; height: 100px; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li { width: 100%; height: 100%; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li:nth-child(1) { font-size: 30px; font-size: 1.875 rem; color: #fff; font-weight: bold; text-shadow: 5px 5px 10px #222; }
@@ -329,9 +329,9 @@
   #wrap > #contentsBox .top3 ul li dl { width: 100%; height: 100%; box-sizing: border-box; padding: 10px; }
   #wrap > #contentsBox .top3 ul li dl dt { font-size: 2rem; width: 100%; height: auto; margin-bottom: 10px; margin-top: 20px; }
   #wrap > #contentsBox .top3 ul li dl dd { font-size: 1rem; width: 100%; height: auto; }
-  #wrap > #contentsBox .top3 ul li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 80%; background-size: 70%; background-image: url("../../img/480/viewBox_02.png"); }
-  #wrap > #contentsBox .top3 ul li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../../img/XPS-13-Desktop.png"); }
-  #wrap > #contentsBox .top3 ul li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 80%; background-size: 70%; background-image: url("../../img/768/notebook_05.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 80%; background-size: 70%; background-image: url("../img/480/viewBox_02.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../img/XPS-13-Desktop.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 80%; background-size: 70%; background-image: url("../img/768/notebook_05.png"); }
   #wrap > #contentsBox #slide_viewBox { position: relative; z-index: 1; width: 100%; height: 700px; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 { position: relative; z-index: 0; width: 100%; height: 100%; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .indicator_01 { position: absolute; z-index: 500; bottom: 5%; margin: auto; right: 0; left: 0; width: 120px; height: 15px; }
@@ -352,9 +352,9 @@
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div { position: relative; z-index: 100; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; right: -100%; width: 100%; height: 100%; background-color: rgba(76, 76, 76, 0.7); transform: skew(25deg) translateX(70%); transition: all 1000ms ease; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div:after { content: " "; display: none; position: absolute; z-index: -1; top: 0; left: 0; width: 40%; height: 100%; background-color: rgba(76, 76, 76, 0.7); transform: skew(45deg) translateX(-90%); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS_15_9570.jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell_Technologies.jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../../img/dell.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../img/XPS_15_9570.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../img/Dell_Technologies.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../img/dell.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide { float: left; position: relative; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 { position: absolute; z-index: 200; top: 10%; left: 55%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 li:nth-child(1) { margin-left: 5%; margin-top: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 15px 10px; }
@@ -384,10 +384,10 @@
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul:hover { transform: translate(-50%, 11.5%) rotateY(45deg); }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li { float: left; width: 33.33333%; height: 100%; margin-left: 3%; margin-right: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li > span { display: block; text-align: center; margin-top: 450px; }
-  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 2rem; background-image: url("../../img/768/notebook_01.png"); }
+  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 2rem; background-image: url("../img/768/notebook_01.png"); }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(1) span { margin-top: 380px; }
-  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/viewBox_02.png"); }
-  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 2rem; background-image: url("../../img/768/noteBox.png"); }
+  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/viewBox_02.png"); }
+  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 2rem; background-image: url("../img/768/noteBox.png"); }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(3) span { margin-top: 380px; }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(4) { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(5) { display: block; width: 0; height: 0; overflow: hidden; }
@@ -398,8 +398,8 @@
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(2) { font-size: 14px; font-size: 0.875 rem; color: #222; font-weight: 600; font-weight: 500; margin-top: 10px; }
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) { margin-top: 40px; }
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) > a { width: 300px; height: 50px; font-size: 14px; font-size: 0.875 rem; color: #222; font-weight: 600; font-weight: bold; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; z-index: 10; left: 25%; top: 18%; width: 250px; height: 250px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/4Box.png"); }
-  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 610px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-bottom: 100px; background-size: cover; background-position: 80% 40%; background-image: url("../../img/buisness_05.jpg"); }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; z-index: 10; left: 25%; top: 18%; width: 250px; height: 250px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/4Box.png"); }
+  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 610px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-bottom: 100px; background-size: cover; background-position: 80% 40%; background-image: url("../img/buisness_05.jpg"); }
   #wrap > #contentsBox > #viewBox_03 > .last_adv { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 100%; height: 200px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul { position: absolute; width: 100%; height: 100%; margin: auto; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li { width: auto; height: auto; text-align: center; margin: auto; }
@@ -418,11 +418,11 @@
   #wrap > #footBox > .foot_text > .foot_info_03 { width: 1000px; height: 100%; margin: auto; }
   #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo { position: relative; width: 100%; height: 30px; padding-top: 20px; }
   #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .left { position: absolute; top: 40%; bottom: 0; margin: auto; width: 300px; height: 2px; background-color: #fff; }
-  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_logo { float: left; margin-left: 345px; width: 150px; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_logo { float: left; margin-left: 345px; width: 150px; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/dell_image_09.png"); }
   #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_text { float: left; width: 150px; height: 100%; text-align: center; line-height: 30px; font-size: 1.3rem; font-weight: 800; color: #fff; }
   #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .right { position: absolute; top: 40%; bottom: 0; right: 0; margin: auto; width: 300px; height: 2px; background-color: #fff; }
   #wrap > #footBox > .foot_text > .foot_info_03 .foot_logoBox { float: left; width: 270px; height: 250px; }
-  #wrap > #footBox > .foot_text > .foot_info_03 .foot_logoBox .logo_img { margin-top: 30px; width: 100px; height: 100px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position: 30% 90%; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #footBox > .foot_text > .foot_info_03 .foot_logoBox .logo_img { margin-top: 30px; width: 100px; height: 100px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position: 30% 90%; background-image: url("../img/dell_image_09.png"); }
   #wrap > #footBox > .foot_text > .foot_info_03 .foot_logoBox .korea { margin-top: 100px; font-size: 0.8rem; width: 270px; height: 20px; color: #fff; font-weight: 400; }
   #wrap > #footBox > .foot_text > .foot_info_03 .info_text { float: right; width: 730px; height: 250px; }
   #wrap > #footBox > .foot_text > .foot_info_03 .info_text dl { float: left; width: 243px; height: 100%; }
@@ -435,7 +435,7 @@
 @media screen and (min-width: 1920px) { #wrap { width: 100%; min-width: 320px; height: auto; }
   #wrap > #headBox { position: relative; width: 100%; height: 100px; background-color: #4c4c4c; margin: auto; }
   #wrap > #headBox > h1 { position: absolute; margin: auto; top: 0; bottom: 0; width: 140px; height: 40px; margin-left: 70px; }
-  #wrap > #headBox > h1 > a { display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #headBox > h1 > a { display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/dell_image_09.png"); }
   #wrap > #headBox > h1 > a > span { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #headBox > .categori { display: none; }
   #wrap > #headBox .search { display: none; }
@@ -465,13 +465,13 @@
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div { position: relative; z-index: 100; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; left: -100%; width: 100%; height: 100%; background-color: rgba(34, 113, 178, 0.7); transform: skew(-30deg) translateX(-70%); transition: all 1000ms ease; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list > div:after { content: " "; display: none; position: absolute; z-index: -1; top: 0; right: 0; width: 40%; height: 100%; background-color: rgba(34, 113, 178, 0.7); transform: skew(-50deg) translateX(75%); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_01 { background-image: url("../../img/Dell_Alienware.jpg"); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_02 { background-image: url("../../img/section_02.jpg"); }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_03 { background-image: url("../../img/D0.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_01 { background-image: url("../img/Dell_Alienware.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_02 { background-image: url("../img/section_02.jpg"); }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .img_03 { background-image: url("../img/D0.jpg"); }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .view_alien { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title { position: absolute; z-index: 0; left: 5%; top: 30%; width: 400px; height: 300px; }
-  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > .view_logo { position: absolute; z-index: 100; width: 150px; height: 100px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/view_logo.png"); top: -35%; }
+  #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > .view_logo { position: absolute; z-index: 100; width: 150px; height: 100px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/view_logo.png"); top: -35%; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul { width: 100%; height: 100px; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li { width: 100%; height: 100%; }
   #wrap > #contentsBox > #viewBox_01 .viewslide_main .view_img .slide_img_list .slide > .main_title > ul > li:nth-child(1) { font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; text-shadow: 5px 5px 10px #222; }
@@ -492,9 +492,9 @@
   #wrap > #contentsBox .top3 ul li dl { width: 100%; height: 100%; box-sizing: border-box; padding: 10px; }
   #wrap > #contentsBox .top3 ul li dl dt { font-size: 2rem; width: 100%; height: auto; margin-bottom: 10px; margin-top: 20px; }
   #wrap > #contentsBox .top3 ul li dl dd { font-size: 1rem; width: 100%; height: auto; }
-  #wrap > #contentsBox .top3 ul li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 70%; background-image: url("../../img/480/viewBox_02.png"); }
-  #wrap > #contentsBox .top3 ul li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../../img/XPS-13-Desktop.png"); }
-  #wrap > #contentsBox .top3 ul li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 70%; background-image: url("../../img/768/notebook_05.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 70%; background-image: url("../img/480/viewBox_02.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 90%; background-image: url("../img/XPS-13-Desktop.png"); }
+  #wrap > #contentsBox .top3 ul li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position-y: 90%; background-size: 70%; background-image: url("../img/768/notebook_05.png"); }
   #wrap > #contentsBox #slide_viewBox { position: relative; z-index: 1; width: 100%; height: 700px; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 { position: relative; z-index: 0; width: 100%; height: 100%; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .indicator_01 { position: absolute; z-index: 500; bottom: 5%; margin: auto; right: 0; left: 0; width: 120px; height: 15px; }
@@ -515,9 +515,9 @@
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div { position: relative; z-index: 100; overflow: hidden; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div:before { content: " "; display: block; position: absolute; z-index: -1; top: 0; right: -100%; width: 100%; height: 100%; background-color: rgba(76, 76, 76, 0.7); transform: skew(30deg) translateX(75%); transition: all 1000ms ease; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 > div.action > div:after { content: " "; display: none; position: absolute; z-index: -1; top: 0; left: 0; width: 40%; height: 100%; background-color: rgba(76, 76, 76, 0.7); transform: skew(45deg) translateX(-90%); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../../img/XPS_15_9570.jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../../img/Dell_Technologies.jpg"); }
-  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../../img/dell.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_01-1 { background-image: url("../img/XPS_15_9570.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_02-2 { background-image: url("../img/Dell_Technologies.jpg"); }
+  #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .img_03-3 { background-image: url("../img/dell.jpg"); }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide { float: left; width: 25%; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 { position: absolute; /*  z-index:200; */ top: 8%; left: 70%; width: 500px; height: 300px; background-color: rgba(76, 76, 76, 0.7); word-break: keep-all; letter-spacing: -0.05rem; }
   #wrap > #contentsBox #slide_viewBox .viewslide_main_02 .view_img .slide_img_list_02 .slide .tapBox_01 li:nth-child(1) { margin-left: 5%; margin-top: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; padding: 15px 10px; }
@@ -546,10 +546,10 @@
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul { position: absolute; margin: auto; left: 5%; right: 5%; top: 0; bottom: 0; /* width: 50% * $count; */ width: 100%; height: 100%; }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li { float: left; width: 500px; height: 100%; margin-left: 4%; margin-right: 3%; font-size: 40px; font-size: 2.5 rem; color: #fff; font-weight: bold; }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li > span { display: block; text-align: center; margin-top: 500px; }
-  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 2rem; background-image: url("../../img/768/notebook_01.png"); }
+  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 2rem; background-image: url("../img/768/notebook_01.png"); }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(1) span { margin-top: 470px; }
-  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/viewBox_02.png"); }
-  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 2rem; background-image: url("../../img/768/noteBox.png"); }
+  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/viewBox_02.png"); }
+  #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-top: -3%; width: 20%; font-size: 2rem; background-image: url("../img/768/noteBox.png"); }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(3) span { margin-top: 470px; }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(4) { display: block; width: 0; height: 0; overflow: hidden; }
   #wrap > #contentsBox > #viewBox_02 .noteBox > ul > li:nth-child(5) { display: block; width: 0; height: 0; overflow: hidden; }
@@ -560,8 +560,8 @@
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(2) { font-size: 14px; font-size: 0.875 rem; color: #222; font-weight: 600; font-weight: 500; margin-top: 10px; }
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) { margin-top: 40px; }
   #wrap > #contentsBox > #Box_04 > .text_img_04 > .box_04_text > li:nth-child(3) > a { width: 300px; height: 50px; font-size: 14px; font-size: 0.875 rem; color: #222; font-weight: 600; font-weight: bold; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
-  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; z-index: 10; left: 25%; top: 18%; width: 250px; height: 250px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/480/4Box.png"); }
-  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 610px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-bottom: 100px; background-size: cover; background-position: 80% 40%; background-image: url("../../img/buisness_05.jpg"); }
+  #wrap > #contentsBox > #Box_04 > .text_img_04 > .img_02 { position: absolute; z-index: 10; left: 25%; top: 18%; width: 250px; height: 250px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/480/4Box.png"); }
+  #wrap > #contentsBox > #viewBox_03 { position: relative; width: 100%; height: 610px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; margin-bottom: 100px; background-size: cover; background-position: 80% 40%; background-image: url("../img/buisness_05.jpg"); }
   #wrap > #contentsBox > #viewBox_03 > .last_adv { position: absolute; margin: auto; right: 0; left: 0; top: 0; bottom: 0; width: 100%; height: 200px; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul { position: absolute; width: 100%; height: 100%; margin: auto; }
   #wrap > #contentsBox > #viewBox_03 > .last_adv > ul li { width: auto; height: auto; text-align: center; margin: auto; }
@@ -580,11 +580,11 @@
   #wrap > #footBox > .foot_text > .foot_info_03 { width: 1000px; height: 100%; margin: auto; }
   #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo { position: relative; width: 100%; height: 30px; padding-top: 20px; }
   #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .left { position: absolute; top: 30%; bottom: 0; margin: auto; width: 300px; height: 2px; background-color: #fff; }
-  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_logo { float: left; margin-left: 345px; width: 150px; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_logo { float: left; margin-left: 345px; width: 150px; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/dell_image_09.png"); }
   #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .center_text { float: left; width: 150px; height: 100%; text-align: center; line-height: 30px; font: size 1.3rem; font-weight: 800; color: #fff; }
   #wrap > #footBox > .foot_text > .foot_info_03 > .top_logo .right { position: absolute; top: 40%; bottom: 0; right: 0; margin: auto; width: 300px; height: 2px; background-color: #fff; }
   #wrap > #footBox > .foot_text > .foot_info_03 .foot_logoBox { float: left; width: 270px; height: 270px; }
-  #wrap > #footBox > .foot_text > .foot_info_03 .foot_logoBox .logo_img { margin-top: 30px; width: 100px; height: 100px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position: 30% 90%; background-image: url("../../img/dell_image_09.png"); }
+  #wrap > #footBox > .foot_text > .foot_info_03 .foot_logoBox .logo_img { margin-top: 30px; width: 100px; height: 100px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position: 30% 90%; background-image: url("../img/dell_image_09.png"); }
   #wrap > #footBox > .foot_text > .foot_info_03 .foot_logoBox .korea { margin-top: 100px; font-size: 0.8rem; width: 270px; height: 20px; color: #fff; font-weight: 400; }
   #wrap > #footBox > .foot_text > .foot_info_03 .info_text { float: right; width: 730px; height: 220px; }
   #wrap > #footBox > .foot_text > .foot_info_03 .info_text dl { float: left; width: 243px; height: 100%; }

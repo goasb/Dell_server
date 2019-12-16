@@ -6,7 +6,7 @@
 
 #headBox .top { position: relative; width: 100%; height: 100px; background-color: #4c4c4c; }
 
-#headBox .top h1 { position: absolute; top: 0; bottom: 0; left: 70px; margin: auto; width: 140px; height: 40px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+#headBox .top h1 { position: absolute; top: 0; bottom: 0; left: 70px; margin: auto; width: 140px; height: 40px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/dell_image_09.png"); }
 
 #headBox .top h1 a { display: block; width: 100%; height: 100%; }
 
@@ -30,15 +30,15 @@
 
 #headBox .bottom .menu li { float: left; width: 200px; height: 100%; text-align: center; line-height: 17; color: #222; font-size: 0.8rem; font-weight: 800; text-transform: capitalize; }
 
-#headBox .bottom .menu li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 35%; background-position: 50% 30%; background-image: url("../../img/moniter.png"); }
+#headBox .bottom .menu li:nth-child(1) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 35%; background-position: 50% 30%; background-image: url("../img/moniter.png"); }
 
-#headBox .bottom .menu li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 35%; background-position: 50% 30%; background-image: url("../../img/notebook.png"); }
+#headBox .bottom .menu li:nth-child(2) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 35%; background-position: 50% 30%; background-image: url("../img/notebook.png"); }
 
-#headBox .bottom .menu li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 25%; background-position: 50% 30%; background-image: url("../../img/desktop.png"); }
+#headBox .bottom .menu li:nth-child(3) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 25%; background-position: 50% 30%; background-image: url("../img/desktop.png"); }
 
-#headBox .bottom .menu li:nth-child(4) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 30%; background-position: 50% 30%; background-image: url("../../img/tablet.png"); }
+#headBox .bottom .menu li:nth-child(4) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 30%; background-position: 50% 30%; background-image: url("../img/tablet.png"); }
 
-#headBox .bottom .menu li:nth-child(5) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 30%; background-position: 50% 30%; background-image: url("../../img/printer.png"); }
+#headBox .bottom .menu li:nth-child(5) { background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: 30%; background-position: 50% 30%; background-image: url("../img/printer.png"); }
 
 #headBox .bottom .menu li a { display: block; width: 100%; height: 100%; }
 
@@ -54,7 +54,7 @@
 
 #viewBox .fix_img ~ p { width: 66%; height: 70px; margin: auto; text-align: center; font-size: 1.2rem; font-weight: 800; letter-spacing: -0.1rem; color: #222; line-height: 2; }
 
-#viewBox .fix_img video { position: absolute; left: 50%; top: 50%; width: 100%; min-width: 100%; height: auto; min-height: 100%; transform: translate(-50%, -50%); background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/stop_img.png"); }
+#viewBox .fix_img video { position: absolute; left: 50%; top: 50%; width: 100%; min-width: 100%; height: auto; min-height: 100%; transform: translate(-50%, -50%); background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/stop_img.png"); }
 
 #intro_con_01 { position: relative; width: 100%; height: 100%; }
 
@@ -74,7 +74,7 @@
 
 #intro_con_01 .title .text dl i { font-size: 1rem; }
 
-#intro_con_01 .title .con_01_img { float: left; width: 50%; height: 100%; background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; background-image: url("../../img/dell_image_05.jpg"); }
+#intro_con_01 .title .con_01_img { float: left; width: 50%; height: 100%; background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; background-image: url("../img/dell_image_05.jpg"); }
 
 #intro_con_02 { position: relative; width: 100%; height: 100%; }
 
@@ -94,9 +94,9 @@
 
 #intro_con_02 .title .text dl i { font-size: 1rem; }
 
-#intro_con_02 .title .con_02_img { float: right; width: 50%; height: 100%; background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; background-image: url("../../img/dell_alien_02.png"); }
+#intro_con_02 .title .con_02_img { float: right; width: 50%; height: 100%; background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; background-image: url("../img/dell_alien_02.png"); }
 
-#os_conBox { position: relative; width: 70%; height: 70%; margin: auto; color: #fff; background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; background-image: url("../../img/os_con.jpg"); }
+#os_conBox { position: relative; width: 70%; height: 70%; margin: auto; color: #fff; background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; background-image: url("../img/os_con.jpg"); }
 
 #os_conBox h3 { position: absolute; right: 0; left: 0; top: 30%; font-size: 1.5rem; text-align: center; }
 
@@ -128,7 +128,7 @@
 
 #intro_con_03 .title .text dl i { font-size: 1rem; }
 
-#intro_con_03 .title .con_03_img { float: right; width: 50%; height: 100%; background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; background-image: url("../../img/Dell_inspiron_laptop.png"); }
+#intro_con_03 .title .con_03_img { float: right; width: 50%; height: 100%; background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; background-image: url("../img/Dell_inspiron_laptop.png"); }
 
 #innovation_conBox { width: 810px; height: 100%; margin: auto; padding-bottom: 400px; }
 
@@ -152,15 +152,15 @@
 
 #innovation_conBox .line_01 { width: 100%; height: 405px; }
 
-#innovation_conBox .line_01 .midmarket { position: relative; float: left; width: 400px; height: 400px; border: 2px solid #fff; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../../img/midmarket.png"); }
+#innovation_conBox .line_01 .midmarket { position: relative; float: left; width: 400px; height: 400px; border: 2px solid #fff; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../img/midmarket.png"); }
 
-#innovation_conBox .line_01 .pc { float: left; width: 400px; height: 400px; background-color: #333; border: 2px solid #fff; position: relative; float: left; width: 400px; height: 400px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../../img/display.jpg"); }
+#innovation_conBox .line_01 .pc { float: left; width: 400px; height: 400px; background-color: #333; border: 2px solid #fff; position: relative; float: left; width: 400px; height: 400px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../img/display.jpg"); }
 
 #innovation_conBox .line_02 { width: 100%; height: 400px; }
 
-#innovation_conBox .line_02 .new_belgium { float: left; width: 405px; height: 400px; background-color: #555; border: 2px solid #fff; position: relative; float: left; width: 400px; height: 400px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../../img/new_belgim.jpg"); }
+#innovation_conBox .line_02 .new_belgium { float: left; width: 405px; height: 400px; background-color: #555; border: 2px solid #fff; position: relative; float: left; width: 400px; height: 400px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../img/new_belgim.jpg"); }
 
-#innovation_conBox .line_02 .mclaren { float: left; width: 400px; height: 400px; background-color: #666; border: 2px solid #fff; position: relative; float: left; width: 400px; height: 400px; line-height: 23px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../../img/mclaren.jpg"); }
+#innovation_conBox .line_02 .mclaren { float: left; width: 400px; height: 400px; background-color: #666; border: 2px solid #fff; position: relative; float: left; width: 400px; height: 400px; line-height: 23px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-size: cover; background-image: url("../img/mclaren.jpg"); }
 
 #footBox { width: 100%; height: 320px; background-color: #2271b2; margin: auto; }
 
@@ -170,7 +170,7 @@
 
 #footBox .foot_info .top_logo .left { position: absolute; top: 40%; bottom: 0; margin: auto; width: 300px; height: 2px; background-color: #fff; }
 
-#footBox .foot_info .top_logo .center_logo { float: left; margin-left: 345px; width: 150px; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../../img/dell_image_09.png"); }
+#footBox .foot_info .top_logo .center_logo { float: left; margin-left: 345px; width: 150px; height: 100%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-image: url("../img/dell_image_09.png"); }
 
 #footBox .foot_info .top_logo .center_text { float: left; width: 150px; height: 100%; text-align: center; line-height: 30px; font-size: 1.3rem; font-weight: 800; color: #fff; }
 
@@ -178,7 +178,7 @@
 
 #footBox .foot_info .foot_logoBox { float: left; width: 270px; height: 270px; }
 
-#footBox .foot_info .foot_logoBox .logoBox { margin-top: 30px; width: 100px; height: 100px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position: 30% 90%; background-image: url("../../img/dell_image_09.png"); }
+#footBox .foot_info .foot_logoBox .logoBox { margin-top: 30px; width: 100px; height: 100px; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; background-position: 30% 90%; background-image: url("../img/dell_image_09.png"); }
 
 #footBox .foot_info .foot_logoBox .korea { margin-top: 100px; font-size: 0.8rem; width: 270px; height: 20px; color: #fff; font-weight: 400; }
 
